@@ -1,0 +1,393 @@
+{
+  "UNETLoader": {
+    "input": {
+      "required": {
+        "unet_name": [
+          [
+            "minimax_h3_fl2va_pruned_int8_convrot.safetensors"
+          ],
+          {}
+        ],
+        "weight_dtype": [
+          [
+            "default"
+          ],
+          {}
+        ]
+      },
+      "optional": {}
+    },
+    "output": [
+      "MODEL"
+    ]
+  },
+  "CLIPLoader": {
+    "input": {
+      "required": {
+        "clip_name": [
+          [
+            "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors"
+          ],
+          {}
+        ],
+        "type": [
+          [
+            "minimax"
+          ],
+          {}
+        ],
+        "device": [
+          [
+            "default"
+          ],
+          {}
+        ]
+      },
+      "optional": {}
+    },
+    "output": [
+      "CLIP"
+    ]
+  },
+  "VAELoader": {
+    "input": {
+      "required": {
+        "vae_name": [
+          [
+            "minimax_h3_video_vae_fp16.safetensors",
+            "minimax_h3_audio_vae_fp32.safetensors"
+          ],
+          {}
+        ]
+      },
+      "optional": {}
+    },
+    "output": [
+      "VAE"
+    ]
+  },
+  "MiniMaxH3ImageToVideo": {
+    "input": {
+      "required": {
+        "clip": [
+          "CLIP",
+          {}
+        ],
+        "vae": [
+          "VAE",
+          {}
+        ],
+        "prompt": [
+          "STRING",
+          {}
+        ],
+        "width": [
+          "INT",
+          {
+            "min": 32,
+            "max": 16384
+          }
+        ],
+        "height": [
+          "INT",
+          {
+            "min": 32,
+            "max": 16384
+          }
+        ],
+        "length": [
+          "INT",
+          {
+            "min": 5,
+            "max": 3600
+          }
+        ]
+      },
+      "optional": {
+        "first_frame": [
+          "IMAGE",
+          {}
+        ],
+        "last_frame": [
+          "IMAGE",
+          {}
+        ]
+      }
+    },
+    "output": [
+      "CONDITIONING",
+      "LATENT"
+    ]
+  },
+  "RandomNoise": {
+    "input": {
+      "required": {
+        "noise_seed": [
+          "INT",
+          {
+            "min": 0,
+            "max": 18446744073709551615
+          }
+        ]
+      },
+      "optional": {}
+    },
+    "output": [
+      "NOISE"
+    ]
+  },
+  "BasicGuider": {
+    "input": {
+      "required": {
+        "model": [
+          "MODEL",
+          {}
+        ],
+        "conditioning": [
+          "CONDITIONING",
+          {}
+        ]
+      },
+      "optional": {}
+    },
+    "output": [
+      "GUIDER"
+    ]
+  },
+  "KSamplerSelect": {
+    "input": {
+      "required": {
+        "sampler_name": [
+          [
+            "res_multistep"
+          ],
+          {}
+        ]
+      },
+      "optional": {}
+    },
+    "output": [
+      "SAMPLER"
+    ]
+  },
+  "BasicScheduler": {
+    "input": {
+      "required": {
+        "model": [
+          "MODEL",
+          {}
+        ],
+        "scheduler": [
+          [
+            "simple"
+          ],
+          {}
+        ],
+        "steps": [
+          "INT",
+          {
+            "min": 1,
+            "max": 10000
+          }
+        ],
+        "denoise": [
+          "FLOAT",
+          {
+            "min": 0,
+            "max": 1
+          }
+        ]
+      },
+      "optional": {}
+    },
+    "output": [
+      "SIGMAS"
+    ]
+  },
+  "SamplerCustomAdvanced": {
+    "input": {
+      "required": {
+        "noise": [
+          "NOISE",
+          {}
+        ],
+        "guider": [
+          "GUIDER",
+          {}
+        ],
+        "sampler": [
+          "SAMPLER",
+          {}
+        ],
+        "sigmas": [
+          "SIGMAS",
+          {}
+        ],
+        "latent_image": [
+          "LATENT",
+          {}
+        ]
+      },
+      "optional": {}
+    },
+    "output": [
+      "LATENT",
+      "LATENT"
+    ]
+  },
+  "VAEDecode": {
+    "input": {
+      "required": {
+        "samples": [
+          "LATENT",
+          {}
+        ],
+        "vae": [
+          "VAE",
+          {}
+        ]
+      },
+      "optional": {}
+    },
+    "output": [
+      "IMAGE"
+    ]
+  },
+  "VAEDecodeAudio": {
+    "input": {
+      "required": {
+        "samples": [
+          "LATENT",
+          {}
+        ],
+        "vae": [
+          "VAE",
+          {}
+        ]
+      },
+      "optional": {}
+    },
+    "output": [
+      "AUDIO"
+    ]
+  },
+  "CreateVideo": {
+    "input": {
+      "required": {
+        "images": [
+          "IMAGE",
+          {}
+        ],
+        "fps": [
+          "FLOAT",
+          {
+            "min": 1,
+            "max": 120
+          }
+        ]
+      },
+      "optional": {
+        "audio": [
+          "AUDIO",
+          {}
+        ],
+        "bit_depth": [
+          "INT",
+          {
+            "min": 8,
+            "max": 10
+          }
+        ]
+      }
+    },
+    "output": [
+      "VIDEO"
+    ]
+  },
+  "SaveVideo": {
+    "input": {
+      "required": {
+        "video": [
+          "VIDEO",
+          {}
+        ],
+        "filename_prefix": [
+          "STRING",
+          {}
+        ],
+        "format": [
+          [
+            "auto",
+            "mp4"
+          ],
+          {}
+        ],
+        "codec": [
+          "COMFY_DYNAMICCOMBO_V3",
+          {
+            "options": [
+              {
+                "key": "auto",
+                "inputs": {}
+              },
+              {
+                "key": "h264",
+                "inputs": {
+                  "optional": {
+                    "encoding": [
+                      "COMFY_DYNAMICCOMBO_V3",
+                      {
+                        "options": [
+                          {
+                            "key": "auto",
+                            "inputs": {}
+                          },
+                          {
+                            "key": "re-encode",
+                            "inputs": {
+                              "required": {
+                                "crf": [
+                                  "FLOAT",
+                                  {
+                                    "default": 23,
+                                    "min": 0,
+                                    "max": 51
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "optional": {}
+    },
+    "output": [
+      "VIDEO"
+    ]
+  },
+  "LoadImage": {
+    "input": {
+      "required": {
+        "image": [
+          [
+            "reference.png"
+          ],
+          {}
+        ]
+      },
+      "optional": {}
+    },
+    "output": [
+      "IMAGE",
+      "MASK"
+    ]
+  }
+}

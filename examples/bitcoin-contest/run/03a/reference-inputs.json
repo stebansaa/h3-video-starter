@@ -1,0 +1,30 @@
+{
+  "first_frame": "references/episode-v1/window-elaine.png",
+  "first_frame_sha256": "e36f9acaba5b1df25ee50375a8d34eac45ea5156ce80b0eef6ab491ae6996378",
+  "clips": [
+    {
+      "character": "Jerry",
+      "path": "references/opening-v2/jerry.mp4",
+      "sha256": "bda51381d94aad4a56a4c863887fd4a1dde2917a2a066ac96cf541378b4ee796",
+      "start": 0,
+      "frames": 73
+    },
+    {
+      "character": "George",
+      "path": "references/opening-v2/george.mp4",
+      "sha256": "7e94dc27aa3687752cf54e1e058538f218c3243d1768b3159883a01f69d6737f",
+      "start": 0,
+      "frames": 73
+    },
+    {
+      "character": "Elaine",
+      "path": "references/episode-v1/elaine.mp4",
+      "sha256": "da988bcf6afd9d1b3b8d7b26110729edd8570d6454f4447294993dee705c130a",
+      "start": 0,
+      "frames": 56
+    }
+  ],
+  "anchor_mode": "fixed",
+  "actual_first_frame": "references/episode-v1/window-elaine.png",
+  "actual_first_frame_sha256": "e36f9acaba5b1df25ee50375a8d34eac45ea5156ce80b0eef6ab491ae6996378"
+}

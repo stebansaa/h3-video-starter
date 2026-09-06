@@ -1,0 +1,169 @@
+{
+  "source": "server-output/run_2062f6cb686343ab_06a_00001_.mp4",
+  "model": "base.en",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 0.84,
+      "text": " What if it dips?",
+      "no_speech_prob": 0.01413854118436575,
+      "avg_logprob": -0.5650397266660417,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.4,
+          "word": " What",
+          "probability": 0.7225824594497681
+        },
+        {
+          "start": 0.4,
+          "end": 0.52,
+          "word": " if",
+          "probability": 0.9864263534545898
+        },
+        {
+          "start": 0.52,
+          "end": 0.62,
+          "word": " it",
+          "probability": 0.9906875491142273
+        },
+        {
+          "start": 0.62,
+          "end": 0.84,
+          "word": " dips?",
+          "probability": 0.9907976388931274
+        }
+      ]
+    },
+    {
+      "start": 1.46,
+      "end": 3.06,
+      "text": " Some re-certain things on and on the buck,",
+      "no_speech_prob": 0.01413854118436575,
+      "avg_logprob": -0.5650397266660417,
+      "words": [
+        {
+          "start": 1.46,
+          "end": 1.8,
+          "word": " Some",
+          "probability": 0.9580077528953552
+        },
+        {
+          "start": 1.8,
+          "end": 1.94,
+          "word": " re",
+          "probability": 0.09099987894296646
+        },
+        {
+          "start": 1.94,
+          "end": 2.16,
+          "word": "-certain",
+          "probability": 0.9507617056369781
+        },
+        {
+          "start": 2.16,
+          "end": 2.44,
+          "word": " things",
+          "probability": 0.16004809737205505
+        },
+        {
+          "start": 2.44,
+          "end": 2.58,
+          "word": " on",
+          "probability": 0.8440459370613098
+        },
+        {
+          "start": 2.58,
+          "end": 2.72,
+          "word": " and",
+          "probability": 0.6401421427726746
+        },
+        {
+          "start": 2.72,
+          "end": 2.78,
+          "word": " on",
+          "probability": 0.9859896898269653
+        },
+        {
+          "start": 2.78,
+          "end": 2.88,
+          "word": " the",
+          "probability": 0.9657874703407288
+        },
+        {
+          "start": 2.88,
+          "end": 3.06,
+          "word": " buck,",
+          "probability": 0.8372877240180969
+        }
+      ]
+    },
+    {
+      "start": 3.24,
+      "end": 4.0,
+      "text": " different serie.",
+      "no_speech_prob": 0.01413854118436575,
+      "avg_logprob": -0.5650397266660417,
+      "words": [
+        {
+          "start": 3.24,
+          "end": 3.44,
+          "word": " different",
+          "probability": 0.7361948490142822
+        },
+        {
+          "start": 3.44,
+          "end": 4.0,
+          "word": " serie.",
+          "probability": 0.40509040653705597
+        }
+      ]
+    },
+    {
+      "start": 4.46,
+      "end": 5.14,
+      "text": " I'll buy more.",
+      "no_speech_prob": 0.01413854118436575,
+      "avg_logprob": -0.5650397266660417,
+      "words": [
+        {
+          "start": 4.46,
+          "end": 4.74,
+          "word": " I'll",
+          "probability": 0.9922926723957062
+        },
+        {
+          "start": 4.74,
+          "end": 4.9,
+          "word": " buy",
+          "probability": 0.9953120946884155
+        },
+        {
+          "start": 4.9,
+          "end": 5.14,
+          "word": " more.",
+          "probability": 0.9982728958129883
+        }
+      ]
+    },
+    {
+      "start": 5.14,
+      "end": 5.36,
+      "text": " Orp.",
+      "no_speech_prob": 0.1549476683139801,
+      "avg_logprob": -1.1125320196151733,
+      "words": [
+        {
+          "start": 5.14,
+          "end": 5.36,
+          "word": " Orp.",
+          "probability": 0.28273515310138464
+        }
+      ]
+    }
+  ],
+  "elapsed": 2.0126681327819824,
+  "text": "What if it dips? Some re-certain things on and on the buck, different serie. I'll buy more. Orp.",
+  "note": "Automatic transcription, not proof of speaker identity or exact delivery."
+}

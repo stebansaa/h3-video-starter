@@ -1,0 +1,63 @@
+{
+  "source": "raw-clip.mp4",
+  "model": "small.en",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.3,
+      "text": " Well, always never could a standing desk",
+      "no_speech_prob": 0.01735188253223896,
+      "avg_logprob": -0.4446739229288968,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.5,
+          "word": " Well,",
+          "probability": 0.22799813747406006
+        },
+        {
+          "start": 0.74,
+          "end": 0.8,
+          "word": " always",
+          "probability": 0.6187868714332581
+        },
+        {
+          "start": 0.8,
+          "end": 1.08,
+          "word": " never",
+          "probability": 0.9523398876190186
+        },
+        {
+          "start": 1.08,
+          "end": 1.52,
+          "word": " could",
+          "probability": 0.9493452310562134
+        },
+        {
+          "start": 1.52,
+          "end": 2.34,
+          "word": " a",
+          "probability": 0.2478807419538498
+        },
+        {
+          "start": 2.34,
+          "end": 2.88,
+          "word": " standing",
+          "probability": 0.9705092310905457
+        },
+        {
+          "start": 2.88,
+          "end": 3.3,
+          "word": " desk",
+          "probability": 0.9750233888626099
+        }
+      ]
+    }
+  ],
+  "elapsed": 0.9169967174530029,
+  "text": "Well, always never could a standing desk",
+  "note": "Automatic transcription, not proof of speaker identity or exact delivery.",
+  "source_sha256": "6e6062018be4748496675f36c8a7cc1fb40f1b154d46e5008d17e1b235f05b94",
+  "clip_timestamps": "0,3.5"
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "start": 1.0,
+    "end": 1.05,
+    "rms_dbfs": -32.87
+  },
+  {
+    "start": 1.05,
+    "end": 1.1,
+    "rms_dbfs": -23.26
+  },
+  {
+    "start": 1.1,
+    "end": 1.15,
+    "rms_dbfs": -28.26
+  },
+  {
+    "start": 1.15,
+    "end": 1.2,
+    "rms_dbfs": -38.18
+  },
+  {
+    "start": 1.2,
+    "end": 1.25,
+    "rms_dbfs": -32.74
+  },
+  {
+    "start": 1.25,
+    "end": 1.3,
+    "rms_dbfs": -23.32
+  },
+  {
+    "start": 1.3,
+    "end": 1.35,
+    "rms_dbfs": -19.5
+  },
+  {
+    "start": 1.35,
+    "end": 1.4,
+    "rms_dbfs": -24.88
+  },
+  {
+    "start": 1.4,
+    "end": 1.45,
+    "rms_dbfs": -23.81
+  },
+  {
+    "start": 1.45,
+    "end": 1.5,
+    "rms_dbfs": -29.68
+  },
+  {
+    "start": 1.5,
+    "end": 1.55,
+    "rms_dbfs": -33.2
+  },
+  {
+    "start": 1.55,
+    "end": 1.6,
+    "rms_dbfs": -41.84
+  },
+  {
+    "start": 1.6,
+    "end": 1.65,
+    "rms_dbfs": -42.79
+  },
+  {
+    "start": 1.65,
+    "end": 1.7,
+    "rms_dbfs": -45.64
+  },
+  {
+    "start": 1.7,
+    "end": 1.75,
+    "rms_dbfs": -47.85
+  },
+  {
+    "start": 1.75,
+    "end": 1.8,
+    "rms_dbfs": -50.42
+  },
+  {
+    "start": 1.8,
+    "end": 1.85,
+    "rms_dbfs": -51.66
+  },
+  {
+    "start": 1.85,
+    "end": 1.9,
+    "rms_dbfs": -53.18
+  },
+  {
+    "start": 1.9,
+    "end": 1.95,
+    "rms_dbfs": -54.53
+  },
+  {
+    "start": 1.95,
+    "end": 2.0,
+    "rms_dbfs": -55.47
+  },
+  {
+    "start": 2.0,
+    "end": 2.05,
+    "rms_dbfs": -55.14
+  },
+  {
+    "start": 2.05,
+    "end": 2.1,
+    "rms_dbfs": -53.87
+  },
+  {
+    "start": 2.1,
+    "end": 2.15,
+    "rms_dbfs": -49.37
+  },
+  {
+    "start": 2.15,
+    "end": 2.2,
+    "rms_dbfs": -49.16
+  },
+  {
+    "start": 2.2,
+    "end": 2.25,
+    "rms_dbfs": -53.56
+  },
+  {
+    "start": 2.25,
+    "end": 2.3,
+    "rms_dbfs": -23.87
+  },
+  {
+    "start": 2.3,
+    "end": 2.35,
+    "rms_dbfs": -25.68
+  },
+  {
+    "start": 2.35,
+    "end": 2.4,
+    "rms_dbfs": -27.23
+  },
+  {
+    "start": 2.4,
+    "end": 2.45,
+    "rms_dbfs": -25.03
+  },
+  {
+    "start": 2.45,
+    "end": 2.5,
+    "rms_dbfs": -36.77
+  }
+]

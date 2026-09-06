@@ -1,0 +1,205 @@
+{
+  "source": "server-output/run_2062f6cb686343ab_03b_00001_.mp4",
+  "model": "base.en",
+  "language": "en",
+  "segments": [
+    {
+      "start": 1.1399999999999988,
+      "end": 4.36,
+      "text": " So, Vlad, Tenev and I are going on a date tonight.",
+      "no_speech_prob": 0.014342210255563259,
+      "avg_logprob": -0.41567407978905574,
+      "words": [
+        {
+          "start": 1.1399999999999988,
+          "end": 1.58,
+          "word": " So,",
+          "probability": 0.5621583461761475
+        },
+        {
+          "start": 2.02,
+          "end": 2.28,
+          "word": " Vlad,",
+          "probability": 0.6534290313720703
+        },
+        {
+          "start": 2.5,
+          "end": 2.8,
+          "word": " Tenev",
+          "probability": 0.5599686006704966
+        },
+        {
+          "start": 2.8,
+          "end": 2.9,
+          "word": " and",
+          "probability": 0.7960067987442017
+        },
+        {
+          "start": 2.9,
+          "end": 3.04,
+          "word": " I",
+          "probability": 0.9983729124069214
+        },
+        {
+          "start": 3.04,
+          "end": 3.18,
+          "word": " are",
+          "probability": 0.9915896058082581
+        },
+        {
+          "start": 3.18,
+          "end": 3.42,
+          "word": " going",
+          "probability": 0.9957116842269897
+        },
+        {
+          "start": 3.42,
+          "end": 3.66,
+          "word": " on",
+          "probability": 0.9938054084777832
+        },
+        {
+          "start": 3.66,
+          "end": 3.76,
+          "word": " a",
+          "probability": 0.9975324869155884
+        },
+        {
+          "start": 3.76,
+          "end": 3.98,
+          "word": " date",
+          "probability": 0.9974188804626465
+        },
+        {
+          "start": 3.98,
+          "end": 4.36,
+          "word": " tonight.",
+          "probability": 0.9898089170455933
+        }
+      ]
+    },
+    {
+      "start": 5.02,
+      "end": 7.42,
+      "text": " You've placed it in a well and in a tray chain of frisbee.",
+      "no_speech_prob": 0.014342210255563259,
+      "avg_logprob": -0.41567407978905574,
+      "words": [
+        {
+          "start": 5.02,
+          "end": 5.1,
+          "word": " You've",
+          "probability": 0.6459245681762695
+        },
+        {
+          "start": 5.1,
+          "end": 5.34,
+          "word": " placed",
+          "probability": 0.8653600215911865
+        },
+        {
+          "start": 5.34,
+          "end": 5.58,
+          "word": " it",
+          "probability": 0.4157383143901825
+        },
+        {
+          "start": 5.58,
+          "end": 5.66,
+          "word": " in",
+          "probability": 0.7364121675491333
+        },
+        {
+          "start": 5.66,
+          "end": 5.8,
+          "word": " a",
+          "probability": 0.7357677221298218
+        },
+        {
+          "start": 5.8,
+          "end": 5.9,
+          "word": " well",
+          "probability": 0.9659714102745056
+        },
+        {
+          "start": 5.9,
+          "end": 6.12,
+          "word": " and",
+          "probability": 0.583031952381134
+        },
+        {
+          "start": 6.12,
+          "end": 6.2,
+          "word": " in",
+          "probability": 0.6767023801803589
+        },
+        {
+          "start": 6.2,
+          "end": 6.32,
+          "word": " a",
+          "probability": 0.7684134244918823
+        },
+        {
+          "start": 6.32,
+          "end": 6.58,
+          "word": " tray",
+          "probability": 0.12346024811267853
+        },
+        {
+          "start": 6.58,
+          "end": 6.88,
+          "word": " chain",
+          "probability": 0.6691500544548035
+        },
+        {
+          "start": 6.88,
+          "end": 7.04,
+          "word": " of",
+          "probability": 0.7827383875846863
+        },
+        {
+          "start": 7.04,
+          "end": 7.42,
+          "word": " frisbee.",
+          "probability": 0.595710501074791
+        }
+      ]
+    },
+    {
+      "start": 8.0,
+      "end": 8.88,
+      "text": " Have a good time.",
+      "no_speech_prob": 0.014342210255563259,
+      "avg_logprob": -0.41567407978905574,
+      "words": [
+        {
+          "start": 8.0,
+          "end": 8.44,
+          "word": " Have",
+          "probability": 0.9677889943122864
+        },
+        {
+          "start": 8.44,
+          "end": 8.54,
+          "word": " a",
+          "probability": 0.9990033507347107
+        },
+        {
+          "start": 8.54,
+          "end": 8.66,
+          "word": " good",
+          "probability": 0.9964650869369507
+        },
+        {
+          "start": 8.66,
+          "end": 8.88,
+          "word": " time.",
+          "probability": 0.9710528254508972
+        }
+      ]
+    }
+  ],
+  "elapsed": 0.5739901065826416,
+  "text": "So, Vlad, Tenev and I are going on a date tonight. You've placed it in a well and in a tray chain of frisbee. Have a good time.",
+  "note": "Automatic transcription, not proof of speaker identity or exact delivery."
+}

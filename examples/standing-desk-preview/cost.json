@@ -1,0 +1,22 @@
+{
+  "authorized_budget_usd": 2,
+  "hourly_gpu_rate_usd": 1.09,
+  "temporary_disk_gb": 200,
+  "disk_monthly_per_gb_usd": 0.1,
+  "disk_month_assumed_hours": 720,
+  "creation_request_epoch": 1788729236.360513,
+  "stop_requested_epoch": 1788730597.020064,
+  "exited_confirmed_epoch": 1788730618.8189702,
+  "deleted_confirmed_epoch": 1788730620.132798,
+  "conservative_allocation_seconds": 1382.4584572315216,
+  "gpu_estimate_usd": 0.4185776995506552,
+  "temporary_disk_estimate_usd": 0.010667117725551864,
+  "total_estimate_usd": 0.429244817276207,
+  "notes": [
+    "Elapsed estimate runs from pre-POST request to separately observed EXITED, so includes API overhead; exact provider allocation/billing start is unavailable.",
+    "Temporary storage estimate uses current official $0.10/GB/month and 720-hour month; actual bill may use a different conversion.",
+    "Per-pod billing endpoint is preserved separately; recent records can lag. Account balance deltas include pre-existing separate storage and are not attributed to this trial.",
+    "No volumes created; older account resources not operated."
+  ],
+  "billing_status": "pending: per-pod endpoint had no posted records at cleanup"
+}

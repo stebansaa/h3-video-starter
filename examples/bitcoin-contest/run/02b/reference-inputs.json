@@ -1,0 +1,23 @@
+{
+  "first_frame": "image.png",
+  "first_frame_sha256": "bdbd7e4a3fd0b9142627ad17556c1ca1674bcb2ef442709bcb694ac409702bad",
+  "clips": [
+    {
+      "character": "Jerry",
+      "path": "references/opening-v2/jerry.mp4",
+      "sha256": "bda51381d94aad4a56a4c863887fd4a1dde2917a2a066ac96cf541378b4ee796",
+      "start": 0,
+      "frames": 73
+    },
+    {
+      "character": "George",
+      "path": "references/opening-v2/george.mp4",
+      "sha256": "7e94dc27aa3687752cf54e1e058538f218c3243d1768b3159883a01f69d6737f",
+      "start": 0,
+      "frames": 73
+    }
+  ],
+  "anchor_mode": "previous",
+  "actual_first_frame": "runs/full-episode-v2/02b/first_frame.png",
+  "actual_first_frame_sha256": "36e2c49a56f27b27e238a8f7b3a1237983e7ddc9a732189616efd64acf742441"
+}

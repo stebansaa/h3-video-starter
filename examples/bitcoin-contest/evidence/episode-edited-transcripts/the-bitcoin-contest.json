@@ -1,0 +1,1378 @@
+{
+  "source": "edited-checks/the-bitcoin-contest.mp4",
+  "model": "small.en",
+  "language": "en",
+  "segments": [
+    {
+      "start": 1.2800000000000011,
+      "end": 4.32,
+      "text": " There's a crypto trader across the street.",
+      "no_speech_prob": 0.1711186319589615,
+      "avg_logprob": -0.12918750221809644,
+      "words": [
+        {
+          "start": 1.2800000000000011,
+          "end": 2.0,
+          "word": " There's",
+          "probability": 0.646778479218483
+        },
+        {
+          "start": 2.0,
+          "end": 2.16,
+          "word": " a",
+          "probability": 0.9927001595497131
+        },
+        {
+          "start": 2.16,
+          "end": 2.6,
+          "word": " crypto",
+          "probability": 0.8973533511161804
+        },
+        {
+          "start": 2.6,
+          "end": 3.14,
+          "word": " trader",
+          "probability": 0.9477112293243408
+        },
+        {
+          "start": 3.14,
+          "end": 3.58,
+          "word": " across",
+          "probability": 0.9719395637512207
+        },
+        {
+          "start": 3.58,
+          "end": 3.92,
+          "word": " the",
+          "probability": 0.9979714751243591
+        },
+        {
+          "start": 3.92,
+          "end": 4.32,
+          "word": " street.",
+          "probability": 0.9739586114883423
+        }
+      ]
+    },
+    {
+      "start": 5.36,
+      "end": 5.64,
+      "text": " Where?",
+      "no_speech_prob": 0.1711186319589615,
+      "avg_logprob": -0.12918750221809644,
+      "words": [
+        {
+          "start": 5.36,
+          "end": 5.64,
+          "word": " Where?",
+          "probability": 0.9207774996757507
+        }
+      ]
+    },
+    {
+      "start": 8.0,
+      "end": 9.2,
+      "text": " Second floor from the top.",
+      "no_speech_prob": 0.1711186319589615,
+      "avg_logprob": -0.12918750221809644,
+      "words": [
+        {
+          "start": 7.76,
+          "end": 8.12,
+          "word": " Second",
+          "probability": 0.920229434967041
+        },
+        {
+          "start": 8.12,
+          "end": 8.48,
+          "word": " floor",
+          "probability": 0.9930434226989746
+        },
+        {
+          "start": 8.48,
+          "end": 8.74,
+          "word": " from",
+          "probability": 0.9799908399581909
+        },
+        {
+          "start": 8.74,
+          "end": 8.92,
+          "word": " the",
+          "probability": 0.9980329871177673
+        },
+        {
+          "start": 8.92,
+          "end": 9.2,
+          "word": " top.",
+          "probability": 0.9994637370109558
+        }
+      ]
+    },
+    {
+      "start": 9.9,
+      "end": 11.12,
+      "text": " See the window on the left.",
+      "no_speech_prob": 0.1711186319589615,
+      "avg_logprob": -0.12918750221809644,
+      "words": [
+        {
+          "start": 9.9,
+          "end": 10.06,
+          "word": " See",
+          "probability": 0.994206428527832
+        },
+        {
+          "start": 10.06,
+          "end": 10.22,
+          "word": " the",
+          "probability": 0.9968962669372559
+        },
+        {
+          "start": 10.22,
+          "end": 10.4,
+          "word": " window",
+          "probability": 0.9986827969551086
+        },
+        {
+          "start": 10.4,
+          "end": 10.66,
+          "word": " on",
+          "probability": 0.9977720379829407
+        },
+        {
+          "start": 10.66,
+          "end": 10.8,
+          "word": " the",
+          "probability": 0.9994600415229797
+        },
+        {
+          "start": 10.8,
+          "end": 11.12,
+          "word": " left.",
+          "probability": 0.9987320303916931
+        }
+      ]
+    },
+    {
+      "start": 12.14,
+      "end": 12.68,
+      "text": " Whoa.",
+      "no_speech_prob": 0.1711186319589615,
+      "avg_logprob": -0.12918750221809644,
+      "words": [
+        {
+          "start": 12.14,
+          "end": 12.68,
+          "word": " Whoa.",
+          "probability": 0.8984702229499817
+        }
+      ]
+    },
+    {
+      "start": 13.74,
+      "end": 14.96,
+      "text": " Look at his monitors.",
+      "no_speech_prob": 0.1711186319589615,
+      "avg_logprob": -0.12918750221809644,
+      "words": [
+        {
+          "start": 13.74,
+          "end": 14.26,
+          "word": " Look",
+          "probability": 0.9874359369277954
+        },
+        {
+          "start": 14.26,
+          "end": 14.38,
+          "word": " at",
+          "probability": 0.9987792372703552
+        },
+        {
+          "start": 14.38,
+          "end": 14.52,
+          "word": " his",
+          "probability": 0.9983291029930115
+        },
+        {
+          "start": 14.52,
+          "end": 14.96,
+          "word": " monitors.",
+          "probability": 0.9981086254119873
+        }
+      ]
+    },
+    {
+      "start": 16.12,
+      "end": 16.96,
+      "text": " He only has one.",
+      "no_speech_prob": 0.1711186319589615,
+      "avg_logprob": -0.12918750221809644,
+      "words": [
+        {
+          "start": 16.12,
+          "end": 16.28,
+          "word": " He",
+          "probability": 0.9739152789115906
+        },
+        {
+          "start": 16.28,
+          "end": 16.42,
+          "word": " only",
+          "probability": 0.9984283447265625
+        },
+        {
+          "start": 16.42,
+          "end": 16.66,
+          "word": " has",
+          "probability": 0.9990472197532654
+        },
+        {
+          "start": 16.66,
+          "end": 16.96,
+          "word": " one.",
+          "probability": 0.9971471428871155
+        }
+      ]
+    },
+    {
+      "start": 18.14,
+      "end": 18.96,
+      "text": " Bitcoin guy.",
+      "no_speech_prob": 0.1711186319589615,
+      "avg_logprob": -0.12918750221809644,
+      "words": [
+        {
+          "start": 18.14,
+          "end": 18.6,
+          "word": " Bitcoin",
+          "probability": 0.9661503434181213
+        },
+        {
+          "start": 18.6,
+          "end": 18.96,
+          "word": " guy.",
+          "probability": 0.9799084067344666
+        }
+      ]
+    },
+    {
+      "start": 20.04,
+      "end": 20.6,
+      "text": " Look at him.",
+      "no_speech_prob": 0.1711186319589615,
+      "avg_logprob": -0.12918750221809644,
+      "words": [
+        {
+          "start": 20.04,
+          "end": 20.26,
+          "word": " Look",
+          "probability": 0.994574785232544
+        },
+        {
+          "start": 20.26,
+          "end": 20.44,
+          "word": " at",
+          "probability": 0.9981889128684998
+        },
+        {
+          "start": 20.44,
+          "end": 20.6,
+          "word": " him.",
+          "probability": 0.9593190550804138
+        }
+      ]
+    },
+    {
+      "start": 21.66,
+      "end": 22.8,
+      "text": " He's not even trading.",
+      "no_speech_prob": 0.1711186319589615,
+      "avg_logprob": -0.12918750221809644,
+      "words": [
+        {
+          "start": 21.66,
+          "end": 21.98,
+          "word": " He's",
+          "probability": 0.9964215457439423
+        },
+        {
+          "start": 21.98,
+          "end": 22.14,
+          "word": " not",
+          "probability": 0.9996349811553955
+        },
+        {
+          "start": 22.14,
+          "end": 22.38,
+          "word": " even",
+          "probability": 0.9994038343429565
+        },
+        {
+          "start": 22.38,
+          "end": 22.8,
+          "word": " trading.",
+          "probability": 0.9985619187355042
+        }
+      ]
+    },
+    {
+      "start": 23.6,
+      "end": 24.78,
+      "text": " He's just sitting there.",
+      "no_speech_prob": 0.1711186319589615,
+      "avg_logprob": -0.12918750221809644,
+      "words": [
+        {
+          "start": 23.6,
+          "end": 23.96,
+          "word": " He's",
+          "probability": 0.9961083829402924
+        },
+        {
+          "start": 23.96,
+          "end": 24.14,
+          "word": " just",
+          "probability": 0.9984910488128662
+        },
+        {
+          "start": 24.14,
+          "end": 24.4,
+          "word": " sitting",
+          "probability": 0.8763114809989929
+        },
+        {
+          "start": 24.4,
+          "end": 24.78,
+          "word": " there.",
+          "probability": 0.9980871677398682
+        }
+      ]
+    },
+    {
+      "start": 25.54,
+      "end": 27.38,
+      "text": " Look, he's drinking tea.",
+      "no_speech_prob": 0.1711186319589615,
+      "avg_logprob": -0.12918750221809644,
+      "words": [
+        {
+          "start": 25.54,
+          "end": 25.76,
+          "word": " Look,",
+          "probability": 0.9779663681983948
+        },
+        {
+          "start": 26.28,
+          "end": 26.78,
+          "word": " he's",
+          "probability": 0.9970365464687347
+        },
+        {
+          "start": 26.78,
+          "end": 26.98,
+          "word": " drinking",
+          "probability": 0.9851588606834412
+        },
+        {
+          "start": 26.98,
+          "end": 27.38,
+          "word": " tea.",
+          "probability": 0.9897833466529846
+        }
+      ]
+    },
+    {
+      "start": 29.18,
+      "end": 30.82,
+      "text": " He hasn't sold.",
+      "no_speech_prob": 0.19801761209964752,
+      "avg_logprob": -0.19379817295906154,
+      "words": [
+        {
+          "start": 29.18,
+          "end": 29.96,
+          "word": " He",
+          "probability": 0.19638432562351227
+        },
+        {
+          "start": 29.96,
+          "end": 30.38,
+          "word": " hasn't",
+          "probability": 0.9565156400203705
+        },
+        {
+          "start": 30.38,
+          "end": 30.82,
+          "word": " sold.",
+          "probability": 0.995378851890564
+        }
+      ]
+    },
+    {
+      "start": 31.64,
+      "end": 32.28,
+      "text": " Same position.",
+      "no_speech_prob": 0.19801761209964752,
+      "avg_logprob": -0.19379817295906154,
+      "words": [
+        {
+          "start": 31.64,
+          "end": 31.8,
+          "word": " Same",
+          "probability": 0.9443775415420532
+        },
+        {
+          "start": 31.8,
+          "end": 32.28,
+          "word": " position.",
+          "probability": 0.9972673654556274
+        }
+      ]
+    },
+    {
+      "start": 33.1,
+      "end": 36.34,
+      "text": " The average Solana whole time is 40 seconds.",
+      "no_speech_prob": 0.19801761209964752,
+      "avg_logprob": -0.19379817295906154,
+      "words": [
+        {
+          "start": 33.1,
+          "end": 33.24,
+          "word": " The",
+          "probability": 0.9924479722976685
+        },
+        {
+          "start": 33.24,
+          "end": 33.62,
+          "word": " average",
+          "probability": 0.9966854453086853
+        },
+        {
+          "start": 33.62,
+          "end": 34.1,
+          "word": " Solana",
+          "probability": 0.6734296530485153
+        },
+        {
+          "start": 34.1,
+          "end": 34.4,
+          "word": " whole",
+          "probability": 0.7252277731895447
+        },
+        {
+          "start": 34.4,
+          "end": 34.86,
+          "word": " time",
+          "probability": 0.8635894060134888
+        },
+        {
+          "start": 34.86,
+          "end": 35.34,
+          "word": " is",
+          "probability": 0.9713672399520874
+        },
+        {
+          "start": 35.34,
+          "end": 35.8,
+          "word": " 40",
+          "probability": 0.9122365713119507
+        },
+        {
+          "start": 35.8,
+          "end": 36.34,
+          "word": " seconds.",
+          "probability": 0.9951872825622559
+        }
+      ]
+    },
+    {
+      "start": 37.82,
+      "end": 39.34,
+      "text": " Who lives like this?",
+      "no_speech_prob": 0.19801761209964752,
+      "avg_logprob": -0.19379817295906154,
+      "words": [
+        {
+          "start": 37.82,
+          "end": 38.2,
+          "word": " Who",
+          "probability": 0.831473708152771
+        },
+        {
+          "start": 38.2,
+          "end": 38.5,
+          "word": " lives",
+          "probability": 0.9973153471946716
+        },
+        {
+          "start": 38.5,
+          "end": 38.84,
+          "word": " like",
+          "probability": 0.9989198446273804
+        },
+        {
+          "start": 38.84,
+          "end": 39.34,
+          "word": " this?",
+          "probability": 0.9993583559989929
+        }
+      ]
+    },
+    {
+      "start": 40.64,
+      "end": 41.4,
+      "text": " Bitcoiners.",
+      "no_speech_prob": 0.19801761209964752,
+      "avg_logprob": -0.19379817295906154,
+      "words": [
+        {
+          "start": 40.64,
+          "end": 41.4,
+          "word": " Bitcoiners.",
+          "probability": 0.8498978316783905
+        }
+      ]
+    },
+    {
+      "start": 43.32,
+      "end": 44.5,
+      "text": " They're animals.",
+      "no_speech_prob": 0.19801761209964752,
+      "avg_logprob": -0.19379817295906154,
+      "words": [
+        {
+          "start": 43.32,
+          "end": 44.1,
+          "word": " They're",
+          "probability": 0.984444797039032
+        },
+        {
+          "start": 44.1,
+          "end": 44.5,
+          "word": " animals.",
+          "probability": 0.9973745346069336
+        }
+      ]
+    },
+    {
+      "start": 45.24,
+      "end": 47.68,
+      "text": " The P.O.N.S. Dev pulled liquidity.",
+      "no_speech_prob": 0.19801761209964752,
+      "avg_logprob": -0.19379817295906154,
+      "words": [
+        {
+          "start": 45.24,
+          "end": 45.38,
+          "word": " The",
+          "probability": 0.980614185333252
+        },
+        {
+          "start": 45.38,
+          "end": 45.56,
+          "word": " P",
+          "probability": 0.9588948488235474
+        },
+        {
+          "start": 45.56,
+          "end": 45.76,
+          "word": ".O",
+          "probability": 0.6754147559404373
+        },
+        {
+          "start": 45.76,
+          "end": 45.96,
+          "word": ".N",
+          "probability": 0.9929249584674835
+        },
+        {
+          "start": 45.96,
+          "end": 46.22,
+          "word": ".S.",
+          "probability": 0.9958419501781464
+        },
+        {
+          "start": 46.48,
+          "end": 46.62,
+          "word": " Dev",
+          "probability": 0.6526029109954834
+        },
+        {
+          "start": 46.62,
+          "end": 47.16,
+          "word": " pulled",
+          "probability": 0.8055132627487183
+        },
+        {
+          "start": 47.16,
+          "end": 47.68,
+          "word": " liquidity.",
+          "probability": 0.9952600598335266
+        }
+      ]
+    },
+    {
+      "start": 48.6,
+      "end": 50.36,
+      "text": " The waitress should have taken it back.",
+      "no_speech_prob": 0.19801761209964752,
+      "avg_logprob": -0.19379817295906154,
+      "words": [
+        {
+          "start": 48.6,
+          "end": 48.88,
+          "word": " The",
+          "probability": 0.9927747249603271
+        },
+        {
+          "start": 48.88,
+          "end": 49.24,
+          "word": " waitress",
+          "probability": 0.9936783909797668
+        },
+        {
+          "start": 49.24,
+          "end": 49.52,
+          "word": " should",
+          "probability": 0.9991053938865662
+        },
+        {
+          "start": 49.52,
+          "end": 49.64,
+          "word": " have",
+          "probability": 0.7236273884773254
+        },
+        {
+          "start": 49.64,
+          "end": 49.86,
+          "word": " taken",
+          "probability": 0.9974843263626099
+        },
+        {
+          "start": 49.86,
+          "end": 50.08,
+          "word": " it",
+          "probability": 0.9990193843841553
+        },
+        {
+          "start": 50.08,
+          "end": 50.36,
+          "word": " back.",
+          "probability": 0.9997290968894958
+        }
+      ]
+    },
+    {
+      "start": 51.9,
+      "end": 55.4,
+      "text": " So, Vlad Tenev and I are going on a date tonight.",
+      "no_speech_prob": 0.19801761209964752,
+      "avg_logprob": -0.19379817295906154,
+      "words": [
+        {
+          "start": 51.9,
+          "end": 52.56,
+          "word": " So,",
+          "probability": 0.9770700931549072
+        },
+        {
+          "start": 53.28,
+          "end": 53.28,
+          "word": " Vlad",
+          "probability": 0.974726676940918
+        },
+        {
+          "start": 53.28,
+          "end": 53.7,
+          "word": " Tenev",
+          "probability": 0.7559143503506979
+        },
+        {
+          "start": 53.7,
+          "end": 53.82,
+          "word": " and",
+          "probability": 0.9942328333854675
+        },
+        {
+          "start": 53.82,
+          "end": 54.02,
+          "word": " I",
+          "probability": 0.998700737953186
+        },
+        {
+          "start": 54.02,
+          "end": 54.16,
+          "word": " are",
+          "probability": 0.9978561997413635
+        },
+        {
+          "start": 54.16,
+          "end": 54.38,
+          "word": " going",
+          "probability": 0.9987614154815674
+        },
+        {
+          "start": 54.38,
+          "end": 54.62,
+          "word": " on",
+          "probability": 0.9991413354873657
+        },
+        {
+          "start": 54.62,
+          "end": 54.78,
+          "word": " a",
+          "probability": 0.9989151954650879
+        },
+        {
+          "start": 54.78,
+          "end": 54.96,
+          "word": " date",
+          "probability": 0.9995560050010681
+        },
+        {
+          "start": 54.96,
+          "end": 55.4,
+          "word": " tonight.",
+          "probability": 0.9980002045631409
+        }
+      ]
+    },
+    {
+      "start": 55.4,
+      "end": 56.88,
+      "text": " Have a good time.",
+      "no_speech_prob": 0.2046155482530594,
+      "avg_logprob": -0.14142136062894547,
+      "words": [
+        {
+          "start": 55.4,
+          "end": 56.4,
+          "word": " Have",
+          "probability": 0.5630524158477783
+        },
+        {
+          "start": 56.4,
+          "end": 56.52,
+          "word": " a",
+          "probability": 0.9965016841888428
+        },
+        {
+          "start": 56.52,
+          "end": 56.62,
+          "word": " good",
+          "probability": 0.9742090106010437
+        },
+        {
+          "start": 56.62,
+          "end": 56.88,
+          "word": " time.",
+          "probability": 0.9966603517532349
+        }
+      ]
+    },
+    {
+      "start": 58.08,
+      "end": 58.42,
+      "text": " I'm out.",
+      "no_speech_prob": 0.2046155482530594,
+      "avg_logprob": -0.14142136062894547,
+      "words": [
+        {
+          "start": 58.08,
+          "end": 58.16,
+          "word": " I'm",
+          "probability": 0.9584793746471405
+        },
+        {
+          "start": 58.16,
+          "end": 58.42,
+          "word": " out.",
+          "probability": 0.9975367784500122
+        }
+      ]
+    },
+    {
+      "start": 59.16,
+      "end": 60.42,
+      "text": " Uh, I'm out.",
+      "no_speech_prob": 0.2046155482530594,
+      "avg_logprob": -0.14142136062894547,
+      "words": [
+        {
+          "start": 59.16,
+          "end": 59.78,
+          "word": " Uh,",
+          "probability": 0.3011045455932617
+        },
+        {
+          "start": 59.92,
+          "end": 60.2,
+          "word": " I'm",
+          "probability": 0.9961320161819458
+        },
+        {
+          "start": 60.2,
+          "end": 60.42,
+          "word": " out.",
+          "probability": 0.9993663430213928
+        }
+      ]
+    },
+    {
+      "start": 60.88,
+      "end": 61.52,
+      "text": " You're out?",
+      "no_speech_prob": 0.2046155482530594,
+      "avg_logprob": -0.14142136062894547,
+      "words": [
+        {
+          "start": 60.88,
+          "end": 61.22,
+          "word": " You're",
+          "probability": 0.9852100908756256
+        },
+        {
+          "start": 61.22,
+          "end": 61.52,
+          "word": " out?",
+          "probability": 0.99837327003479
+        }
+      ]
+    },
+    {
+      "start": 62.18,
+      "end": 63.66,
+      "text": " I'm out of the contest.",
+      "no_speech_prob": 0.2046155482530594,
+      "avg_logprob": -0.14142136062894547,
+      "words": [
+        {
+          "start": 62.18,
+          "end": 62.62,
+          "word": " I'm",
+          "probability": 0.9883262515068054
+        },
+        {
+          "start": 62.62,
+          "end": 62.9,
+          "word": " out",
+          "probability": 0.9988170862197876
+        },
+        {
+          "start": 62.9,
+          "end": 63.08,
+          "word": " of",
+          "probability": 0.9980783462524414
+        },
+        {
+          "start": 63.08,
+          "end": 63.24,
+          "word": " the",
+          "probability": 0.9987378716468811
+        },
+        {
+          "start": 63.24,
+          "end": 63.66,
+          "word": " contest.",
+          "probability": 0.9984146356582642
+        }
+      ]
+    },
+    {
+      "start": 64.54,
+      "end": 64.9,
+      "text": " Already?",
+      "no_speech_prob": 0.2046155482530594,
+      "avg_logprob": -0.14142136062894547,
+      "words": [
+        {
+          "start": 64.54,
+          "end": 64.9,
+          "word": " Already?",
+          "probability": 0.9660896062850952
+        }
+      ]
+    },
+    {
+      "start": 67.04,
+      "end": 68.28,
+      "text": " That was fast.",
+      "no_speech_prob": 0.2046155482530594,
+      "avg_logprob": -0.14142136062894547,
+      "words": [
+        {
+          "start": 67.04,
+          "end": 67.72,
+          "word": " That",
+          "probability": 0.9860261678695679
+        },
+        {
+          "start": 67.72,
+          "end": 67.86,
+          "word": " was",
+          "probability": 0.9996817111968994
+        },
+        {
+          "start": 67.86,
+          "end": 68.28,
+          "word": " fast.",
+          "probability": 0.9994656443595886
+        }
+      ]
+    },
+    {
+      "start": 68.86,
+      "end": 69.42,
+      "text": " What happened?",
+      "no_speech_prob": 0.2046155482530594,
+      "avg_logprob": -0.14142136062894547,
+      "words": [
+        {
+          "start": 68.86,
+          "end": 69.12,
+          "word": " What",
+          "probability": 0.9913750290870667
+        },
+        {
+          "start": 69.12,
+          "end": 69.42,
+          "word": " happened?",
+          "probability": 0.9983036518096924
+        }
+      ]
+    },
+    {
+      "start": 70.18,
+      "end": 71.04,
+      "text": " I bought some.",
+      "no_speech_prob": 0.2046155482530594,
+      "avg_logprob": -0.14142136062894547,
+      "words": [
+        {
+          "start": 70.18,
+          "end": 70.46,
+          "word": " I",
+          "probability": 0.992712676525116
+        },
+        {
+          "start": 70.46,
+          "end": 70.68,
+          "word": " bought",
+          "probability": 0.9888036847114563
+        },
+        {
+          "start": 70.68,
+          "end": 71.04,
+          "word": " some.",
+          "probability": 0.9788615107536316
+        }
+      ]
+    },
+    {
+      "start": 71.72,
+      "end": 72.02,
+      "text": " Bitcoin?",
+      "no_speech_prob": 0.2046155482530594,
+      "avg_logprob": -0.14142136062894547,
+      "words": [
+        {
+          "start": 71.72,
+          "end": 72.02,
+          "word": " Bitcoin?",
+          "probability": 0.9540614485740662
+        }
+      ]
+    },
+    {
+      "start": 73.16,
+      "end": 73.96,
+      "text": " At first?",
+      "no_speech_prob": 0.2046155482530594,
+      "avg_logprob": -0.14142136062894547,
+      "words": [
+        {
+          "start": 73.16,
+          "end": 73.66,
+          "word": " At",
+          "probability": 0.7694656848907471
+        },
+        {
+          "start": 73.66,
+          "end": 73.96,
+          "word": " first?",
+          "probability": 0.6971796751022339
+        }
+      ]
+    },
+    {
+      "start": 74.48,
+      "end": 74.96,
+      "text": " At first?",
+      "no_speech_prob": 0.2046155482530594,
+      "avg_logprob": -0.14142136062894547,
+      "words": [
+        {
+          "start": 74.48,
+          "end": 74.66,
+          "word": " At",
+          "probability": 0.979644775390625
+        },
+        {
+          "start": 74.66,
+          "end": 74.96,
+          "word": " first?",
+          "probability": 0.9980030655860901
+        }
+      ]
+    },
+    {
+      "start": 75.44,
+      "end": 76.08,
+      "text": " At first?",
+      "no_speech_prob": 0.2046155482530594,
+      "avg_logprob": -0.14142136062894547,
+      "words": [
+        {
+          "start": 75.44,
+          "end": 75.66,
+          "word": " At",
+          "probability": 0.9763170480728149
+        },
+        {
+          "start": 75.66,
+          "end": 76.08,
+          "word": " first?",
+          "probability": 0.9948794841766357
+        }
+      ]
+    },
+    {
+      "start": 76.54,
+      "end": 78.86,
+      "text": " Then I set up a DCA.",
+      "no_speech_prob": 0.2046155482530594,
+      "avg_logprob": -0.14142136062894547,
+      "words": [
+        {
+          "start": 76.54,
+          "end": 77.22,
+          "word": " Then",
+          "probability": 0.9662868976593018
+        },
+        {
+          "start": 77.22,
+          "end": 77.56,
+          "word": " I",
+          "probability": 0.7890381217002869
+        },
+        {
+          "start": 77.56,
+          "end": 77.82,
+          "word": " set",
+          "probability": 0.97573322057724
+        },
+        {
+          "start": 77.82,
+          "end": 77.98,
+          "word": " up",
+          "probability": 0.9976301193237305
+        },
+        {
+          "start": 77.98,
+          "end": 78.16,
+          "word": " a",
+          "probability": 0.9972475171089172
+        },
+        {
+          "start": 78.16,
+          "end": 78.86,
+          "word": " DCA.",
+          "probability": 0.8522450625896454
+        }
+      ]
+    },
+    {
+      "start": 79.16,
+      "end": 79.78,
+      "text": " Oh, boy.",
+      "no_speech_prob": 0.2046155482530594,
+      "avg_logprob": -0.14142136062894547,
+      "words": [
+        {
+          "start": 79.16,
+          "end": 79.46,
+          "word": " Oh,",
+          "probability": 0.9423295259475708
+        },
+        {
+          "start": 79.46,
+          "end": 79.78,
+          "word": " boy.",
+          "probability": 0.9985241293907166
+        }
+      ]
+    },
+    {
+      "start": 80.2,
+      "end": 81.48,
+      "text": " I deleted FOMO.",
+      "no_speech_prob": 0.2046155482530594,
+      "avg_logprob": -0.14142136062894547,
+      "words": [
+        {
+          "start": 80.2,
+          "end": 80.46,
+          "word": " I",
+          "probability": 0.9826650023460388
+        },
+        {
+          "start": 80.46,
+          "end": 80.88,
+          "word": " deleted",
+          "probability": 0.9990612864494324
+        },
+        {
+          "start": 80.88,
+          "end": 81.48,
+          "word": " FOMO.",
+          "probability": 0.9792863527933756
+        }
+      ]
+    },
+    {
+      "start": 81.82,
+      "end": 82.16,
+      "text": " No.",
+      "no_speech_prob": 0.2046155482530594,
+      "avg_logprob": -0.14142136062894547,
+      "words": [
+        {
+          "start": 81.82,
+          "end": 82.16,
+          "word": " No.",
+          "probability": 0.8621998429298401
+        }
+      ]
+    },
+    {
+      "start": 83.14,
+      "end": 84.12,
+      "text": " Deck screen or two.",
+      "no_speech_prob": 0.2046155482530594,
+      "avg_logprob": -0.14142136062894547,
+      "words": [
+        {
+          "start": 83.14,
+          "end": 83.36,
+          "word": " Deck",
+          "probability": 0.9048156142234802
+        },
+        {
+          "start": 83.36,
+          "end": 83.7,
+          "word": " screen",
+          "probability": 0.3042130172252655
+        },
+        {
+          "start": 83.7,
+          "end": 83.9,
+          "word": " or",
+          "probability": 0.9352856874465942
+        },
+        {
+          "start": 83.9,
+          "end": 84.12,
+          "word": " two.",
+          "probability": 0.9959944486618042
+        }
+      ]
+    },
+    {
+      "start": 86.05999999999999,
+      "end": 88.88,
+      "text": " No, what if it dips? I'll buy more.",
+      "no_speech_prob": 0.029616903513669968,
+      "avg_logprob": -0.4075125774671865,
+      "words": [
+        {
+          "start": 86.05999999999999,
+          "end": 86.6,
+          "word": " No,",
+          "probability": 0.6743621826171875
+        },
+        {
+          "start": 86.6,
+          "end": 87.14,
+          "word": " what",
+          "probability": 0.9204846024513245
+        },
+        {
+          "start": 87.14,
+          "end": 87.28,
+          "word": " if",
+          "probability": 0.9967203736305237
+        },
+        {
+          "start": 87.28,
+          "end": 87.42,
+          "word": " it",
+          "probability": 0.9945737719535828
+        },
+        {
+          "start": 87.42,
+          "end": 87.76,
+          "word": " dips?",
+          "probability": 0.9924771189689636
+        },
+        {
+          "start": 88.36,
+          "end": 88.46,
+          "word": " I'll",
+          "probability": 0.9919507205486298
+        },
+        {
+          "start": 88.46,
+          "end": 88.62,
+          "word": " buy",
+          "probability": 0.9979806542396545
+        },
+        {
+          "start": 88.62,
+          "end": 88.88,
+          "word": " more.",
+          "probability": 0.9971327781677246
+        }
+      ]
+    },
+    {
+      "start": 90.6,
+      "end": 95.02,
+      "text": " You're Austrian, you already like juice. I think I'm gonna make some tea.",
+      "no_speech_prob": 0.029616903513669968,
+      "avg_logprob": -0.4075125774671865,
+      "words": [
+        {
+          "start": 90.6,
+          "end": 91.14,
+          "word": " You're",
+          "probability": 0.5271844901144505
+        },
+        {
+          "start": 91.14,
+          "end": 91.44,
+          "word": " Austrian,",
+          "probability": 0.13871125876903534
+        },
+        {
+          "start": 91.58,
+          "end": 91.58,
+          "word": " you",
+          "probability": 0.4774583876132965
+        },
+        {
+          "start": 91.58,
+          "end": 91.66,
+          "word": " already",
+          "probability": 0.7634872794151306
+        },
+        {
+          "start": 91.66,
+          "end": 91.9,
+          "word": " like",
+          "probability": 0.9826415181159973
+        },
+        {
+          "start": 91.9,
+          "end": 92.22,
+          "word": " juice.",
+          "probability": 0.9932711720466614
+        },
+        {
+          "start": 93.42,
+          "end": 93.7,
+          "word": " I",
+          "probability": 0.992293119430542
+        },
+        {
+          "start": 93.7,
+          "end": 93.9,
+          "word": " think",
+          "probability": 0.9984799027442932
+        },
+        {
+          "start": 93.9,
+          "end": 94.12,
+          "word": " I'm",
+          "probability": 0.9925473034381866
+        },
+        {
+          "start": 94.12,
+          "end": 94.24,
+          "word": " gonna",
+          "probability": 0.6887678503990173
+        },
+        {
+          "start": 94.24,
+          "end": 94.48,
+          "word": " make",
+          "probability": 0.9985606074333191
+        },
+        {
+          "start": 94.48,
+          "end": 94.68,
+          "word": " some",
+          "probability": 0.9991059899330139
+        },
+        {
+          "start": 94.68,
+          "end": 95.02,
+          "word": " tea.",
+          "probability": 0.996338963508606
+        }
+      ]
+    },
+    {
+      "start": 97.1,
+      "end": 98.36,
+      "text": " And then there were three.",
+      "no_speech_prob": 0.029616903513669968,
+      "avg_logprob": -0.4075125774671865,
+      "words": [
+        {
+          "start": 97.1,
+          "end": 97.38,
+          "word": " And",
+          "probability": 0.9480002522468567
+        },
+        {
+          "start": 97.38,
+          "end": 97.58,
+          "word": " then",
+          "probability": 0.9957829713821411
+        },
+        {
+          "start": 97.58,
+          "end": 97.78,
+          "word": " there",
+          "probability": 0.9679676294326782
+        },
+        {
+          "start": 97.78,
+          "end": 97.94,
+          "word": " were",
+          "probability": 0.9924649000167847
+        },
+        {
+          "start": 97.94,
+          "end": 98.36,
+          "word": " three.",
+          "probability": 0.976213812828064
+        }
+      ]
+    }
+  ],
+  "elapsed": 6.114057779312134,
+  "text": "There's a crypto trader across the street. Where? Second floor from the top. See the window on the left. Whoa. Look at his monitors. He only has one. Bitcoin guy. Look at him. He's not even trading. He's just sitting there. Look, he's drinking tea. He hasn't sold. Same position. The average Solana whole time is 40 seconds. Who lives like this? Bitcoiners. They're animals. The P.O.N.S. Dev pulled liquidity. The waitress should have taken it back. So, Vlad Tenev and I are going on a date tonight. Have a good time. I'm out. Uh, I'm out. You're out? I'm out of the contest. Already? That was fast. What happened? I bought some. Bitcoin? At first? At first? At first? Then I set up a DCA. Oh, boy. I deleted FOMO. No. Deck screen or two. No, what if it dips? I'll buy more. You're Austrian, you already like juice. I think I'm gonna make some tea. And then there were three.",
+  "note": "Automatic transcription, not proof of speaker identity or exact delivery."
+}

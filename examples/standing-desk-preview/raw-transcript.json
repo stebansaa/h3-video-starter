@@ -1,0 +1,156 @@
+{
+  "source": "raw-clip.mp4",
+  "model": "small.en",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.52,
+      "text": " Well, always never could a standing desk should charge less rent. I'm not even using the chair",
+      "no_speech_prob": 0.004696992225944996,
+      "avg_logprob": -0.19233824759721757,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.5,
+          "word": " Well,",
+          "probability": 0.26498788595199585
+        },
+        {
+          "start": 0.76,
+          "end": 0.8,
+          "word": " always",
+          "probability": 0.7737574577331543
+        },
+        {
+          "start": 0.8,
+          "end": 1.08,
+          "word": " never",
+          "probability": 0.9342800378799438
+        },
+        {
+          "start": 1.08,
+          "end": 1.5,
+          "word": " could",
+          "probability": 0.9719294309616089
+        },
+        {
+          "start": 1.5,
+          "end": 2.34,
+          "word": " a",
+          "probability": 0.08107025921344757
+        },
+        {
+          "start": 2.34,
+          "end": 2.88,
+          "word": " standing",
+          "probability": 0.7560621500015259
+        },
+        {
+          "start": 2.88,
+          "end": 3.3,
+          "word": " desk",
+          "probability": 0.9910208582878113
+        },
+        {
+          "start": 3.3,
+          "end": 3.56,
+          "word": " should",
+          "probability": 0.9821787476539612
+        },
+        {
+          "start": 3.56,
+          "end": 3.92,
+          "word": " charge",
+          "probability": 0.9988223910331726
+        },
+        {
+          "start": 3.92,
+          "end": 4.26,
+          "word": " less",
+          "probability": 0.9954367280006409
+        },
+        {
+          "start": 4.26,
+          "end": 4.7,
+          "word": " rent.",
+          "probability": 0.9914935827255249
+        },
+        {
+          "start": 5.18,
+          "end": 5.24,
+          "word": " I'm",
+          "probability": 0.9995323419570923
+        },
+        {
+          "start": 5.24,
+          "end": 5.38,
+          "word": " not",
+          "probability": 0.997546374797821
+        },
+        {
+          "start": 5.38,
+          "end": 5.56,
+          "word": " even",
+          "probability": 0.9994261264801025
+        },
+        {
+          "start": 5.56,
+          "end": 5.84,
+          "word": " using",
+          "probability": 0.9997017979621887
+        },
+        {
+          "start": 5.84,
+          "end": 6.06,
+          "word": " the",
+          "probability": 0.9993264675140381
+        },
+        {
+          "start": 6.06,
+          "end": 6.52,
+          "word": " chair",
+          "probability": 0.9957870841026306
+        }
+      ]
+    },
+    {
+      "start": 7.640000000000001,
+      "end": 9.18,
+      "text": " You're renting a desk",
+      "no_speech_prob": 0.004696992225944996,
+      "avg_logprob": -0.19233824759721757,
+      "words": [
+        {
+          "start": 7.640000000000001,
+          "end": 8.32,
+          "word": " You're",
+          "probability": 0.9144802391529083
+        },
+        {
+          "start": 8.32,
+          "end": 8.56,
+          "word": " renting",
+          "probability": 0.9994325041770935
+        },
+        {
+          "start": 8.56,
+          "end": 8.78,
+          "word": " a",
+          "probability": 0.997549831867218
+        },
+        {
+          "start": 8.78,
+          "end": 9.18,
+          "word": " desk",
+          "probability": 0.9983530044555664
+        }
+      ]
+    }
+  ],
+  "elapsed": 1.1024093627929688,
+  "text": "Well, always never could a standing desk should charge less rent. I'm not even using the chair You're renting a desk",
+  "note": "Automatic transcription, not proof of speaker identity or exact delivery.",
+  "source_sha256": "6e6062018be4748496675f36c8a7cc1fb40f1b154d46e5008d17e1b235f05b94",
+  "clip_timestamps": null
+}

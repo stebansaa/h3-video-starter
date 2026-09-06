@@ -1,0 +1,1686 @@
+{
+  "version": 1,
+  "release_date": "2026-09-06",
+  "files": [
+    {
+      "path": ".agents/skills/h3-video/SKILL.md",
+      "bytes": 4842,
+      "sha256": "afc8a490f96b84cfc06c688d68fcf99ee0179f14c09ad415881fdb4d5fe4f164"
+    },
+    {
+      "path": ".agents/skills/h3-video/agents/openai.yaml",
+      "bytes": 248,
+      "sha256": "d777e780f42d26034fdbaf7aa5c1e1d31dc84a6cd3c581248a0dfbd6e02691ce"
+    },
+    {
+      "path": ".env.example",
+      "bytes": 211,
+      "sha256": "55dd73d0e586c995c54a1c6c15ddf8eebd41f9108aacd4eb9af64b940ab004cd"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 91,
+      "sha256": "672058221ecfb2fefa6379a36d4421243d32248e269b408a4944bb305555d817"
+    },
+    {
+      "path": ".github/workflows/offline.yml",
+      "bytes": 734,
+      "sha256": "e7e5895ebb05797abb6f2b64658ecbb13cd43b370e37518495a9a977dcaea2be"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 296,
+      "sha256": "0d860012fa6b77a64666d26e05eae20ccc47f443d59c9dd7e2a3e3a4b59f3398"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 5832,
+      "sha256": "f20058124f9eed3395385eabb705844c750cbebfd1d8e16102de923300fad0bc"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5978,
+      "sha256": "81f5a870bec627bafbb66837990c58863d620177c9c5526d33698f306574d80d"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 2765,
+      "sha256": "2aed6af38fb7f4ccbbd21896eb540026943917813ce624773260daef11b864e2"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1697,
+      "sha256": "7477c6addc9078b3629a2ecb4f1b7e1d727da129c726d6c94809cbcfc4c39fd5"
+    },
+    {
+      "path": "config/models.lock.json",
+      "bytes": 1799,
+      "sha256": "4f50cef9bf317e304a899c46d5c3ee6e72996150b7b922f6ddeee629267467e0"
+    },
+    {
+      "path": "config/reference-model.lock.json",
+      "bytes": 538,
+      "sha256": "54218634243f5a100efa73bd952dd9ca1d53ea84ff2a543f0c89c7b7d361854c"
+    },
+    {
+      "path": "config/server.lock.json",
+      "bytes": 551,
+      "sha256": "9787728a10f7cb4e1b1af8f71d2d45441b9a27c89356ae0b114cbf0d7490435a"
+    },
+    {
+      "path": "director/__init__.py",
+      "bytes": 69,
+      "sha256": "74506ecfe5782167f72c2742ee63c8b5ca9325355ad8b103f831df35402a2a0b"
+    },
+    {
+      "path": "director/__main__.py",
+      "bytes": 8811,
+      "sha256": "ebae7b877a31b4d194cdd8c18696f0a5277ec268013886eaa6257b247b831bdf"
+    },
+    {
+      "path": "director/comfy.py",
+      "bytes": 6249,
+      "sha256": "b827b7df0e62c8003148a748849f3c5e526bd656ffd9aa672c52e44901e477de"
+    },
+    {
+      "path": "director/common.py",
+      "bytes": 1460,
+      "sha256": "ba774ce7f22703e1d4bca4542d2d3bde2f03cd5f631e6123e83f2c73e9d21c29"
+    },
+    {
+      "path": "director/credentials.py",
+      "bytes": 1564,
+      "sha256": "448ce2b2cd73f2c9c364f15f7f070b611e4d33872ba3f861204529e5db0f1527"
+    },
+    {
+      "path": "director/cuts.py",
+      "bytes": 3529,
+      "sha256": "7ea6ef41cd31b46007b693e7609fcdbd77cde661af4ed05def3c27ee97aa9ecb"
+    },
+    {
+      "path": "director/edit.py",
+      "bytes": 6396,
+      "sha256": "43497d0be7e8c74bc7ec63fa264b3394e965917f48f9130b2e67280955ac0da4"
+    },
+    {
+      "path": "director/http.py",
+      "bytes": 4767,
+      "sha256": "0a1934a2a9da6192365866123f212673392e785cf39d9ca75e2b9f6b759c3071"
+    },
+    {
+      "path": "director/media.py",
+      "bytes": 7879,
+      "sha256": "49cb64cb0033dbb7c0cb9eb9f06f0f18b621e2076fb2a2d38bd3dd2fc669fb43"
+    },
+    {
+      "path": "director/pipeline.py",
+      "bytes": 12807,
+      "sha256": "aa4566d733ae0e56a11b719dc163395cec05790e79d106cb1e799620ada9340b"
+    },
+    {
+      "path": "director/plan.py",
+      "bytes": 3973,
+      "sha256": "f6393fabaf8ac8828288adc96d7b3300437ff041dea24ffc3a565c0dd1574aad"
+    },
+    {
+      "path": "director/references.py",
+      "bytes": 6439,
+      "sha256": "9046f56d57e579e600d9e0c2bd5e36258b5a0f4e48806879aa80f74fedc71560"
+    },
+    {
+      "path": "director/runpod.py",
+      "bytes": 5758,
+      "sha256": "a150254c479645f30b7f8d7d7a2489039b6e706dafb9989490ba8dc2d5b03ec8"
+    },
+    {
+      "path": "director/takes.py",
+      "bytes": 3389,
+      "sha256": "07d1ef4dfc1c8135c65d57cbe33a87c5496bff80e87408327c953cd8804cabbe"
+    },
+    {
+      "path": "director/workflow.py",
+      "bytes": 9768,
+      "sha256": "3b122134330e9da3b04b0d5e83c4d6591bc6e891b1ba23265890587efeab24ed"
+    },
+    {
+      "path": "docs/SOURCES.md",
+      "bytes": 2455,
+      "sha256": "44343884420fc2acf91d28c9a3f47a0dc72222abc3b17b1e7e4157680d042066"
+    },
+    {
+      "path": "docs/assets.md",
+      "bytes": 4328,
+      "sha256": "63483964e890d9c0c2ae89b4ba51d5c4d6027f71677afb7da285e6d6c312998b"
+    },
+    {
+      "path": "docs/ci-pins.json",
+      "bytes": 199,
+      "sha256": "1ddf3d89e79bee98f6a3aab6344239159afadb172ed79e2ad6d702f90d8237be"
+    },
+    {
+      "path": "docs/codex-mcp.md",
+      "bytes": 5012,
+      "sha256": "f0e1011b2f531b0fd2467b9729c411ea91740d2795997dbc16f54bbe847721e7"
+    },
+    {
+      "path": "docs/first-session.md",
+      "bytes": 6545,
+      "sha256": "88958681d48a2044ecbaa949b9a22fc33745b9f3ad61ef5639b820a36c24e203"
+    },
+    {
+      "path": "docs/history/original-base-installed-requirements.txt",
+      "bytes": 4384,
+      "sha256": "1ecb1ebadd1bfb5dea47d063428590ffe37aad815919f3ceda36516ea97f008d"
+    },
+    {
+      "path": "docs/history/original-reference-installed-requirements.txt",
+      "bytes": 4384,
+      "sha256": "1ecb1ebadd1bfb5dea47d063428590ffe37aad815919f3ceda36516ea97f008d"
+    },
+    {
+      "path": "docs/history/original-reference-trial-setup.json",
+      "bytes": 658,
+      "sha256": "ab9266a3c45252d228837c54789a99319817377a5d7ec7acef55c30c0e362dfa"
+    },
+    {
+      "path": "docs/history/original-technical-guide.md",
+      "bytes": 19075,
+      "sha256": "cb45bcfba1e4877a2371607d6fdad77aefdc8ace1c81de6f7d04da7b2c345a29"
+    },
+    {
+      "path": "docs/live-handoff-trial.md",
+      "bytes": 3215,
+      "sha256": "92e936418de9f48e5e8a9f254114d784a467beb292cf7862814f22ef1be05d28"
+    },
+    {
+      "path": "docs/new-video.md",
+      "bytes": 5293,
+      "sha256": "5328151d03b1f4738885cb2a1dbc6286ea98eb09653ec9b3adef4650e788a02d"
+    },
+    {
+      "path": "docs/offline-tests.txt",
+      "bytes": 8152,
+      "sha256": "7988f39472653046405d7cfc335f60b3c43499478370304994a5e527a8356b50"
+    },
+    {
+      "path": "docs/onboarding-trial.json",
+      "bytes": 7770,
+      "sha256": "bf2eada761e150c07038668476530de44b9b9650fdcfbe92a623259ff9d693a6"
+    },
+    {
+      "path": "docs/post-live-offline-tests.txt",
+      "bytes": 8152,
+      "sha256": "577d26c6009c81de900cd7fc23834dc80cc90e9d454b2b6609e3821e0e805dc7"
+    },
+    {
+      "path": "docs/production-lessons.md",
+      "bytes": 13132,
+      "sha256": "2573125290251a6c812d9f7f7098bd4b34a5a06a134384f8e1aa3d77ea95f222"
+    },
+    {
+      "path": "docs/production-record.md",
+      "bytes": 3652,
+      "sha256": "097593db6c43350ff75e36e5e4e5c63936a7b8ce53adf07ff9524244a863bfd4"
+    },
+    {
+      "path": "docs/quality-and-editing.md",
+      "bytes": 7498,
+      "sha256": "6b6191d8dc91a7e87db9b0798cb4d7a915d64f5482c228868333b2a8b43662e5"
+    },
+    {
+      "path": "docs/release-checks.json",
+      "bytes": 8557,
+      "sha256": "86310863f20d965342e9c109e79e60f0a7c530f6cb0b940ef2ee9431eb151782"
+    },
+    {
+      "path": "docs/runpod-openapi-checked.json",
+      "bytes": 482,
+      "sha256": "0fe975f36a338e5334189ebab843d5e97e7503fd1a1b2ef0e6c345733dc97eca"
+    },
+    {
+      "path": "docs/runpod-quote.md",
+      "bytes": 4592,
+      "sha256": "7c3c98c71cf19af19d531078428b8fe8b628cd99bebc90c8a4db2172635d336f"
+    },
+    {
+      "path": "docs/runpod-runbook.md",
+      "bytes": 11097,
+      "sha256": "4d1fa636c7f1539073f2df4a4ef9037bd9179f5ea29c1d9a58adc423ff561596"
+    },
+    {
+      "path": "docs/single-clip-preview.md",
+      "bytes": 2947,
+      "sha256": "b1733e6414843dfa7d98732d173faa274464bb26b1195ccf4d0c21d64cf6725a"
+    },
+    {
+      "path": "docs/troubleshooting.md",
+      "bytes": 5022,
+      "sha256": "42a6bfd659bcd688719e77b2449cdbff430e9930eefd972c4a3ac325829d5768"
+    },
+    {
+      "path": "examples/bitcoin-contest/contact-sheet.jpg",
+      "bytes": 77350,
+      "sha256": "4d4b1f1f1b216f0a7e2ae3e0ac8bb8671beede349a4b5f4d84fbf671b97ec8d0"
+    },
+    {
+      "path": "examples/bitcoin-contest/cuts.json",
+      "bytes": 2591,
+      "sha256": "8f5341844a8311c9e796e0c077656014ac0436256689d23643f890e4afb92d98"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-edited-transcripts/03a.json",
+      "bytes": 2840,
+      "sha256": "7ed972b1bb1dfad803d61c9cc55a26ba46629313407bba0a974c8e6e2bfd1495"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-edited-transcripts/03b.json",
+      "bytes": 2847,
+      "sha256": "531ef5e45e6254e2e65dc7b0c04901ba20aa14c8ba85c4f27523010509694a44"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-edited-transcripts/04.json",
+      "bytes": 714,
+      "sha256": "6fb9e09051ed37eed8f98658d4d1589e6b544aaffed1d66a957b1c90cabdd73f"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-edited-transcripts/05b.json",
+      "bytes": 1926,
+      "sha256": "fca2d3eeff26aecf3fffc451d9c020a64a808e61b90d32b57fbcbc691c23f2df"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-edited-transcripts/06a.json",
+      "bytes": 1457,
+      "sha256": "d98696d1337033908df051ef9e85ae244ac99c1770c6fc4eb5b6116fe358b5ec"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-edited-transcripts/06b.json",
+      "bytes": 1457,
+      "sha256": "fb150a38b1549b52894e948f9116825392521a4f33d0a43c514cd58ef9409bf9"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-edited-transcripts/06c.json",
+      "bytes": 1173,
+      "sha256": "76c55c77f6b61b5ba887a7943860c1e94bb56789c490c0e53fc4b2c308093354"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-edited-transcripts/the-bitcoin-contest-final.json",
+      "bytes": 28574,
+      "sha256": "24e515991b879990f4a02beb71efdfb73bab79d49c426804b10a7a0a724ad3f5"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-edited-transcripts/the-bitcoin-contest.json",
+      "bytes": 33146,
+      "sha256": "0cf5e929d13dba934608aed7062b77e65fe4a2daeb2aa26bee0205e6a699c33e"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts/run_2062f6cb686343ab_01b_00001_.json",
+      "bytes": 2469,
+      "sha256": "97db8be8ff4da8830068501a2201e575c7102c06d5fa086bbcd3c58346c7bca8"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts/run_2062f6cb686343ab_01c_00001_.json",
+      "bytes": 4375,
+      "sha256": "9ffdedfb117358727a2e1b21627cd856231a467c89e9960a1301d696774f60be"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts/run_2062f6cb686343ab_02a_00001_.json",
+      "bytes": 2792,
+      "sha256": "750c8ab16a1abdc2649fa1cb35f9e2ce39a606e47573128fe2183c996ed6de75"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts/run_2062f6cb686343ab_02b_00001_.json",
+      "bytes": 1863,
+      "sha256": "df1200f73e18cd72a7a708ce9844236214223ebb79ecce476f5b4e9332e1e087"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts/run_2062f6cb686343ab_03a_00001_.json",
+      "bytes": 4101,
+      "sha256": "bfda690d13cd1fba16bc9e317db4c4e1bac75552b08df417a9e0dbe3a6cd0083"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts/run_2062f6cb686343ab_03b_00001_.json",
+      "bytes": 4991,
+      "sha256": "7e9c188272cc90c28544b082ebbb7be306a9a8fb7f82a07b2b5fa26e043e2110"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts/run_2062f6cb686343ab_04_00001_.json",
+      "bytes": 2646,
+      "sha256": "60e79c0bdce324495bd5fbaedd33490685160132ccc97772c679c76cc7267c4f"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts/run_2062f6cb686343ab_05a_00001_.json",
+      "bytes": 2915,
+      "sha256": "a1016ba7b7577f84a4160fc2f5306052424cedef0a58aa01754b611fcc0f9765"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts/run_2062f6cb686343ab_05b_00001_.json",
+      "bytes": 2251,
+      "sha256": "efcaf9cc2dceaa615709f2193c53def6ece774b2a6149564019bab34fc79f4a7"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts/run_2062f6cb686343ab_05c_00001_.json",
+      "bytes": 2862,
+      "sha256": "2142cd326929f6c9921f3fb29c37674479b6187aeb3cae6306ca8c67d3c81653"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts/run_2062f6cb686343ab_06a_00001_.json",
+      "bytes": 4022,
+      "sha256": "90e305ee211451c81f52cf4bf9cf1288d1561b1e2fdea0a608f69952c65daeb7"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts/run_2062f6cb686343ab_06b_00001_.json",
+      "bytes": 1632,
+      "sha256": "90ac1c0b889610d4bb0ca2f46f84e1949d3e9ce0c68e03abbb09c9c5caa203fa"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts/run_2062f6cb686343ab_06c_00001_.json",
+      "bytes": 3513,
+      "sha256": "758145045aa316cc9ffe74417558c9acd67c3c119b56ddbf7b6d756ddfbddd99"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts/run_5789e21813be4665_01a_00001_.json",
+      "bytes": 3932,
+      "sha256": "6014d71ab8e4f5b5baf46d95d578b4acc159b15f910ac2fb3486991289cd1b21"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts/run_5789e21813be4665_01b_00001_.json",
+      "bytes": 2927,
+      "sha256": "d14603a50eace6044c2aed9047524e8f62125dc39575a2f3323eef2345cf24b3"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts-final/run_2062f6cb686343ab_01b_00001_.json",
+      "bytes": 2469,
+      "sha256": "97db8be8ff4da8830068501a2201e575c7102c06d5fa086bbcd3c58346c7bca8"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts-final/run_2062f6cb686343ab_01c_00001_.json",
+      "bytes": 4375,
+      "sha256": "9ffdedfb117358727a2e1b21627cd856231a467c89e9960a1301d696774f60be"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts-final/run_2062f6cb686343ab_02a_00001_.json",
+      "bytes": 2792,
+      "sha256": "750c8ab16a1abdc2649fa1cb35f9e2ce39a606e47573128fe2183c996ed6de75"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts-final/run_2062f6cb686343ab_02b_00001_.json",
+      "bytes": 1863,
+      "sha256": "df1200f73e18cd72a7a708ce9844236214223ebb79ecce476f5b4e9332e1e087"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts-final/run_2062f6cb686343ab_03a_00001_.json",
+      "bytes": 4101,
+      "sha256": "bfda690d13cd1fba16bc9e317db4c4e1bac75552b08df417a9e0dbe3a6cd0083"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts-final/run_2062f6cb686343ab_03b_00001_.json",
+      "bytes": 4991,
+      "sha256": "7e9c188272cc90c28544b082ebbb7be306a9a8fb7f82a07b2b5fa26e043e2110"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts-final/run_2062f6cb686343ab_04_00001_.json",
+      "bytes": 2646,
+      "sha256": "60e79c0bdce324495bd5fbaedd33490685160132ccc97772c679c76cc7267c4f"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts-final/run_2062f6cb686343ab_05a_00001_.json",
+      "bytes": 2915,
+      "sha256": "a1016ba7b7577f84a4160fc2f5306052424cedef0a58aa01754b611fcc0f9765"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts-final/run_2062f6cb686343ab_05b_00001_.json",
+      "bytes": 2251,
+      "sha256": "efcaf9cc2dceaa615709f2193c53def6ece774b2a6149564019bab34fc79f4a7"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts-final/run_2062f6cb686343ab_05c_00001_.json",
+      "bytes": 3733,
+      "sha256": "ac08e189c7152c3d6a2d943ef019c16a18e13f14377d7260877fed62d730fcb7"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts-final/run_2062f6cb686343ab_06a_00001_.json",
+      "bytes": 3408,
+      "sha256": "63303872a4e09ce3e999c7e2ff6e6fd5248e5e9efbad74a7ad1ea351d826d860"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts-final/run_2062f6cb686343ab_06b_00001_.json",
+      "bytes": 2597,
+      "sha256": "1fed8e72e1f78884d96067edea5fd9253ac456816631923c01fa0dd2c6c8d9d1"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts-final/run_2062f6cb686343ab_06c_00001_.json",
+      "bytes": 3353,
+      "sha256": "1f6c5f0b7f2be01bbedbf0418f49410e019833a9aa96c238f514e105592e52ed"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts-final/run_5789e21813be4665_01a_00001_.json",
+      "bytes": 3932,
+      "sha256": "6014d71ab8e4f5b5baf46d95d578b4acc159b15f910ac2fb3486991289cd1b21"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts-small/run_2062f6cb686343ab_02a_00001_.json",
+      "bytes": 2937,
+      "sha256": "c915d3138d58a34789647232236fd6524023c82754ac8e47fef00bcbb366d0a2"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts-small/run_2062f6cb686343ab_03a_00001_.json",
+      "bytes": 4097,
+      "sha256": "c7f973c083636227a32562f5d9b5e0ff0b4f5a13aff335f9913ace3b8e23fda8"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts-small/run_2062f6cb686343ab_03b_00001_.json",
+      "bytes": 4878,
+      "sha256": "cf8a8c87f1dd63dbf279a6163d5bb480d8fbe5fb9ae7305f0d88fe962ec6e47d"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts-small/run_2062f6cb686343ab_04_00001_.json",
+      "bytes": 1985,
+      "sha256": "76c94428e91a0d91e82400c931cd23972110b35996ab9ae65709c94168719c6a"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts-small/run_2062f6cb686343ab_05b_00001_.json",
+      "bytes": 2338,
+      "sha256": "1106c5182be077c70ed74efe272461806474c48a69e19ddf53399864fcfaaaa2"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts-small/run_2062f6cb686343ab_05c_00001_.json",
+      "bytes": 3733,
+      "sha256": "ac08e189c7152c3d6a2d943ef019c16a18e13f14377d7260877fed62d730fcb7"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts-small/run_2062f6cb686343ab_06a_00001_.json",
+      "bytes": 3408,
+      "sha256": "63303872a4e09ce3e999c7e2ff6e6fd5248e5e9efbad74a7ad1ea351d826d860"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts-small/run_2062f6cb686343ab_06b_00001_.json",
+      "bytes": 2597,
+      "sha256": "1fed8e72e1f78884d96067edea5fd9253ac456816631923c01fa0dd2c6c8d9d1"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/episode-transcripts-small/run_2062f6cb686343ab_06c_00001_.json",
+      "bytes": 3353,
+      "sha256": "1f6c5f0b7f2be01bbedbf0418f49410e019833a9aa96c238f514e105592e52ed"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/rejected-01b/clip.mp4",
+      "bytes": 288724,
+      "sha256": "0983171509b7d8dcabd53c6b253c0bd82d9d12e87775b2a67cdc70df7fffcbab"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/rejected-01b/contact_sheet.jpg",
+      "bytes": 40480,
+      "sha256": "b5f61ce244aee8be1b0344f9fe6e3c71bcea18afac47d44d1c8d718d2ca18666"
+    },
+    {
+      "path": "examples/bitcoin-contest/evidence/rejected-01b/workflow.api.json",
+      "bytes": 7719,
+      "sha256": "eb52eb527a99d2eedfe7d56eca4bae44d2765e48286bfbe1ecaf8a88d4a252ba"
+    },
+    {
+      "path": "examples/bitcoin-contest/final.dialogue.json",
+      "bytes": 6047,
+      "sha256": "bb9ba3d82c39da2ecf7bc72db452ca3ec78beeda5929aaa735a85d7b023685d1"
+    },
+    {
+      "path": "examples/bitcoin-contest/final.edit.json",
+      "bytes": 10454,
+      "sha256": "47da18df15cee4952199cac536af80fdbe7b4cad1647e9c8cb41c205101041e0"
+    },
+    {
+      "path": "examples/bitcoin-contest/final.mp4",
+      "bytes": 7492334,
+      "sha256": "fc663bb2b89cfd062f88475243db9e9ab012e9d1040434ae04ee377bf4e12893"
+    },
+    {
+      "path": "examples/bitcoin-contest/original-offline-tests.txt",
+      "bytes": 7043,
+      "sha256": "0e6989a8989f0471d3044a4784c3e53f31e94f05f6b6defb1f5e0809bf0c72a6"
+    },
+    {
+      "path": "examples/bitcoin-contest/plan.json",
+      "bytes": 17965,
+      "sha256": "6c212662e00d95545eb2abdf04b4e5c738a4a01719ca8f22024f32115fac98af"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/01a/clip.mp4",
+      "bytes": 486212,
+      "sha256": "87a423fbe134a205c1a5c83fb8ff8365ceb1e9fbd8ad79e7fe14a0112b5dcaac"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/01a/contact_sheet.jpg",
+      "bytes": 44318,
+      "sha256": "b26e9add644e1af9e788a20b8cf9e613991c8691368898c8ded1a26ae16e0bf4"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/01a/history.json",
+      "bytes": 10406,
+      "sha256": "27fd289fb434f3a343a53ed931f731d9705176e95906a4359067289dc9ba54cf"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/01a/last_frame.png",
+      "bytes": 322095,
+      "sha256": "7de148862c602c3b47db743195d79a7f0c9436612bde7d317b3db3c7d9c8c413"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/01a/qc.json",
+      "bytes": 275,
+      "sha256": "7f70f3cf9640bb583cd19a57a42c2ad00d09e3451ab4e31a5cac35946ce68b4f"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/01a/reference-inputs.json",
+      "bytes": 941,
+      "sha256": "e048a8ee701b083a1c2aa0f4d8e7c85beaca8b49c5de26b8a60504f053061e39"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/01a/workflow.api.json",
+      "bytes": 8062,
+      "sha256": "f733ce84dc1ec3300df468cfda9a4bf897e128ed54ffaa86ef6728ba63fb8582"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/01b/clip.mp4",
+      "bytes": 491197,
+      "sha256": "85d463c9f86a694bb5adf71627f1cf3275bdbdff253b8eef0b4c167145797c56"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/01b/contact_sheet.jpg",
+      "bytes": 42415,
+      "sha256": "ba1a44575fd9896c9c2a24b1b1ab938757d76276dde2fce496a27ae8dfeb2d32"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/01b/history.json",
+      "bytes": 10617,
+      "sha256": "a3fdcb90f4eff50b4f8402f842401b8e049db03bfd6670396b7ee9a629904f38"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/01b/last_frame.png",
+      "bytes": 367637,
+      "sha256": "1de5a5bc8b9b741aee28b602b33d02bc6bfb8174d6584e6b55478157ad90bd53"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/01b/qc.json",
+      "bytes": 266,
+      "sha256": "a7358bb0a9c1476d5a261270868e62b68860698b689f6e9aee89bc4b04b8d797"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/01b/reference-inputs.json",
+      "bytes": 1005,
+      "sha256": "592726a2c0c89f7ef901e8f820668fc293178d6c12c4d8950912b3fb523e8678"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/01b/workflow.api.json",
+      "bytes": 8053,
+      "sha256": "8e5692b5453262baf9eacea087cbb2c5136467ec4f58245df67202143c63d8cd"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/01c/clip.mp4",
+      "bytes": 558176,
+      "sha256": "386a53ca009ffdcd3c3750711afb4534e6d264d3e784ab4713f8c1ee706cc1ad"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/01c/contact_sheet.jpg",
+      "bytes": 36483,
+      "sha256": "52411420e4bbf289f056ecaa381a8769d3a7c660c3f342e2d57e4410bbd7d868"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/01c/history.json",
+      "bytes": 10649,
+      "sha256": "ba3a2dbea7229da0702bdefe3327e8eda76258ac8827d7ae5d4ddc2deb04974a"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/01c/last_frame.png",
+      "bytes": 296864,
+      "sha256": "a7621c942bf2facac1969b164b4034a05efec4ad0c8e10165e23e2ca77fec80c"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/01c/qc.json",
+      "bytes": 272,
+      "sha256": "481e87d9529d750970f3a3c19bd16f4d6ca8360d22217cb802674c68bc0845b3"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/01c/reference-inputs.json",
+      "bytes": 975,
+      "sha256": "f727ef17211089a1565dd55d1bef7df03e6f779e822e5c03b7a4120aeee1b230"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/01c/workflow.api.json",
+      "bytes": 8085,
+      "sha256": "20fe978072b94751e37bfc3b1afa72b4e7c21cefda476a312b3746281ef3f0b9"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/02a/clip.mp4",
+      "bytes": 413658,
+      "sha256": "63d5f977e483d53275817170fbbee0e4c0ef055f9108cb73ea397f2b8c8a7391"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/02a/contact_sheet.jpg",
+      "bytes": 42304,
+      "sha256": "f7fc7e066649fe1ba8431d0ba509d9ac75a45df0375d602a9073f1f11f978aa6"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/02a/history.json",
+      "bytes": 9420,
+      "sha256": "9213424651d7545dd38cd7809da65a5dd9f93962ba122e64915e9e6eab08b0f3"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/02a/last_frame.png",
+      "bytes": 382415,
+      "sha256": "36e2c49a56f27b27e238a8f7b3a1237983e7ddc9a732189616efd64acf742441"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/02a/qc.json",
+      "bytes": 266,
+      "sha256": "a7358bb0a9c1476d5a261270868e62b68860698b689f6e9aee89bc4b04b8d797"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/02a/reference-inputs.json",
+      "bytes": 788,
+      "sha256": "14b31b996d2061738b3c1b905ba0316bd872405949fa52ef09ebd8b097c43c59"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/02a/workflow.api.json",
+      "bytes": 6984,
+      "sha256": "e4bcd8d76d71a9557909ded9c9cd8e56ae360f5953e0465908ccb6b5416e50b8"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/02b/clip.mp4",
+      "bytes": 341179,
+      "sha256": "2ed25bb0f53f27a26d6588507bf2f0433340b7c4e55396513aeb5096f26f0e89"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/02b/contact_sheet.jpg",
+      "bytes": 39699,
+      "sha256": "354efd53d6592eb41adec5b5e7354e6018485a4ef8bbadb7223b0ba7d1d4b757"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/02b/history.json",
+      "bytes": 9331,
+      "sha256": "121c8dda054b4fedbca575df0909c55c3ce9e2a3a5f0544fe985b80be8dd36c0"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/02b/last_frame.png",
+      "bytes": 370238,
+      "sha256": "2c0723675d55bfa69d237055bec32aa254ba72633d338725b5cf2038539f9448"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/02b/qc.json",
+      "bytes": 273,
+      "sha256": "bc95bbf546780afab0816c36404c01c000c8908348d5dccc95aed52a0b84d2a5"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/02b/reference-inputs.json",
+      "bytes": 762,
+      "sha256": "b9068ef01f7336028c3f0c2c4944ffe9fb84e964970e4bd0641d1a676827d85e"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/02b/workflow.api.json",
+      "bytes": 6895,
+      "sha256": "9e5a2102d0b230568d79176b6c6b0903b8d6329157807bdf25befabd5657671a"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/03a/clip.mp4",
+      "bytes": 416927,
+      "sha256": "0482618f2774dc979292eb5e1ef9c9a4dc11f07b17619e600b5b367479aeeb6b"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/03a/contact_sheet.jpg",
+      "bytes": 37787,
+      "sha256": "dec979c6533131dd3d83706e3771cee3aa39524bb268a8bf683c0b9de65d7e0d"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/03a/history.json",
+      "bytes": 10337,
+      "sha256": "8e7fbf5fe28fd7e736898ccfce1e309d3f36e0ee75f6df56c79adcf8325369a1"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/03a/last_frame.png",
+      "bytes": 341138,
+      "sha256": "1a62f1eb5e953e4aef133f15b9b9799f6a7be904aeb66e400194c521bcbc353c"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/03a/qc.json",
+      "bytes": 266,
+      "sha256": "a7358bb0a9c1476d5a261270868e62b68860698b689f6e9aee89bc4b04b8d797"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/03a/reference-inputs.json",
+      "bytes": 1001,
+      "sha256": "3e8bc5ff527ebe6f15f410cdc466a156aad2e41a4ec97b56802d89ac7f89c86b"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/03a/workflow.api.json",
+      "bytes": 7809,
+      "sha256": "3fb388b03c0afee6f0ae41ab46e8492779b46e3774859d0ebf1a800da8172edd"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/03b/clip.mp4",
+      "bytes": 457325,
+      "sha256": "5099556b72c28fd231ffa4788b6e132ecd82f0877b501786832dbe1046a7feda"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/03b/contact_sheet.jpg",
+      "bytes": 34407,
+      "sha256": "70d7ed0b10406126575ca0b5442f953515690368a96ff1f455303a4762f0491c"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/03b/history.json",
+      "bytes": 10277,
+      "sha256": "508b91ab6d4a214506e9dd03521006c5b19f17adb5e437b9fb50f2267447fe59"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/03b/last_frame.png",
+      "bytes": 322251,
+      "sha256": "36c956310b0646e83dade653e511f1f3ae84158ca7933a99625cddd88584a3d0"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/03b/qc.json",
+      "bytes": 273,
+      "sha256": "de5353bcc56dbcf43981e18e026fd523c68574096c7978614e5ad755fb0c674a"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/03b/reference-inputs.json",
+      "bytes": 975,
+      "sha256": "43f56b04f5d02bbfef4efdf95b2d16557c1e775111d5d2270ef1dd630832783b"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/03b/workflow.api.json",
+      "bytes": 7713,
+      "sha256": "20ef612179876f858a0fbb990ecab04f059619ad77e3e915f3a4901b8c456faf"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/04/clip.mp4",
+      "bytes": 390073,
+      "sha256": "b987b0767d8060dbee77fd87dcbffad0bb54a38f5616855a5e146b419fbe19f4"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/04/contact_sheet.jpg",
+      "bytes": 36967,
+      "sha256": "ee79c725655b14b5c9a43665ae2ceb6e351142e71693b5d394be351b36830fae"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/04/history.json",
+      "bytes": 8670,
+      "sha256": "7f836870b373bf3b134cf3c9bbd628c8cd9521fa738ccdc6624d6065734fc52d"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/04/last_frame.png",
+      "bytes": 341903,
+      "sha256": "024959bd21dcd221fed2c9a2195fe13d90400727ff8f04d9d820c4224b664eda"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/04/qc.json",
+      "bytes": 273,
+      "sha256": "9c11da059d87f1284fb7a860943343ae290d89fe526cd7bf1f138e5d48c0f561"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/04/reference-inputs.json",
+      "bytes": 579,
+      "sha256": "fac4e7f28b429f24873e2792735789c20941d23dd72f7973ce5b173b8b31f243"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/04/workflow.api.json",
+      "bytes": 6363,
+      "sha256": "831d7f8b57cc6130c774e5de53a01015d3a8b5967bcc75fa9c8ac870cecf402b"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/05a/clip.mp4",
+      "bytes": 522254,
+      "sha256": "6e09a496e21c5edd63a0740ed62951f29ed5a5b53427e22a80e79bc7058e8f8a"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/05a/contact_sheet.jpg",
+      "bytes": 41797,
+      "sha256": "830fb18f07d13eafef469f921d7f4a9f3c2a385e2f42b9e742fedbb3d9e3f523"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/05a/history.json",
+      "bytes": 11758,
+      "sha256": "90467c8612591d54a89d24630ab98327bfbe280b5c16d409af25966d0214c89e"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/05a/last_frame.png",
+      "bytes": 358277,
+      "sha256": "8d3d8fabffe8ebf565fc22926566c3c7ae48f46188bef70651782f2a9a52a081"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/05a/qc.json",
+      "bytes": 273,
+      "sha256": "de5353bcc56dbcf43981e18e026fd523c68574096c7978614e5ad755fb0c674a"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/05a/reference-inputs.json",
+      "bytes": 1212,
+      "sha256": "204a47f04070cec638afecbfb34a38513a244924f97dd0cf4db23341418da5c8"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/05a/workflow.api.json",
+      "bytes": 9066,
+      "sha256": "bfc771bc3c7d314ad3fa3118be80d7bab2c1b9c63aa73f09c18336c64eff8846"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/05b/clip.mp4",
+      "bytes": 366916,
+      "sha256": "f0da85f1e106313a7efa8317d544fb170950d6784320fa564cd43c57335b750e"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/05b/contact_sheet.jpg",
+      "bytes": 38418,
+      "sha256": "2ed03dbcfb903a12b2b0ccb89aece3c276017c52ac581bd288e6b97e5f6a5278"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/05b/history.json",
+      "bytes": 11597,
+      "sha256": "dc514826644ef1aac76a3ed81f298d10d52f930f979806a40c62c6629148eed9"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/05b/last_frame.png",
+      "bytes": 342234,
+      "sha256": "8337915d5cdc5c3f42ef22b6cf213e6fd1614cad871cf6726f9f0c6af5d5b372"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/05b/qc.json",
+      "bytes": 266,
+      "sha256": "a7358bb0a9c1476d5a261270868e62b68860698b689f6e9aee89bc4b04b8d797"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/05b/reference-inputs.json",
+      "bytes": 1188,
+      "sha256": "3a4577a208d7ec59a3cf6d08a35f2a0e96257839912874bb7bdbc0785e173f78"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/05b/workflow.api.json",
+      "bytes": 8904,
+      "sha256": "ec2cec58b1c5254807aa466b9711c376daf185be61a3207aa21fb0971638cba1"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/05c/clip.mp4",
+      "bytes": 476714,
+      "sha256": "34ef7032e66dead101ddec17058b7363b631da51af424b2ef40995f721044a46"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/05c/contact_sheet.jpg",
+      "bytes": 35425,
+      "sha256": "91295abff1323ab5c56209cdb677e1f62e1eac862254cbbbddd98ab40a48d9d8"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/05c/history.json",
+      "bytes": 11695,
+      "sha256": "840ad73f3b522a729db7ca02a8a495a33886cf0217f162b868a59e9b549c269c"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/05c/last_frame.png",
+      "bytes": 326586,
+      "sha256": "28b8447b351b83b059b4dc63ed986d742bf406ca8ea8eec2042b44923c997e0c"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/05c/qc.json",
+      "bytes": 272,
+      "sha256": "481e87d9529d750970f3a3c19bd16f4d6ca8360d22217cb802674c68bc0845b3"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/05c/reference-inputs.json",
+      "bytes": 1188,
+      "sha256": "f1691dd2db0d642ea33e59d3b84ea260d631100e468854a1c353b7e80c5b5ca6"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/05c/workflow.api.json",
+      "bytes": 9002,
+      "sha256": "2cc231c434106b4067d548b655da9f2a175b6283115144b522c99678a6811823"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/06a/clip.mp4",
+      "bytes": 275214,
+      "sha256": "845ca87493a6c602cd18a47684c4c8f0d22968c1a76ca7b272246ac33e3674c9"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/06a/contact_sheet.jpg",
+      "bytes": 33691,
+      "sha256": "2a1673fa918a474548389f3ad274c4b78e41ed1096c38db2c6d61705ce5d4e81"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/06a/history.json",
+      "bytes": 11393,
+      "sha256": "5b0050d3410aea04566b5ab4e26f91b207a1a991f6f6a787641dbd41386c5e3e"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/06a/last_frame.png",
+      "bytes": 301989,
+      "sha256": "6a70252264452484a13a7c07350a515fed5a0032b312f8440bbdeea3ca5afd84"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/06a/qc.json",
+      "bytes": 273,
+      "sha256": "9c11da059d87f1284fb7a860943343ae290d89fe526cd7bf1f138e5d48c0f561"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/06a/reference-inputs.json",
+      "bytes": 1188,
+      "sha256": "f8fc6ed3038ee4798f854cc8731145ecc12a7c5d1e681d09207a13d33ac6c7e9"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/06a/workflow.api.json",
+      "bytes": 8700,
+      "sha256": "877071f757f3ee4970dd675417819696ecf0d46f26168862251047c8204ebac9"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/06b/clip.mp4",
+      "bytes": 261585,
+      "sha256": "3a5547425dcfdfed528d31df1e1d7898ea3ccaf2abaf9a1583aa3771827faa19"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/06b/contact_sheet.jpg",
+      "bytes": 31430,
+      "sha256": "1c65e41b2eddf352d0ed7f6e77f4b9c8d5ed5a0996634068e780a226a96c7710"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/06b/history.json",
+      "bytes": 11447,
+      "sha256": "e83cb60f980612ef00416e1956505932e762bd11c91798d6ad0efd6ad0805979"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/06b/last_frame.png",
+      "bytes": 267402,
+      "sha256": "a7c5c54db6f9a7a8b40ac2ba2e63e6f11bb5fd78ed38f29b61cc53974dfb83f3"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/06b/qc.json",
+      "bytes": 273,
+      "sha256": "9c11da059d87f1284fb7a860943343ae290d89fe526cd7bf1f138e5d48c0f561"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/06b/reference-inputs.json",
+      "bytes": 1188,
+      "sha256": "189157e672cee255e288a0c146e8602a3574f5ee2a3db090c70ec3b01bdb04ca"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/06b/workflow.api.json",
+      "bytes": 8754,
+      "sha256": "c33a0f092c7050f507ff968fb2011722d0e35d4539d9b01bc09de1a75a3f40da"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/06c/clip.mp4",
+      "bytes": 230185,
+      "sha256": "0d344d06c25b1f98616c0052eec30b952eeb143a79a0ea13e9f996781af98b68"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/06c/contact_sheet.jpg",
+      "bytes": 29381,
+      "sha256": "9a292eaaf7cf179e6c14570c9ebbf9dec890c5bdc6f20fee7310a3d9925dbe5a"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/06c/history.json",
+      "bytes": 10444,
+      "sha256": "bd36aecf3bcddff828fedab035881bcafc4a04bbe2647e57a1cae2c805e0bbbb"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/06c/last_frame.png",
+      "bytes": 265498,
+      "sha256": "571c43438a508231c638bb30eb7e79299a0bc04820763e4b5f772e74d375a41f"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/06c/qc.json",
+      "bytes": 273,
+      "sha256": "9c11da059d87f1284fb7a860943343ae290d89fe526cd7bf1f138e5d48c0f561"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/06c/reference-inputs.json",
+      "bytes": 975,
+      "sha256": "bd753a30275c1d3ec57934a82927293fe896cde844ce09e05eb6f4c09e5892c7"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/06c/workflow.api.json",
+      "bytes": 7879,
+      "sha256": "0c9e2a8175ca03e656dcb9c5643b39ccafc63970f5158305052148bc799fa90c"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/plan.json",
+      "bytes": 17965,
+      "sha256": "6c212662e00d95545eb2abdf04b4e5c738a4a01719ca8f22024f32115fac98af"
+    },
+    {
+      "path": "examples/bitcoin-contest/run/state.json",
+      "bytes": 9428,
+      "sha256": "4bb8d1729b4d5623c7ded4791a060aec5c7a45a037a41b29a6e4bd9812f54946"
+    },
+    {
+      "path": "examples/bitcoin-contest/transcripts/run_2062f6cb686343ab_01b_00001_.json",
+      "bytes": 2469,
+      "sha256": "97db8be8ff4da8830068501a2201e575c7102c06d5fa086bbcd3c58346c7bca8"
+    },
+    {
+      "path": "examples/bitcoin-contest/transcripts/run_2062f6cb686343ab_01c_00001_.json",
+      "bytes": 4375,
+      "sha256": "9ffdedfb117358727a2e1b21627cd856231a467c89e9960a1301d696774f60be"
+    },
+    {
+      "path": "examples/bitcoin-contest/transcripts/run_2062f6cb686343ab_02a_00001_.json",
+      "bytes": 2792,
+      "sha256": "750c8ab16a1abdc2649fa1cb35f9e2ce39a606e47573128fe2183c996ed6de75"
+    },
+    {
+      "path": "examples/bitcoin-contest/transcripts/run_2062f6cb686343ab_02b_00001_.json",
+      "bytes": 1863,
+      "sha256": "df1200f73e18cd72a7a708ce9844236214223ebb79ecce476f5b4e9332e1e087"
+    },
+    {
+      "path": "examples/bitcoin-contest/transcripts/run_2062f6cb686343ab_03a_00001_.json",
+      "bytes": 4101,
+      "sha256": "bfda690d13cd1fba16bc9e317db4c4e1bac75552b08df417a9e0dbe3a6cd0083"
+    },
+    {
+      "path": "examples/bitcoin-contest/transcripts/run_2062f6cb686343ab_03b_00001_.json",
+      "bytes": 4991,
+      "sha256": "7e9c188272cc90c28544b082ebbb7be306a9a8fb7f82a07b2b5fa26e043e2110"
+    },
+    {
+      "path": "examples/bitcoin-contest/transcripts/run_2062f6cb686343ab_04_00001_.json",
+      "bytes": 2646,
+      "sha256": "60e79c0bdce324495bd5fbaedd33490685160132ccc97772c679c76cc7267c4f"
+    },
+    {
+      "path": "examples/bitcoin-contest/transcripts/run_2062f6cb686343ab_05a_00001_.json",
+      "bytes": 2915,
+      "sha256": "a1016ba7b7577f84a4160fc2f5306052424cedef0a58aa01754b611fcc0f9765"
+    },
+    {
+      "path": "examples/bitcoin-contest/transcripts/run_2062f6cb686343ab_05b_00001_.json",
+      "bytes": 2251,
+      "sha256": "efcaf9cc2dceaa615709f2193c53def6ece774b2a6149564019bab34fc79f4a7"
+    },
+    {
+      "path": "examples/bitcoin-contest/transcripts/run_2062f6cb686343ab_05c_00001_.json",
+      "bytes": 3733,
+      "sha256": "ac08e189c7152c3d6a2d943ef019c16a18e13f14377d7260877fed62d730fcb7"
+    },
+    {
+      "path": "examples/bitcoin-contest/transcripts/run_2062f6cb686343ab_06a_00001_.json",
+      "bytes": 3408,
+      "sha256": "63303872a4e09ce3e999c7e2ff6e6fd5248e5e9efbad74a7ad1ea351d826d860"
+    },
+    {
+      "path": "examples/bitcoin-contest/transcripts/run_2062f6cb686343ab_06b_00001_.json",
+      "bytes": 2597,
+      "sha256": "1fed8e72e1f78884d96067edea5fd9253ac456816631923c01fa0dd2c6c8d9d1"
+    },
+    {
+      "path": "examples/bitcoin-contest/transcripts/run_2062f6cb686343ab_06c_00001_.json",
+      "bytes": 3353,
+      "sha256": "1f6c5f0b7f2be01bbedbf0418f49410e019833a9aa96c238f514e105592e52ed"
+    },
+    {
+      "path": "examples/bitcoin-contest/transcripts/run_5789e21813be4665_01a_00001_.json",
+      "bytes": 3932,
+      "sha256": "6014d71ab8e4f5b5baf46d95d578b4acc159b15f910ac2fb3486991289cd1b21"
+    },
+    {
+      "path": "examples/bitcoin-contest/verification-original.json",
+      "bytes": 2028,
+      "sha256": "63b8b7ee581e8cba94a62b931afc9bec575341d831ec28081fc0828ad0831fe5"
+    },
+    {
+      "path": "examples/bitcoin-contest/visual-review.json",
+      "bytes": 6458,
+      "sha256": "53b0bff6145fad70a4e8460407774a55b2963933c8d3623a63a3b9c9dd7b69a8"
+    },
+    {
+      "path": "examples/standing-desk-draft/README.md",
+      "bytes": 1651,
+      "sha256": "4b55b7d7fec16c7218bdc97da1af0a422d25121d79ef7bf0090a3a8cedb5374e"
+    },
+    {
+      "path": "examples/standing-desk-draft/cuts.json",
+      "bytes": 34,
+      "sha256": "e4d012d9a2847287d4e8feda29b22b56e3317a2baf96e3ab1a51d90356ad5a63"
+    },
+    {
+      "path": "examples/standing-desk-draft/mix.json",
+      "bytes": 234,
+      "sha256": "6ec914d807ec818868ef86240ebcf5b5e660e154c62acf5499961facf2ce9aca"
+    },
+    {
+      "path": "examples/standing-desk-draft/plan.json",
+      "bytes": 4956,
+      "sha256": "75e1b5815375c31d4e6e9e74aef48d800f5d0e50ebe3a36a247c74feafbe2ae5"
+    },
+    {
+      "path": "examples/standing-desk-draft/references.json",
+      "bytes": 362,
+      "sha256": "5e73fef0f59406bf2b73cb63c06725b5c39e1749f93be7bd74381e5a6f354c45"
+    },
+    {
+      "path": "examples/standing-desk-draft/script.txt",
+      "bytes": 840,
+      "sha256": "e5e50a3178095c80e6fa7adb0cdb8907394bf2bde1a268c84ce5f171faa17a05"
+    },
+    {
+      "path": "examples/standing-desk-preview/README.md",
+      "bytes": 3607,
+      "sha256": "1bcd6e81084653e6859cdd6578d29a0d72896e68212cd327ddf4edcf87b49977"
+    },
+    {
+      "path": "examples/standing-desk-preview/cleanup.json",
+      "bytes": 258,
+      "sha256": "163480f8a178a347f304e93bb71b0e90c2bb39f6935400a75304cce0674d6ff2"
+    },
+    {
+      "path": "examples/standing-desk-preview/contact_sheet.jpg",
+      "bytes": 42959,
+      "sha256": "4e4d85972b48ae9f78ee79ba600efc7cc49c802b631b89025559febe40d77d15"
+    },
+    {
+      "path": "examples/standing-desk-preview/cost.json",
+      "bytes": 1189,
+      "sha256": "1022cdbb350f69a50d59c69a8ef4f523d19b203906d4a3b25ced893ea4beb2a7"
+    },
+    {
+      "path": "examples/standing-desk-preview/cuts.json",
+      "bytes": 629,
+      "sha256": "df8e14d69d8f055a79112bd2cfe0ee78d5b0d22f70a7197368abfcf956de1d61"
+    },
+    {
+      "path": "examples/standing-desk-preview/history.json",
+      "bytes": 9835,
+      "sha256": "bdd26789f5cfd8462887d94cc98897d1d7f93390d222c21b8f0c3e04d84a1eb9"
+    },
+    {
+      "path": "examples/standing-desk-preview/last_frame.png",
+      "bytes": 390897,
+      "sha256": "dd6b414b0ed262f2d883bd1d2cfa32ad72e4287ac943c2462f6f1c82c13ccbfb"
+    },
+    {
+      "path": "examples/standing-desk-preview/opening-audio-energy.json",
+      "bytes": 2010,
+      "sha256": "1105c9217b39ff27b21e329afc4328fbdbc9acd3dea0254bd32f26157f192dff"
+    },
+    {
+      "path": "examples/standing-desk-preview/opening-transcript.json",
+      "bytes": 1588,
+      "sha256": "d5d300e2d6300fbf5320d68c0734259d17e0547a2a365b5d05c1b67f1d03bd07"
+    },
+    {
+      "path": "examples/standing-desk-preview/preview-contact-sheet.jpg",
+      "bytes": 42995,
+      "sha256": "11f2f3625369ec58724b791454959f0bdc1a12b8728639b3ea3a3e71694665c0"
+    },
+    {
+      "path": "examples/standing-desk-preview/preview-last-frame.png",
+      "bytes": 404043,
+      "sha256": "b46cf58eb53077f836c38ec7588d201b7c2c308c363054033e3d2b426d60f647"
+    },
+    {
+      "path": "examples/standing-desk-preview/preview-transcript.json",
+      "bytes": 3458,
+      "sha256": "e1969422b9d15805ab004cacdda4a1fec4fa954291614a323fcde9692bd09a5e"
+    },
+    {
+      "path": "examples/standing-desk-preview/preview.mp4",
+      "bytes": 566245,
+      "sha256": "447798752f25d8540625a136e3566a37449eb76dd2819757d4698f010510b088"
+    },
+    {
+      "path": "examples/standing-desk-preview/qc.json",
+      "bytes": 273,
+      "sha256": "de5353bcc56dbcf43981e18e026fd523c68574096c7978614e5ad755fb0c674a"
+    },
+    {
+      "path": "examples/standing-desk-preview/raw-clip.mp4",
+      "bytes": 498533,
+      "sha256": "6e6062018be4748496675f36c8a7cc1fb40f1b154d46e5008d17e1b235f05b94"
+    },
+    {
+      "path": "examples/standing-desk-preview/raw-transcript.json",
+      "bytes": 3911,
+      "sha256": "ced2071dba1354ce8579794a9535f93f103199735bc83509ea2920e5149e8b39"
+    },
+    {
+      "path": "examples/standing-desk-preview/reference-inputs.json",
+      "bytes": 788,
+      "sha256": "14b31b996d2061738b3c1b905ba0316bd872405949fa52ef09ebd8b097c43c59"
+    },
+    {
+      "path": "examples/standing-desk-preview/runtime/installed-requirements.txt",
+      "bytes": 4384,
+      "sha256": "1ecb1ebadd1bfb5dea47d063428590ffe37aad815919f3ceda36516ea97f008d"
+    },
+    {
+      "path": "examples/standing-desk-preview/runtime/setup.json",
+      "bytes": 657,
+      "sha256": "6e1f07d201a5c402e42117be64db390ddb58d2f16a383ab620be098ae7cbaec0"
+    },
+    {
+      "path": "examples/standing-desk-preview/runtime/torch-constraints.txt",
+      "bytes": 71,
+      "sha256": "8f85f1d67a00efb4d90485331462cdc22f956ab92cc237d8e68a378150411eaa"
+    },
+    {
+      "path": "examples/standing-desk-preview/verification.json",
+      "bytes": 1001,
+      "sha256": "27aeed17d8f41a3f938ce2bb4ccb2910f134f5e9af7c4d238900155aa925cf73"
+    },
+    {
+      "path": "examples/standing-desk-preview/workflow.api.json",
+      "bytes": 7583,
+      "sha256": "cb479ac290e60cbce7815a2ac2fc8e0285accf02715595cc180696a70a369c83"
+    },
+    {
+      "path": "image.png",
+      "bytes": 1220398,
+      "sha256": "bdbd7e4a3fd0b9142627ad17556c1ca1674bcb2ef442709bcb694ac409702bad"
+    },
+    {
+      "path": "plans/episode-cuts-v1.json",
+      "bytes": 2591,
+      "sha256": "8f5341844a8311c9e796e0c077656014ac0436256689d23643f890e4afb92d98"
+    },
+    {
+      "path": "plans/episode-mix.json",
+      "bytes": 654,
+      "sha256": "45c53f01a5a42c46787b7873943776e566c9544b1b94f1c6a236a51b7d13c3f0"
+    },
+    {
+      "path": "plans/episode-reference-v2.json",
+      "bytes": 17965,
+      "sha256": "6c212662e00d95545eb2abdf04b4e5c738a4a01719ca8f22024f32115fac98af"
+    },
+    {
+      "path": "plans/episode-reference.json",
+      "bytes": 17507,
+      "sha256": "42a3c53e44ed1640f728f1765a1c27814a6042992121a55c00a7b3203f11587d"
+    },
+    {
+      "path": "plans/episode.json",
+      "bytes": 13992,
+      "sha256": "5ec217a9d6edc06c08ba63fc2c7b46562eb2a6c7a87e0bcec55c1c96f650b283"
+    },
+    {
+      "path": "plans/opening-reference.json",
+      "bytes": 3250,
+      "sha256": "8241eba665dcaf1a91316c5c28bbe64c3bbbf424cd2d6041d335304910d1ebbf"
+    },
+    {
+      "path": "references/episode-v1/audio/laugh-big.wav",
+      "bytes": 460878,
+      "sha256": "ced5419933ff34348c228f2462d7807a196b8e98f68ece5437cc6e3fa51574dc"
+    },
+    {
+      "path": "references/episode-v1/audio/laugh-medium.wav",
+      "bytes": 518478,
+      "sha256": "f075e5a3b63eaa3695d03a0fcff96d4abba715356e7c13528f77a7a49e85c299"
+    },
+    {
+      "path": "references/episode-v1/audio/laugh-soft.wav",
+      "bytes": 480078,
+      "sha256": "b083f0be133d4460526101c829defd1cadcc1f43ee55d50681d06a6f1b67e684"
+    },
+    {
+      "path": "references/episode-v1/counter-four.png",
+      "bytes": 1756760,
+      "sha256": "9b2cd9a720484edbf00780162316154b196feafd20abf3b4780ba3939f289d55"
+    },
+    {
+      "path": "references/episode-v1/doorway-kramer.png",
+      "bytes": 1835863,
+      "sha256": "37daf7421855ac1ffce0721a00ae11e492da64347443600a38f512176f5f1403"
+    },
+    {
+      "path": "references/episode-v1/elaine-face.png",
+      "bytes": 175009,
+      "sha256": "df60991c33582531ccc6621cb3150dfc5d008c372ce151581d7360122deb1a11"
+    },
+    {
+      "path": "references/episode-v1/elaine-reference-sheet.jpg",
+      "bytes": 42017,
+      "sha256": "ff718274cd1145a7c22abebc93f65177b2789b62548374f14076c00692b596e3"
+    },
+    {
+      "path": "references/episode-v1/elaine.mp4",
+      "bytes": 178737,
+      "sha256": "da988bcf6afd9d1b3b8d7b26110729edd8570d6454f4447294993dee705c130a"
+    },
+    {
+      "path": "references/episode-v1/image-prompts.json",
+      "bytes": 5653,
+      "sha256": "ece83bbd2e23e5eba6ba7ba669d5438080df15d48d9578eda510aaf52bdd4036"
+    },
+    {
+      "path": "references/episode-v1/manifest-v2.json",
+      "bytes": 875,
+      "sha256": "22d4026191d1f0945c5d80accf6f8ea39dd208d664f69bcb5e42e51f09607b94"
+    },
+    {
+      "path": "references/episode-v1/manifest.json",
+      "bytes": 827,
+      "sha256": "dc7abf0ef38479112115b03d61b364e4b2c51a60ec27e643630a0e24aafd161a"
+    },
+    {
+      "path": "references/episode-v1/sources.json",
+      "bytes": 586,
+      "sha256": "35df220b34b404081e4c73cc2a418cf8b78a6d611a6579c6ce60e74a866b1451"
+    },
+    {
+      "path": "references/episode-v1/window-elaine.png",
+      "bytes": 1894335,
+      "sha256": "e36f9acaba5b1df25ee50375a8d34eac45ea5156ce80b0eef6ab491ae6996378"
+    },
+    {
+      "path": "references/episode-v1/window-three-prompts.json",
+      "bytes": 1938,
+      "sha256": "74e1ea2da93126836b2a8efbac87d58934df07e23b0bc112d12dd9cffd3c8e8d"
+    },
+    {
+      "path": "references/episode-v1/window-three-v2.png",
+      "bytes": 2070149,
+      "sha256": "4930711eae4dcf1f8af5c928f122a85f00c21f123fbccfcf9171be55c0d16b3d"
+    },
+    {
+      "path": "references/episode-v1/window-three.png",
+      "bytes": 2035300,
+      "sha256": "2fda2df403e525599c5fe2b9154d017bfeb031404b8dab964fdfa5e81f55f8c9"
+    },
+    {
+      "path": "references/episode-v1/window-two-correction-prompt.txt",
+      "bytes": 602,
+      "sha256": "625c30173e7b6046a98d21d82a5544c2129f5c7163b9a34fde39a86b00d04d87"
+    },
+    {
+      "path": "references/episode-v1/window-two-v2.png",
+      "bytes": 1846536,
+      "sha256": "34eff124df9118cf75e3a077b5bee9cac8fcfbf5882ca59e5980d8588649b448"
+    },
+    {
+      "path": "references/episode-v1/window-two.png",
+      "bytes": 1753956,
+      "sha256": "71ebdfe50488ed423ea52e3571e092343aa78ccd8ced43a3622901257bc83fbd"
+    },
+    {
+      "path": "references/opening-v2/george-sheet.jpg",
+      "bytes": 43177,
+      "sha256": "0d29dc355aaa6db12a1c8f6c3cbea95ad8078afeb05daf4d235a76d6354a6c33"
+    },
+    {
+      "path": "references/opening-v2/george-still.png",
+      "bytes": 182502,
+      "sha256": "da36a58a44abd2dc43c5563121471a85bc61478fac24bc5c66ecae75869310f8"
+    },
+    {
+      "path": "references/opening-v2/george.mp4",
+      "bytes": 230060,
+      "sha256": "7e94dc27aa3687752cf54e1e058538f218c3243d1768b3159883a01f69d6737f"
+    },
+    {
+      "path": "references/opening-v2/jerry-sheet.jpg",
+      "bytes": 42449,
+      "sha256": "10a5ac15afe6c79a79877a2c99445858e36e8dda3662ef01a82ab7503b2fc024"
+    },
+    {
+      "path": "references/opening-v2/jerry-still.png",
+      "bytes": 221512,
+      "sha256": "57ca5290759f0a51ca6e6bba8e79dafb49168bc5b61939e3ffbd843bc6c060dc"
+    },
+    {
+      "path": "references/opening-v2/jerry.mp4",
+      "bytes": 349374,
+      "sha256": "bda51381d94aad4a56a4c863887fd4a1dde2917a2a066ac96cf541378b4ee796"
+    },
+    {
+      "path": "references/opening-v2/kramer-sheet.jpg",
+      "bytes": 52747,
+      "sha256": "0eaa8d59425985e7fb966df95b562c242a59063a89697ae7b7a41b6ccdfdad08"
+    },
+    {
+      "path": "references/opening-v2/kramer-still.png",
+      "bytes": 223981,
+      "sha256": "d8cc2ca33e51ab9d068c36844363c439170c380d6aaf162974b0f351b57b8558"
+    },
+    {
+      "path": "references/opening-v2/kramer.mp4",
+      "bytes": 162677,
+      "sha256": "4925c5a39c93107090665a44a12d5365be482967abaa1c5bfd7640d6e84bf34f"
+    },
+    {
+      "path": "references/opening-v2/manifest.json",
+      "bytes": 363,
+      "sha256": "6c6f31128a0df20e0ba2d33a84e9d89bd71dea672c8b513e888d2b090a205a1c"
+    },
+    {
+      "path": "references/opening-v2/sources.json",
+      "bytes": 582,
+      "sha256": "78a757ff4a6f29745cfe08ce050786bdcffabe38248b78ade62ba968c60017a8"
+    },
+    {
+      "path": "references/opening-v2/start.png",
+      "bytes": 1863092,
+      "sha256": "52e01b1b452546f01df66edcd9765156ac67ca024c358759639b37e42e20c467"
+    },
+    {
+      "path": "script.txt",
+      "bytes": 6992,
+      "sha256": "44b010eea8a4e97159544f84fab6b3d12f296a760fa38bb785db5b2ca530ad8a"
+    },
+    {
+      "path": "scripts/assemble_episode.py",
+      "bytes": 7423,
+      "sha256": "b7dfdfc04c5178caf8ca04b2b795f11671dd94c6a68b538a53fdc08b1ee8c00b"
+    },
+    {
+      "path": "scripts/bundle.py",
+      "bytes": 1317,
+      "sha256": "48e5d6a2a418fc065f91703a6b354dc720c2a3e1eb60b7cb04625881e241f9d3"
+    },
+    {
+      "path": "scripts/check_project.py",
+      "bytes": 1764,
+      "sha256": "ed6402605226a568fbfb30ffff4f4e2d5b44416f77adacf111545c2d69c81f2c"
+    },
+    {
+      "path": "scripts/first_session.py",
+      "bytes": 7505,
+      "sha256": "5b6a0584688aa69454ea88237ed239b6eda2b0dbd7d634e2838407fe38090482"
+    },
+    {
+      "path": "scripts/install_test_media.py",
+      "bytes": 695,
+      "sha256": "1227970548f2c68a97e8c0365cd44b3348e344a71761e428e34c59b756b506f0"
+    },
+    {
+      "path": "scripts/new_project.py",
+      "bytes": 3048,
+      "sha256": "23f64dad042efb49f7c89d27d6ebb2654f64dff0c8d7dadb59013e25bd557640"
+    },
+    {
+      "path": "scripts/replay_example.py",
+      "bytes": 1194,
+      "sha256": "88b5f9db5deb0c11819a50af23fd7b845bea468dcccc2aae558162489827ff1f"
+    },
+    {
+      "path": "scripts/setup_server.py",
+      "bytes": 13182,
+      "sha256": "e2acd98fede5334496a0568811bba0f21e6d51dc71dddb8b8b574555dde49d20"
+    },
+    {
+      "path": "scripts/transcribe_server.py",
+      "bytes": 3125,
+      "sha256": "9ee819aa4295f95605dd4bcea44b1efadb7a6718f28db26454654b7859280d31"
+    },
+    {
+      "path": "scripts/verify_package.py",
+      "bytes": 1083,
+      "sha256": "70d7786d3226da08fff5cc7ac671abd24e8147b57215f9467800ffdd85da638c"
+    },
+    {
+      "path": "scripts/watch_pod.py",
+      "bytes": 1881,
+      "sha256": "2fe0e125cfb810e162702fb812225a35ec23cd21ba579e36ddc566cb3b2b0ae8"
+    },
+    {
+      "path": "scripts/watch_transcripts_server.py",
+      "bytes": 974,
+      "sha256": "849b4127827691a39587caddbc76f91e1c16e34b2eb242879e7f737563c351aa"
+    },
+    {
+      "path": "tests/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "tests/fake_server.py",
+      "bytes": 7606,
+      "sha256": "6b68c5f4d1ad04b00e9589b43717c981d4fdc533021378bb245f6470fb5b47ba"
+    },
+    {
+      "path": "tests/fixtures/object_info.json",
+      "bytes": 6676,
+      "sha256": "f6cc62dcc28d82d98f7dd0c967d79d67e953192a92489467c2df7d59faf6623d"
+    },
+    {
+      "path": "tests/fixtures/object_info_references.json",
+      "bytes": 10171,
+      "sha256": "a38cb5039a1e11dfc238f7ecc36a7c7f0f227f41b8a4e00537a3ab57947e4ef8"
+    },
+    {
+      "path": "tests/test_cuts.py",
+      "bytes": 3258,
+      "sha256": "97228c378c5ff87f10fd9626fef98cb518a5587fe2c4baccca3a4c4608af6901"
+    },
+    {
+      "path": "tests/test_director.py",
+      "bytes": 26647,
+      "sha256": "5b856f3abee264067cca7cd604d5ec69235639318922aebc12efc0cb7a7819bf"
+    },
+    {
+      "path": "tests/test_episode.py",
+      "bytes": 8425,
+      "sha256": "3e5610060701a58a9a962469a875dde19092772295e34a7cd554ce726a207613"
+    },
+    {
+      "path": "tests/test_first_session.py",
+      "bytes": 5997,
+      "sha256": "2020763226b57171aa878983ce0a0a2ae6d6d4d51b3634b628b0a29ea0cde853"
+    },
+    {
+      "path": "tests/test_readiness.py",
+      "bytes": 12744,
+      "sha256": "c740911b209b6c11814d309a49a86564ee554e70c8f6a380cad0d95a33157398"
+    },
+    {
+      "path": "tests/test_references.py",
+      "bytes": 8954,
+      "sha256": "807ff8b0309739488ec275ddbbdf7d9eb19aaab68e7d83fa96aa443c78a53ada"
+    },
+    {
+      "path": "tests/test_starter.py",
+      "bytes": 5729,
+      "sha256": "57c4865d517bd90b12dee9be6093ed4946d6bd7ff6c817424f5dcea5646f7801"
+    },
+    {
+      "path": "vendor/LICENSE",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "vendor/h3-guides/_io.py",
+      "bytes": 95099,
+      "sha256": "495aefa059aad4eed4181aa7fbb415679d3f269651e9fc6f542bdac1b99dd40f"
+    },
+    {
+      "path": "vendor/h3-guides/nodes_minimax_h3.py",
+      "bytes": 20119,
+      "sha256": "0570b1cbf3dce6177e4fbfc712332bb3bac36b2189146b4c2142af97fda09d3c"
+    },
+    {
+      "path": "vendor/h3-guides/nodes_video.py",
+      "bytes": 13402,
+      "sha256": "727653159de9a6e9d5b37b1101d3ece5df7dce8fc6a5a3a1f27e260afcfa6c14"
+    },
+    {
+      "path": "vendor/h3-guides/provenance.json",
+      "bytes": 153,
+      "sha256": "60fc04efb0bd89b542ee9e8c6fd877acf50d6483aaec0ff59c825019c46eb276"
+    },
+    {
+      "path": "vendor/h3-guides/requirements.txt",
+      "bytes": 531,
+      "sha256": "162eb6c1d79d1f0dcf906498c425f01293199261553977791b16a96fceba7d07"
+    },
+    {
+      "path": "vendor/h3-guides/server.py",
+      "bytes": 64758,
+      "sha256": "74573b10465505b88b618da86059878e3a56418f84c7dae4073c8824aee35a6c"
+    },
+    {
+      "path": "vendor/model-info.json",
+      "bytes": 4321,
+      "sha256": "88714cfb45249f809bea6d50e52a24686f4c1c52b98c1937e34962019fe4c700"
+    },
+    {
+      "path": "vendor/models.json",
+      "bytes": 10172,
+      "sha256": "9e866fac83254b9f013a63579693c190972d5002f0233c28377c14a89253e79a"
+    },
+    {
+      "path": "vendor/nodes.py",
+      "bytes": 108029,
+      "sha256": "38f918673c5300bc2d355e02f1131a7b1f97548337e7623754dafaea412008e8"
+    },
+    {
+      "path": "vendor/nodes_audio.py",
+      "bytes": 33505,
+      "sha256": "82bb9dcf191a84cb0695bc2533602f7956e29a81a1176965556350b02e1bd67e"
+    },
+    {
+      "path": "vendor/nodes_custom_sampler.py",
+      "bytes": 49739,
+      "sha256": "b0ba1521c72475e06fed15db004274ed7c8bb2bf73f1d58849faf6f9f9d264fe"
+    },
+    {
+      "path": "vendor/nodes_minimax_h3.py",
+      "bytes": 15728,
+      "sha256": "f767df4074b908efb345f5a87c2fd263ba82c12e65bcca932846207cc213e064"
+    },
+    {
+      "path": "vendor/nodes_video.py",
+      "bytes": 13402,
+      "sha256": "727653159de9a6e9d5b37b1101d3ece5df7dce8fc6a5a3a1f27e260afcfa6c14"
+    },
+    {
+      "path": "vendor/provenance.json",
+      "bytes": 1466,
+      "sha256": "ea034747c1d0501c4048009053408ad49b966ff2ac44058d02e07ec0cc3e8f10"
+    },
+    {
+      "path": "vendor/requirements.txt",
+      "bytes": 531,
+      "sha256": "162eb6c1d79d1f0dcf906498c425f01293199261553977791b16a96fceba7d07"
+    },
+    {
+      "path": "vendor/runpod-create-schema.json",
+      "bytes": 13156,
+      "sha256": "83e593216c84653108c92aa3855f88bedd928d008eee3ad22b45c4fa81bbafd8"
+    },
+    {
+      "path": "vendor/runpod-image-metadata.json",
+      "bytes": 1132,
+      "sha256": "d45538bb356671d80d36848285a33f6201394b145ad8ae2755a4c3f201240ae1"
+    },
+    {
+      "path": "vendor/runpod-v2-contract.json",
+      "bytes": 30397,
+      "sha256": "7ab99afc52fb9ce751a1cfc9e6510fb67aff540439451e407f36bc1c44eac7c6"
+    },
+    {
+      "path": "vendor/video_minimax_h3_i2v.json",
+      "bytes": 71242,
+      "sha256": "4dc94e9ea308c1d60409e7f55dba5e2788dab4659c2dbb90f1e9481498767540"
+    },
+    {
+      "path": "vendor/video_minimax_h3_t2v.json",
+      "bytes": 67891,
+      "sha256": "2400b01a7c8acae3fed038c0372f08bacb90d2cdf915febadbe7e3f9802506ea"
+    }
+  ]
+}

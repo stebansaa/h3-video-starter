@@ -1,0 +1,76 @@
+{
+  "source": "server-output/run_2062f6cb686343ab_02b_00001_.mp4",
+  "model": "base.en",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.6,
+      "text": " Who lives like this Bitcoin is",
+      "no_speech_prob": 0.00715534295886755,
+      "avg_logprob": -0.4792470932006836,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.48,
+          "word": " Who",
+          "probability": 0.6186856627464294
+        },
+        {
+          "start": 0.48,
+          "end": 0.74,
+          "word": " lives",
+          "probability": 0.9960730075836182
+        },
+        {
+          "start": 0.74,
+          "end": 1.14,
+          "word": " like",
+          "probability": 0.9971373081207275
+        },
+        {
+          "start": 1.14,
+          "end": 1.44,
+          "word": " this",
+          "probability": 0.9983325600624084
+        },
+        {
+          "start": 1.44,
+          "end": 3.2,
+          "word": " Bitcoin",
+          "probability": 0.12422045320272446
+        },
+        {
+          "start": 3.2,
+          "end": 3.6,
+          "word": " is",
+          "probability": 0.44608819484710693
+        }
+      ]
+    },
+    {
+      "start": 5.440000000000001,
+      "end": 6.72,
+      "text": " Their animals",
+      "no_speech_prob": 0.00715534295886755,
+      "avg_logprob": -0.4792470932006836,
+      "words": [
+        {
+          "start": 5.440000000000001,
+          "end": 6.28,
+          "word": " Their",
+          "probability": 0.587689220905304
+        },
+        {
+          "start": 6.28,
+          "end": 6.72,
+          "word": " animals",
+          "probability": 0.9861618280410767
+        }
+      ]
+    }
+  ],
+  "elapsed": 0.5228626728057861,
+  "text": "Who lives like this Bitcoin is Their animals",
+  "note": "Automatic transcription, not proof of speaker identity or exact delivery."
+}

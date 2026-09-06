@@ -1,0 +1,20 @@
+{
+  "comfy_revision": "2f35f4a08176d993cded35dac3332be4f7287f41",
+  "template_revision": "db9d5859d09c21a2d4101a1c18f64fc2f70e4fa4",
+  "files": {
+    "nodes_minimax_h3.py": "f767df4074b908efb345f5a87c2fd263ba82c12e65bcca932846207cc213e064",
+    "models.json": "9e866fac83254b9f013a63579693c190972d5002f0233c28377c14a89253e79a",
+    "LICENSE": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "requirements.txt": "162eb6c1d79d1f0dcf906498c425f01293199261553977791b16a96fceba7d07",
+    "nodes_custom_sampler.py": "b0ba1521c72475e06fed15db004274ed7c8bb2bf73f1d58849faf6f9f9d264fe",
+    "video_minimax_h3_i2v.json": "4dc94e9ea308c1d60409e7f55dba5e2788dab4659c2dbb90f1e9481498767540",
+    "model-info.json": "88714cfb45249f809bea6d50e52a24686f4c1c52b98c1937e34962019fe4c700",
+    "nodes_video.py": "727653159de9a6e9d5b37b1101d3ece5df7dce8fc6a5a3a1f27e260afcfa6c14",
+    "video_minimax_h3_t2v.json": "2400b01a7c8acae3fed038c0372f08bacb90d2cdf915febadbe7e3f9802506ea",
+    "nodes_audio.py": "82bb9dcf191a84cb0695bc2533602f7956e29a81a1176965556350b02e1bd67e",
+    "nodes.py": "38f918673c5300bc2d355e02f1131a7b1f97548337e7623754dafaea412008e8",
+    "runpod-create-schema.json": "83e593216c84653108c92aa3855f88bedd928d008eee3ad22b45c4fa81bbafd8",
+    "runpod-image-metadata.json": "d45538bb356671d80d36848285a33f6201394b145ad8ae2755a4c3f201240ae1",
+    "runpod-v2-contract.json": "7ab99afc52fb9ce751a1cfc9e6510fb67aff540439451e407f36bc1c44eac7c6"
+  }
+}

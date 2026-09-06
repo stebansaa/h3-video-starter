@@ -1,0 +1,55 @@
+{
+  "file": "examples/bitcoin-contest/final.mp4",
+  "sha256": "fc663bb2b89cfd062f88475243db9e9ab012e9d1040434ae04ee377bf4e12893",
+  "bytes": 7492334,
+  "quality": {
+    "width": 640,
+    "height": 384,
+    "fps": 24.0,
+    "duration": 97.208333,
+    "audio": true,
+    "audio_channels": 2,
+    "audio_duration": 97.208,
+    "problems": [],
+    "technical_pass": true,
+    "creative_review": "pending: verify dialogue, faces, voices, acting and continuity"
+  },
+  "frames": 2333,
+  "last_frame_rgb": [
+    0,
+    0,
+    0
+  ],
+  "audio_levels": [
+    "[Parsed_volumedetect_0 @ 0x600001930000] mean_volume: -24.1 dB",
+    "[Parsed_volumedetect_0 @ 0x600001930000] max_volume: -2.9 dB"
+  ],
+  "shots": 14,
+  "audience_cues": 10,
+  "explicitly_edited_shots": [
+    "03a",
+    "03b",
+    "04",
+    "06a",
+    "06c",
+    "05b",
+    "06b"
+  ],
+  "end_hold_frames": 48,
+  "review_limit": "Frames, transcripts and technical metrics reviewed; voice timbre not independently listened to.",
+  "final_transcript": {
+    "path": "examples/bitcoin-contest/evidence/episode-edited-transcripts/the-bitcoin-contest-final.json",
+    "sha256": "24e515991b879990f4a02beb71efdfb73bab79d49c426804b10a7a0a724ad3f5",
+    "video_sha256": "fc663bb2b89cfd062f88475243db9e9ab012e9d1040434ae04ee377bf4e12893",
+    "model": "small.en",
+    "result": "Final pass contains no previously flagged extraneous phrases. Quiet Yeah is missed in the full pass but was detected in an independent source-tail pass; its source clip is retained without cuts. Crypto spellings and hold/whole remain ASR/pronunciation ambiguities.",
+    "original_record_sha256": "6ec8becd71beb4f998edb25ac320f1c170a9272d389e55fd6b4fc803d3e67b5e"
+  },
+  "offline_tests": {
+    "passed": 70,
+    "report": "examples/bitcoin-contest/original-offline-tests.txt"
+  },
+  "no_local_model_weights": true,
+  "temporary_pod_deleted": true,
+  "portable_note": "Media bytes unchanged. Local paths in JSON evidence were made portable; transcript original and shipped-record hashes are distinguished."
+}

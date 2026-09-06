@@ -1,0 +1,118 @@
+{
+  "source": "server-output/run_2062f6cb686343ab_05c_00001_.mp4",
+  "model": "base.en",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.08,
+      "text": " Then I set up a DCA oh boy. I deleted FOMO",
+      "no_speech_prob": 0.018048228695988655,
+      "avg_logprob": -0.5031523952881495,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.58,
+          "word": " Then",
+          "probability": 0.743422269821167
+        },
+        {
+          "start": 0.58,
+          "end": 0.9,
+          "word": " I",
+          "probability": 0.8557980060577393
+        },
+        {
+          "start": 0.9,
+          "end": 1.18,
+          "word": " set",
+          "probability": 0.9741116166114807
+        },
+        {
+          "start": 1.18,
+          "end": 1.34,
+          "word": " up",
+          "probability": 0.9964568018913269
+        },
+        {
+          "start": 1.34,
+          "end": 1.48,
+          "word": " a",
+          "probability": 0.9959145188331604
+        },
+        {
+          "start": 1.48,
+          "end": 2.2,
+          "word": " DCA",
+          "probability": 0.8083879351615906
+        },
+        {
+          "start": 2.2,
+          "end": 2.74,
+          "word": " oh",
+          "probability": 0.05545374006032944
+        },
+        {
+          "start": 2.74,
+          "end": 3.22,
+          "word": " boy.",
+          "probability": 0.9678776264190674
+        },
+        {
+          "start": 3.48,
+          "end": 3.78,
+          "word": " I",
+          "probability": 0.9903253316879272
+        },
+        {
+          "start": 3.78,
+          "end": 4.18,
+          "word": " deleted",
+          "probability": 0.9799474477767944
+        },
+        {
+          "start": 4.18,
+          "end": 5.08,
+          "word": " FOMO",
+          "probability": 0.8989558815956116
+        }
+      ]
+    },
+    {
+      "start": 5.999999999999999,
+      "end": 7.46,
+      "text": " Deck screen or two",
+      "no_speech_prob": 0.018048228695988655,
+      "avg_logprob": -0.5031523952881495,
+      "words": [
+        {
+          "start": 5.999999999999999,
+          "end": 6.68,
+          "word": " Deck",
+          "probability": 0.026278940960764885
+        },
+        {
+          "start": 6.68,
+          "end": 7.04,
+          "word": " screen",
+          "probability": 0.41736331582069397
+        },
+        {
+          "start": 7.04,
+          "end": 7.26,
+          "word": " or",
+          "probability": 0.7587597370147705
+        },
+        {
+          "start": 7.26,
+          "end": 7.46,
+          "word": " two",
+          "probability": 0.817862331867218
+        }
+      ]
+    }
+  ],
+  "elapsed": 0.5089337825775146,
+  "text": "Then I set up a DCA oh boy. I deleted FOMO Deck screen or two",
+  "note": "Automatic transcription, not proof of speaker identity or exact delivery."
+}

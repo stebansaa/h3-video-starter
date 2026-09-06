@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "shots": {
+    "03a": {
+      "source_sha256": "0482618f2774dc979292eb5e1ef9c9a4dc11f07b17619e600b5b367479aeeb6b",
+      "keep_frames": [
+        [
+          49,
+          192
+        ]
+      ],
+      "reason": "Remove unscripted opening, independently detected by base.en and small.en; retain Elaine and Jerry lines."
+    },
+    "03b": {
+      "source_sha256": "5099556b72c28fd231ffa4788b6e132ecd82f0877b501786832dbe1046a7feda",
+      "keep_frames": [
+        [
+          0,
+          113
+        ],
+        [
+          185,
+          226
+        ]
+      ],
+      "reason": "Remove unscripted middle utterance; retain Elaine date line and George reply with margins."
+    },
+    "04": {
+      "source_sha256": "b987b0767d8060dbee77fd87dcbffad0bb54a38f5616855a5e146b419fbe19f4",
+      "keep_frames": [
+        [
+          0,
+          44
+        ]
+      ],
+      "reason": "End on cash landing after the intended I am out line; remove subsequent unscripted speech."
+    },
+    "06a": {
+      "source_sha256": "845ca87493a6c602cd18a47684c4c8f0d22968c1a76ca7b272246ac33e3674c9",
+      "keep_frames": [
+        [
+          0,
+          28
+        ],
+        [
+          101,
+          158
+        ]
+      ],
+      "reason": "Remove unscripted middle speech confirmed independently by base.en and small.en; retain Jerry question and Kramer reply plus the ending frame."
+    },
+    "06c": {
+      "source_sha256": "0d344d06c25b1f98616c0052eec30b952eeb143a79a0ea13e9f996781af98b68",
+      "keep_frames": [
+        [
+          44,
+          96
+        ]
+      ],
+      "reason": "Remove extra speech before and after the final scripted line, independently confirmed by two ASR passes. Keep margins around the complete line; final assembly adds a two-second reaction hold."
+    },
+    "05b": {
+      "source_sha256": "f0da85f1e106313a7efa8317d544fb170950d6784320fa564cd43c57335b750e",
+      "keep_frames": [
+        [
+          0,
+          134
+        ],
+        [
+          159,
+          192
+        ]
+      ],
+      "reason": "Remove the extra middle At first echo detected in the full export, retaining the first statement and final response. Margins use full-export word timestamps; ending frame is preserved."
+    },
+    "06b": {
+      "source_sha256": "3a5547425dcfdfed528d31df1e1d7898ea3ccaf2abaf9a1583aa3771827faa19",
+      "keep_frames": [
+        [
+          66,
+          158
+        ]
+      ],
+      "reason": "Remove unscripted opening confirmed by full-export and independent small.en source transcription; retain the entire tea line and Kramer exit."
+    }
+  }
+}

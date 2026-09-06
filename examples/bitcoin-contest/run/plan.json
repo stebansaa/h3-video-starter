@@ -1,0 +1,464 @@
+{
+  "version": 1,
+  "id": "bitcoin-contest-reference-v2",
+  "title": "The Bitcoin Contest",
+  "source_sha256": "44b010eea8a4e97159544f84fab6b3d12f296a760fa38bb785db5b2ca530ad8a",
+  "style": "1990s American multi-camera television sitcom. Use the composition and wardrobe of the supplied starting image, warm flat studio lighting, slightly soft broadcast-video appearance. Static or gently reframed camera; natural acting and deadpan comedy. Everyone treats their statements as serious. Maintain faces, clothes, voice identities and set geometry across shots. Only Kramer grooming and demeanor change at his return. No captions, graphics, dramatic lighting, extra characters, or cinematic camera movement. Generate clean dialogue without studio audience sounds; audience reactions are added during editing.",
+  "set": "Jerry Seinfeld apartment. Use each supplied starting image for exact camera angle, character placement, lighting and set geometry. Green-gray casement window and blinds; pale wood front door on screen left of the gray kitchen counter, refrigerator and cabinets behind the counter. Preserve this layout.",
+  "characters": {
+    "Jerry": "S1. Jerry Seinfeld: slim, short dark curly hair, red shirt as in the starting image. Clear, lightly nasal conversational voice, dry delivery.",
+    "George": "S2. George Costanza: stocky, balding with dark side hair, round glasses, muted brown/olive overshirt as in the starting image. Mid-pitched nasal voice that tightens when agitated.",
+    "Kramer": "S3. Cosmo Kramer: tall, lanky, high dark hair, mustard-brown long-sleeve shirt as in the starting image. Low, slightly gravelly voice. Same face and clothes throughout; posture and grooming change as specified.",
+    "Elaine": "S4. Elaine Benes: Julia Louis-Dreyfus, dark curly shoulder-length hair partly pulled back, plain burgundy collared long-sleeved blouse, dark skirt and small gold earrings. Expressive mid-pitched conversational voice. Same clothing and jewelry throughout."
+  },
+  "production_notes": [
+    "HappyHorse instructions replaced with native H3 T2V/I2V settings.",
+    "Source dialogue preserved verbatim, including the repeated I’m out.",
+    "Stale timing examples and the FOUR HUNDRED KOLS heading are excluded from generation prompts.",
+    "Shot lengths expanded and split for speaking turns and reaction beats.",
+    "Appearance transformation explicitly overrides the original no-hairstyle-change rule.",
+    "Preview 512x384; quality 1024x768 (both exactly 4:3 and on H3 grid).",
+    "Last-frame I2V carries picture context only; audio identity remains prompt-conditioned. Native AV context loop is not enabled."
+  ],
+  "shots": [
+    {
+      "id": "01a",
+      "source_section": 1,
+      "source_dialogue_range": [
+        0,
+        3
+      ],
+      "seconds": 11,
+      "characters": [
+        "Jerry",
+        "George",
+        "Kramer"
+      ],
+      "continuity": "reset",
+      "action": "Hold the starting image's outside-looking-in camera angle. Kramer is nearest the open window with his hands at the sill, Jerry stands behind him, and George is at viewer-right behind the glass. Kramer notices the crypto trader off-screen and makes a small pointing gesture. Jerry and George lean slightly closer. Preserve all three faces, window geometry, clothing and relative positions. No camera cut.",
+      "dialogue": [
+        {
+          "speaker": "Kramer",
+          "text": "There’s a crypto trader across the street."
+        },
+        {
+          "speaker": "Jerry",
+          "text": "Where?"
+        },
+        {
+          "speaker": "Kramer",
+          "text": "Second floor from the top. See the window on the left"
+        }
+      ],
+      "state": " Starting image fixes wardrobe and staging. Source videos provide face identity and voice only. Never copy their clothes, old dialogue, diner setting or audience laughter."
+    },
+    {
+      "id": "01b",
+      "source_section": 1,
+      "source_dialogue_range": [
+        3,
+        7
+      ],
+      "seconds": 8,
+      "characters": [
+        "Jerry",
+        "George",
+        "Kramer"
+      ],
+      "continuity": "reset",
+      "action": "Interior medium three-shot beside the window: Jerry in red at left, George in brown/olive at center, Kramer in mustard at right. Jerry and George alone speak their four lines. George squints outside to screen left. Jerry is matter-of-fact. Kramer stays completely silent with lips closed throughout this entire clip, reacting only with his eyes. Exactly four utterances, no filler words.",
+      "dialogue": [
+        {
+          "speaker": "George",
+          "text": "Woah."
+        },
+        {
+          "speaker": "Jerry",
+          "text": "Look at his monitors."
+        },
+        {
+          "speaker": "George",
+          "text": "He only has one."
+        },
+        {
+          "speaker": "Jerry",
+          "text": "Bitcoin guy."
+        }
+      ],
+      "state": " Starting image fixes wardrobe and staging. Source videos provide face identity and voice only. Never copy their clothes, old dialogue, diner setting or audience laughter."
+    },
+    {
+      "id": "01c",
+      "source_section": 1,
+      "source_dialogue_range": [
+        7,
+        12
+      ],
+      "seconds": 10,
+      "characters": [
+        "Jerry",
+        "George",
+        "Kramer"
+      ],
+      "continuity": "previous",
+      "action": "Continue the same interior three-shot beside the window. Jerry at left and George at center exchange their four lines while looking outside to screen left. Kramer at right is silent until his final Yeah. After that Yeah, Kramer turns urgently toward the door behind him to screen right and leaves the frame.",
+      "dialogue": [
+        {
+          "speaker": "George",
+          "text": "Look at him!"
+        },
+        {
+          "speaker": "Jerry",
+          "text": "He’s not even trading."
+        },
+        {
+          "speaker": "George",
+          "text": "He’s just sitting there!"
+        },
+        {
+          "speaker": "Jerry",
+          "text": "Look. He’s drinking tea."
+        },
+        {
+          "speaker": "Kramer",
+          "text": "Yeah."
+        }
+      ],
+      "state": " Starting image fixes wardrobe and staging. Source videos provide face identity and voice only. Never copy their clothes, old dialogue, diner setting or audience laughter."
+    },
+    {
+      "id": "02a",
+      "source_section": 2,
+      "source_dialogue_range": [
+        0,
+        3
+      ],
+      "seconds": 8,
+      "characters": [
+        "Jerry",
+        "George"
+      ],
+      "continuity": "reset",
+      "action": "Medium two-shot of Jerry on the left and George on the right at the open window. Kramer has left and is absent. Both look across the street, George growing animated.",
+      "dialogue": [
+        {
+          "speaker": "George",
+          "text": "He hasn’t sold."
+        },
+        {
+          "speaker": "Jerry",
+          "text": "Same position."
+        },
+        {
+          "speaker": "George",
+          "text": "The average Solana hold time is forty seconds!"
+        }
+      ],
+      "state": " Starting image fixes wardrobe and staging. Source videos provide face identity and voice only. Never copy their clothes, old dialogue, diner setting or audience laughter."
+    },
+    {
+      "id": "02b",
+      "source_section": 2,
+      "source_dialogue_range": [
+        3,
+        6
+      ],
+      "seconds": 7,
+      "characters": [
+        "Jerry",
+        "George"
+      ],
+      "continuity": "previous",
+      "action": "George turns in angry disbelief. Jerry is completely deadpan. George shakes his head on the final line.",
+      "dialogue": [
+        {
+          "speaker": "George",
+          "text": "Who lives like this?!"
+        },
+        {
+          "speaker": "Jerry",
+          "text": "Bitcoiners."
+        },
+        {
+          "speaker": "George",
+          "text": "They’re animals."
+        }
+      ],
+      "state": " Starting image fixes wardrobe and staging. Source videos provide face identity and voice only. Never copy their clothes, old dialogue, diner setting or audience laughter."
+    },
+    {
+      "id": "03a",
+      "source_section": 3,
+      "source_dialogue_range": [
+        0,
+        2
+      ],
+      "seconds": 8,
+      "characters": [
+        "Jerry",
+        "George",
+        "Elaine"
+      ],
+      "continuity": "reset",
+      "action": "Interior three-quarter angle beside the window: Jerry left, George center, Elaine right. Elaine addresses them, but Jerry answers distractedly while watching outside to screen left. George remains silent.",
+      "dialogue": [
+        {
+          "speaker": "Elaine",
+          "text": "The PONS dev pulled liquidity."
+        },
+        {
+          "speaker": "Jerry",
+          "text": "The waitress should’ve taken it back."
+        }
+      ],
+      "state": " Starting image fixes wardrobe and staging. Source videos provide face identity and voice only. Never copy their clothes, old dialogue, diner setting or audience laughter."
+    },
+    {
+      "id": "03b",
+      "source_section": 3,
+      "source_dialogue_range": [
+        2,
+        4
+      ],
+      "seconds": 9,
+      "characters": [
+        "Jerry",
+        "George",
+        "Elaine"
+      ],
+      "continuity": "previous",
+      "action": "Elaine notices she is ignored and tests them with her date announcement. George never turns away from the window.",
+      "dialogue": [
+        {
+          "speaker": "Elaine",
+          "text": "So, Vlad Tenev and I are going on a date tonight."
+        },
+        {
+          "speaker": "George",
+          "text": "Have a good time."
+        }
+      ],
+      "state": " Starting image fixes wardrobe and staging. Source videos provide face identity and voice only. Never copy their clothes, old dialogue, diner setting or audience laughter."
+    },
+    {
+      "id": "04",
+      "source_section": 4,
+      "source_dialogue_range": [
+        0,
+        1
+      ],
+      "seconds": 6,
+      "characters": [
+        "Kramer"
+      ],
+      "continuity": "reset",
+      "action": "Kramer is just inside the partly open front door on screen left, cash in his left hand. He steps toward the empty counter on screen right, slaps the cash down and emphatically says his line, then holds a serene satisfied expression.",
+      "dialogue": [
+        {
+          "speaker": "Kramer",
+          "text": "I’m out."
+        }
+      ],
+      "state": "Kramer retains his facial identity, hairline and clothes, but his hair is tidied and posture relaxed. His loud entrance is a brief emphasis; afterward he speaks calmly. The others are horrified by his improvement. Starting image fixes wardrobe and staging. Source videos provide face identity and voice only. Never copy their clothes, old dialogue, diner setting or audience laughter."
+    },
+    {
+      "id": "05a",
+      "source_section": 5,
+      "source_dialogue_range": [
+        0,
+        5
+      ],
+      "seconds": 9,
+      "characters": [
+        "Jerry",
+        "George",
+        "Kramer",
+        "Elaine"
+      ],
+      "continuity": "reset",
+      "action": "Medium-wide master: Jerry far left, George center-left, Elaine center-right and Kramer on the right behind the counter. Cash stays on the counter. Kramer repeats his declaration calmly while the others react; keep everyone in their starting positions.",
+      "dialogue": [
+        {
+          "speaker": "Kramer",
+          "text": "I’m out."
+        },
+        {
+          "speaker": "George",
+          "text": "You’re out?!"
+        },
+        {
+          "speaker": "Kramer",
+          "text": "I’m out of the contest."
+        },
+        {
+          "speaker": "Elaine",
+          "text": "Already?!"
+        },
+        {
+          "speaker": "Jerry",
+          "text": "That was fast."
+        }
+      ],
+      "state": "Kramer retains his facial identity, hairline and clothes, but his hair is tidied and posture relaxed. His loud entrance is a brief emphasis; afterward he speaks calmly. The others are horrified by his improvement. Starting image fixes wardrobe and staging. Source videos provide face identity and voice only. Never copy their clothes, old dialogue, diner setting or audience laughter."
+    },
+    {
+      "id": "05b",
+      "source_section": 5,
+      "source_dialogue_range": [
+        5,
+        10
+      ],
+      "seconds": 8,
+      "characters": [
+        "Jerry",
+        "George",
+        "Kramer",
+        "Elaine"
+      ],
+      "continuity": "previous",
+      "action": "Continue the exchange. Kramer is happy and bemused. George immediately reacts to At first; Elaine watches silently.",
+      "dialogue": [
+        {
+          "speaker": "George",
+          "text": "What happened?"
+        },
+        {
+          "speaker": "Kramer",
+          "text": "I bought some."
+        },
+        {
+          "speaker": "Jerry",
+          "text": "Bitcoin?"
+        },
+        {
+          "speaker": "Kramer",
+          "text": "At first."
+        },
+        {
+          "speaker": "George",
+          "text": "At first?!"
+        }
+      ],
+      "state": "Kramer retains his facial identity, hairline and clothes, but his hair is tidied and posture relaxed. His loud entrance is a brief emphasis; afterward he speaks calmly. The others are horrified by his improvement. Starting image fixes wardrobe and staging. Source videos provide face identity and voice only. Never copy their clothes, old dialogue, diner setting or audience laughter."
+    },
+    {
+      "id": "05c",
+      "source_section": 5,
+      "source_dialogue_range": [
+        10,
+        16
+      ],
+      "seconds": 10,
+      "characters": [
+        "Jerry",
+        "George",
+        "Kramer",
+        "Elaine"
+      ],
+      "continuity": "previous",
+      "action": "Kramer serenely explains his DCA and deleted apps. Elaine grows horrified. George delivers the final NO sharply, without physical violence.",
+      "dialogue": [
+        {
+          "speaker": "Kramer",
+          "text": "Then I set up a DCA."
+        },
+        {
+          "speaker": "Elaine",
+          "text": "Oh boy."
+        },
+        {
+          "speaker": "Kramer",
+          "text": "I deleted Fomo."
+        },
+        {
+          "speaker": "Elaine",
+          "text": "No."
+        },
+        {
+          "speaker": "Kramer",
+          "text": "Dexscreener too."
+        },
+        {
+          "speaker": "George",
+          "text": "NO!"
+        }
+      ],
+      "state": "Kramer retains his facial identity, hairline and clothes, but his hair is tidied and posture relaxed. His loud entrance is a brief emphasis; afterward he speaks calmly. The others are horrified by his improvement. Starting image fixes wardrobe and staging. Source videos provide face identity and voice only. Never copy their clothes, old dialogue, diner setting or audience laughter."
+    },
+    {
+      "id": "06a",
+      "source_section": 6,
+      "source_dialogue_range": [
+        0,
+        2
+      ],
+      "seconds": 6,
+      "characters": [
+        "Jerry",
+        "George",
+        "Kramer",
+        "Elaine"
+      ],
+      "continuity": "previous",
+      "action": "Jerry asks his question. Kramer answers calmly without hesitation. George recoils in disgust and Kramer shrugs peacefully.",
+      "dialogue": [
+        {
+          "speaker": "Jerry",
+          "text": "What if it dips?"
+        },
+        {
+          "speaker": "Kramer",
+          "text": "I'll buy more."
+        }
+      ],
+      "state": "Kramer retains his facial identity, hairline and clothes, but his hair is tidied and posture relaxed. His loud entrance is a brief emphasis; afterward he speaks calmly. The others are horrified by his improvement. Starting image fixes wardrobe and staging. Source videos provide face identity and voice only. Never copy their clothes, old dialogue, diner setting or audience laughter."
+    },
+    {
+      "id": "06b",
+      "source_section": 6,
+      "source_dialogue_range": [
+        2,
+        3
+      ],
+      "seconds": 6,
+      "characters": [
+        "Jerry",
+        "George",
+        "Kramer",
+        "Elaine"
+      ],
+      "continuity": "previous",
+      "action": "Same four-person counter shot. Kramer calmly speaks, then walks away to screen right into the kitchen and completely out of frame. Jerry, George and Elaine remain in place and silently follow him with their eyes. Cash stays on counter.",
+      "dialogue": [
+        {
+          "speaker": "Kramer",
+          "text": "I think I'm gonna make some tea."
+        }
+      ],
+      "state": "Kramer retains his facial identity, hairline and clothes, but his hair is tidied and posture relaxed. His loud entrance is a brief emphasis; afterward he speaks calmly. The others are horrified by his improvement. Starting image fixes wardrobe and staging. Source videos provide face identity and voice only. Never copy their clothes, old dialogue, diner setting or audience laughter."
+    },
+    {
+      "id": "06c",
+      "source_section": 6,
+      "source_dialogue_range": [
+        3,
+        4
+      ],
+      "seconds": 6,
+      "characters": [
+        "Jerry",
+        "George",
+        "Elaine"
+      ],
+      "continuity": "previous",
+      "action": "Kramer remains off-screen. Jerry slowly turns to George and delivers the final line. Hold their disturbed reaction through the end. End the scene without added dialogue.",
+      "dialogue": [
+        {
+          "speaker": "Jerry",
+          "text": "And then there were three."
+        }
+      ],
+      "state": "Kramer retains his facial identity, hairline and clothes, but his hair is tidied and posture relaxed. His loud entrance is a brief emphasis; afterward he speaks calmly. The others are horrified by his improvement. Starting image fixes wardrobe and staging. Source videos provide face identity and voice only. Never copy their clothes, old dialogue, diner setting or audience laughter."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "source": "edited-checks/06a.mov",
+  "model": "small.en",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.16,
+      "text": " What if it dips? I'll buy more.",
+      "no_speech_prob": 0.006953564006835222,
+      "avg_logprob": -0.3146005868911743,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.42,
+          "word": " What",
+          "probability": 0.8755429983139038
+        },
+        {
+          "start": 0.42,
+          "end": 0.56,
+          "word": " if",
+          "probability": 0.9964434504508972
+        },
+        {
+          "start": 0.56,
+          "end": 0.68,
+          "word": " it",
+          "probability": 0.997817873954773
+        },
+        {
+          "start": 0.68,
+          "end": 1.02,
+          "word": " dips?",
+          "probability": 0.9921303391456604
+        },
+        {
+          "start": 1.56,
+          "end": 1.74,
+          "word": " I'll",
+          "probability": 0.9925853908061981
+        },
+        {
+          "start": 1.74,
+          "end": 1.92,
+          "word": " buy",
+          "probability": 0.9987686276435852
+        },
+        {
+          "start": 1.92,
+          "end": 2.16,
+          "word": " more.",
+          "probability": 0.9993153810501099
+        }
+      ]
+    }
+  ],
+  "elapsed": 0.9143195152282715,
+  "text": "What if it dips? I'll buy more.",
+  "note": "Automatic transcription, not proof of speaker identity or exact delivery."
+}

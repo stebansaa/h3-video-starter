@@ -1,0 +1,236 @@
+TUP BEFORE GENERATING
+Use HappyHorse 1.1 Reference-to-Video.
+Aspect ratio: 4:3
+Resolution during testing: 720p
+Native audio: ON
+Generate each numbered shot separately.
+Upload and reuse the exact same reference images for every applicable shot:
+Reference 1 — Jerry
+Reference 2 — George
+Reference 3 — Kramer
+Reference 4 — Elaine
+Reference 5 — Jerry's apartment
+Reference 6 — Bitcoiner across the street
+If possible, use reference images showing each recurring character from roughly waist-up in neutral lighting.
+The apartment reference should clearly establish the window, kitchen counter and front door so their positions remain consistent.
+
+MASTER STYLE INSTRUCTION
+Append this instruction to every generation:
+1990s American multi-camera television sitcom. Same characters and same apartment as the supplied reference images. Maintain exact facial identity, hairstyle, body type and wardrobe from the reference images. Warm flat television studio lighting. Static or gently reframed sitcom camera. 4:3 composition. Slightly soft 1990s broadcast-video appearance. Natural conversational acting. Deadpan comedy. Characters treat everything they say as completely serious. Precise reaction pauses. No cinematic camera movement. No dramatic lighting. No subtitles, captions, graphics or text overlays. Do not add extra characters. Do not change wardrobe. Do not change apartment layout.
+Dialogue must be spoken by the specifically identified character only. Do not swap voices or lines between characters.
+
+SCENE 1
+SHOT 1 — HEY, LOOK AT THIS
+
+Duration: 7 seconds
+References: Jerry, George, Kramer, apartment
+Kramer looks out the window, excited by something outside
+Kramer says:
+“There’s a crypto trader across the street.”
+Jerry says:
+“Where?”
+Kramer points:
+“Second floor from the top. See the window on the left”
+George leans closer to the window.
+George says:
+“Woah.”
+Jerry says:
+“Look at his monitors.”
+George squints across the street.
+George says:
+“He only has one.”
+Jerry says matter-of-factly:
+“Bitcoin guy.”
+George says:
+“Look at him!”
+Jerry says:
+“He’s not even trading.”
+George says:
+“He’s just sitting there!”
+Jerry points.
+Jerry says:
+“Look. He’s drinking tea.”
+Kramer says:
+“Yeah.”
+Kramer leaves urgently
+
+
+SHOT 2 — THEY'RE ANIMALS
+
+Duration: 6 seconds
+References: Jerry, George, apartment
+Jerry and George staring out the window in genuine disbelief.
+George says:
+“He hasn’t sold.”
+Jerry:
+“Same position.”
+George becomes animated.
+George says:
+“The average Solana hold time is forty seconds!”
+George says angirly:
+“Who lives like this?!”
+Jerry, completely deadpan:
+“Bitcoiners.”
+Brief pause.
+George shakes his head.
+George says:
+“They’re animals.”
+
+SHOT 3 — VLAD TENEV DATE
+
+Duration: 9 seconds
+References: Jerry, George, Elaine, apartment
+Elaine stands near Jerry and George who are still ignoring her, looking out the window.
+Elaine says:
+“The PONS dev pulled liquidity.”
+Jerry, clearly not responding to what Elaine said, absent-mindedly says:
+“The waitress should’ve taken it back.”
+Elaine notices they aren't listening.
+Annoyed, she tests them.
+Elaine says:
+“So, Vlad Tenev and I are going on a date tonight.”
+George doesn't even turn around.
+George casually says:
+“Have a good time.”
+
+SCENE 4 — KRAMER RETURNS
+
+Shot of the apartment door, the kitchen on the fight.
+The door suddenly opens.
+Kramer enters.
+He carries a thick wad of cash.
+Kramer slams it on the kitchen counter.
+Kramer yells emphatically:
+“I’m out.”
+
+SHOT 5 — BITCOIN
+
+
+Duration: 8 seconds
+References: Jerry, George, Elaine, Kramer, apartment
+Kramer looks happy and a bit bemused.
+Kramer:
+“I’m out.”
+George:
+“You’re out?!”
+Kramer:
+“I’m out of the contest.”
+Elaine:
+“Already?!”
+Jerry:
+“That was fast.”
+George:
+“What happened?”
+Kramer:
+“I bought some.”
+Jerry:
+“Bitcoin?”
+Kramer:
+“At first.”
+George immediately reacts.
+George:
+“At first?!”
+Kramer calmly says:
+“Then I set up a DCA.”
+Elaine quietly reacts:
+“Oh boy.”
+Kramer calmly says:
+“I deleted Fomo.”
+Elaine reacts with genuine horror.
+Elaine:
+“No.”
+Kramer:
+“Dexscreener too.”
+George violently reacts:
+“NO!”
+
+SHOT 6 — FOUR HUNDRED KOLS
+
+
+Duration: 8 seconds
+References: Jerry, George, Elaine, Kramer, apartment
+Jerry asks Kramer:
+“What if it dips?”
+Kramer doesn't hesitate.
+Kramer calmly says:
+“I'll buy more.”
+George recoils in disgust.
+Kramer gives a small peaceful shrug.
+Kramer casually looks toward the kitchen.
+Kramer says:
+“I think I'm gonna make some tea.”
+Kramer walks out.
+Jerry, George and Elaine silently watch him go as if witnessing something deeply disturbing.
+Jerry slowly turns toward George.
+Jerry says completely deadpan:
+“And then there were three.”
+Hold the shot for the final comedic beat.
+Cut to black.
+
+CRITICAL HAPPYHORSE INSTRUCTIONS
+1. PRIORITIZE CHARACTER IDENTITY OVER EVERYTHING ELSE
+Never redesign the supplied reference characters.
+Do not change their:
+face
+age
+hair
+height
+body type
+wardrobe
+The same person must be recognizable from clip to clip.
+2. DO NOT IMPROVISE DIALOGUE
+Only speak the exact quoted dialogue.
+Do not add greetings, filler words, narration, explanatory dialogue or additional jokes.
+Do not paraphrase.
+3. ONE SPEAKER AT A TIME
+When one character speaks, all other characters remain silent.
+Other characters may react visually but must not talk over the speaker.
+4. COMEDIC TIMING
+Use small pauses after absurd statements.
+Do not rush punchlines.
+Particularly important pauses:
+“And it... never went to zero?”
+“He looks... rested.”
+“Bitcoin.”
+“Four... hundred.”
+“I don't need alpha.”
+“I’m just gonna... hodl.”
+“I'll buy more.”
+5. KRAMER'S TRANSFORMATION
+Before leaving:
+Kramer is hyperactive, wild-haired, physically restless and manic.
+After returning:
+Kramer is neatly groomed, rested, calm, quiet and serene.
+This transformation must be visually obvious.
+The other characters are HORRIFIED by his improvement.
+Kramer himself is happier than he has been throughout the scene.
+6. THE BITCOINER
+The Bitcoiner should never look like a crypto influencer.
+No neon lights.
+No six-monitor setup.
+No livestream microphone.
+No frantic trading.
+One monitor.
+Tea.
+Simple clothes.
+Relaxed posture.
+Clean room.
+Occasional book.
+He should visually communicate:
+“I bought Bitcoin and then went on with my life.”
+7. THE CORE JOKE
+Nobody understands that their lifestyle is unhealthy.
+Jerry, George and Elaine genuinely regard constant memecoin trading as normal.
+Therefore:
+Holding for ten minutes is bizarre.
+Holding for four years is almost incomprehensible.
+Not going to zero is surprising.
+Buying a dip is disturbing.
+Not needing alpha is frightening.
+Deleting Dexscreener is extreme.
+Muting KOLs is unthinkable.
+Having no exit strategy is reckless.
+Drinking tea is suspicious.
+Looking rested is deeply seductive.
+Everything must be played completely straight.
+

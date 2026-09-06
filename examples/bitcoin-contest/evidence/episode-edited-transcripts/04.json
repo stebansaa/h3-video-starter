@@ -1,0 +1,31 @@
+{
+  "source": "edited-checks/04.mov",
+  "model": "small.en",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.08,
+      "text": " I'm out.",
+      "no_speech_prob": 0.009036391042172909,
+      "avg_logprob": -0.49264679636274067,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.82,
+          "word": " I'm",
+          "probability": 0.9252185821533203
+        },
+        {
+          "start": 0.82,
+          "end": 1.08,
+          "word": " out.",
+          "probability": 0.9949656128883362
+        }
+      ]
+    }
+  ],
+  "elapsed": 0.6841874122619629,
+  "text": "I'm out.",
+  "note": "Automatic transcription, not proof of speaker identity or exact delivery."
+}

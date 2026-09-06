@@ -1,0 +1,169 @@
+{
+  "source": "server-output/run_2062f6cb686343ab_03a_00001_.mp4",
+  "model": "small.en",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.88,
+      "text": " No, see what Lutrum may have left.",
+      "no_speech_prob": 0.011996126733720303,
+      "avg_logprob": -0.4666016529767941,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.64,
+          "word": " No,",
+          "probability": 0.2893508970737457
+        },
+        {
+          "start": 0.82,
+          "end": 0.88,
+          "word": " see",
+          "probability": 0.8323675990104675
+        },
+        {
+          "start": 0.88,
+          "end": 1.04,
+          "word": " what",
+          "probability": 0.851394534111023
+        },
+        {
+          "start": 1.04,
+          "end": 1.38,
+          "word": " Lutrum",
+          "probability": 0.242394948999087
+        },
+        {
+          "start": 1.38,
+          "end": 1.58,
+          "word": " may",
+          "probability": 0.6206986308097839
+        },
+        {
+          "start": 1.58,
+          "end": 1.7,
+          "word": " have",
+          "probability": 0.4431169629096985
+        },
+        {
+          "start": 1.7,
+          "end": 1.88,
+          "word": " left.",
+          "probability": 0.5082247257232666
+        }
+      ]
+    },
+    {
+      "start": 2.26,
+      "end": 4.7,
+      "text": " The P.O.N.S. Dev pulled liquidity.",
+      "no_speech_prob": 0.011996126733720303,
+      "avg_logprob": -0.4666016529767941,
+      "words": [
+        {
+          "start": 2.26,
+          "end": 2.42,
+          "word": " The",
+          "probability": 0.980761706829071
+        },
+        {
+          "start": 2.42,
+          "end": 2.66,
+          "word": " P",
+          "probability": 0.9590682983398438
+        },
+        {
+          "start": 2.66,
+          "end": 2.84,
+          "word": ".O",
+          "probability": 0.7005133181810379
+        },
+        {
+          "start": 2.84,
+          "end": 3.06,
+          "word": ".N",
+          "probability": 0.9927450716495514
+        },
+        {
+          "start": 3.06,
+          "end": 3.32,
+          "word": ".S.",
+          "probability": 0.9964287579059601
+        },
+        {
+          "start": 3.6,
+          "end": 3.7,
+          "word": " Dev",
+          "probability": 0.6528016328811646
+        },
+        {
+          "start": 3.7,
+          "end": 4.26,
+          "word": " pulled",
+          "probability": 0.7846867442131042
+        },
+        {
+          "start": 4.26,
+          "end": 4.7,
+          "word": " liquidity.",
+          "probability": 0.9893129467964172
+        }
+      ]
+    },
+    {
+      "start": 5.66,
+      "end": 7.44,
+      "text": " The waitress should have taken it back.",
+      "no_speech_prob": 0.011996126733720303,
+      "avg_logprob": -0.4666016529767941,
+      "words": [
+        {
+          "start": 5.66,
+          "end": 5.96,
+          "word": " The",
+          "probability": 0.9886811971664429
+        },
+        {
+          "start": 5.96,
+          "end": 6.34,
+          "word": " waitress",
+          "probability": 0.9910838603973389
+        },
+        {
+          "start": 6.34,
+          "end": 6.6,
+          "word": " should",
+          "probability": 0.9988144636154175
+        },
+        {
+          "start": 6.6,
+          "end": 6.72,
+          "word": " have",
+          "probability": 0.7090380787849426
+        },
+        {
+          "start": 6.72,
+          "end": 6.94,
+          "word": " taken",
+          "probability": 0.9979040622711182
+        },
+        {
+          "start": 6.94,
+          "end": 7.18,
+          "word": " it",
+          "probability": 0.9992716908454895
+        },
+        {
+          "start": 7.18,
+          "end": 7.44,
+          "word": " back.",
+          "probability": 0.99970942735672
+        }
+      ]
+    }
+  ],
+  "elapsed": 0.9769384860992432,
+  "text": "No, see what Lutrum may have left. The P.O.N.S. Dev pulled liquidity. The waitress should have taken it back.",
+  "note": "Automatic transcription, not proof of speaker identity or exact delivery."
+}

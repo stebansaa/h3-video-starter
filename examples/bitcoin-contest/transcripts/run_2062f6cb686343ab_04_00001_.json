@@ -1,0 +1,112 @@
+{
+  "source": "server-output/run_2062f6cb686343ab_04_00001_.mp4",
+  "model": "base.en",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 0.94,
+      "text": " I'm out.",
+      "no_speech_prob": 0.008680454455316067,
+      "avg_logprob": -0.23680162322413814,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.82,
+          "word": " I'm",
+          "probability": 0.8781482577323914
+        },
+        {
+          "start": 0.82,
+          "end": 0.94,
+          "word": " out.",
+          "probability": 0.9990684390068054
+        }
+      ]
+    },
+    {
+      "start": 2.0,
+      "end": 2.96,
+      "text": " School has some myself.",
+      "no_speech_prob": 0.008680454455316067,
+      "avg_logprob": -0.23680162322413814,
+      "words": [
+        {
+          "start": 2.0,
+          "end": 2.3,
+          "word": " School",
+          "probability": 0.0891386866569519
+        },
+        {
+          "start": 2.3,
+          "end": 2.5,
+          "word": " has",
+          "probability": 0.6361939311027527
+        },
+        {
+          "start": 2.5,
+          "end": 2.68,
+          "word": " some",
+          "probability": 0.41288071870803833
+        },
+        {
+          "start": 2.68,
+          "end": 2.96,
+          "word": " myself.",
+          "probability": 0.8743307590484619
+        }
+      ]
+    },
+    {
+      "start": 3.54,
+      "end": 4.22,
+      "text": " Is mine not Belite?",
+      "no_speech_prob": 0.008680454455316067,
+      "avg_logprob": -0.23680162322413814,
+      "words": [
+        {
+          "start": 3.54,
+          "end": 3.56,
+          "word": " Is",
+          "probability": 0.7855987548828125
+        },
+        {
+          "start": 3.56,
+          "end": 3.72,
+          "word": " mine",
+          "probability": 0.6533458828926086
+        },
+        {
+          "start": 3.72,
+          "end": 3.9,
+          "word": " not",
+          "probability": 0.7209731340408325
+        },
+        {
+          "start": 3.9,
+          "end": 4.22,
+          "word": " Belite?",
+          "probability": 0.45269571244716644
+        }
+      ]
+    },
+    {
+      "start": 4.5,
+      "end": 4.92,
+      "text": " No.",
+      "no_speech_prob": 0.008680454455316067,
+      "avg_logprob": -0.23680162322413814,
+      "words": [
+        {
+          "start": 4.5,
+          "end": 4.92,
+          "word": " No.",
+          "probability": 0.003120606765151024
+        }
+      ]
+    }
+  ],
+  "elapsed": 2.0251083374023438,
+  "text": "I'm out. School has some myself. Is mine not Belite? No.",
+  "note": "Automatic transcription, not proof of speaker identity or exact delivery."
+}

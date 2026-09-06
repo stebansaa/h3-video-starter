@@ -1,0 +1,91 @@
+{
+  "source": "server-output/run_2062f6cb686343ab_05b_00001_.mp4",
+  "model": "base.en",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.42,
+      "text": " What happened I bought some Bitcoin at first at first at first",
+      "no_speech_prob": 0.028907470405101776,
+      "avg_logprob": -0.3159704605738322,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.52,
+          "word": " What",
+          "probability": 0.7304143905639648
+        },
+        {
+          "start": 0.52,
+          "end": 0.74,
+          "word": " happened",
+          "probability": 0.9946887493133545
+        },
+        {
+          "start": 0.74,
+          "end": 1.82,
+          "word": " I",
+          "probability": 0.33933770656585693
+        },
+        {
+          "start": 1.82,
+          "end": 2.06,
+          "word": " bought",
+          "probability": 0.9690863490104675
+        },
+        {
+          "start": 2.06,
+          "end": 2.36,
+          "word": " some",
+          "probability": 0.9207441210746765
+        },
+        {
+          "start": 2.36,
+          "end": 3.38,
+          "word": " Bitcoin",
+          "probability": 0.7732765674591064
+        },
+        {
+          "start": 3.38,
+          "end": 4.66,
+          "word": " at",
+          "probability": 0.6568532586097717
+        },
+        {
+          "start": 4.66,
+          "end": 5.28,
+          "word": " first",
+          "probability": 0.9857475161552429
+        },
+        {
+          "start": 5.28,
+          "end": 6.02,
+          "word": " at",
+          "probability": 0.9424386620521545
+        },
+        {
+          "start": 6.02,
+          "end": 6.32,
+          "word": " first",
+          "probability": 0.9934712648391724
+        },
+        {
+          "start": 6.32,
+          "end": 7.0,
+          "word": " at",
+          "probability": 0.8256815075874329
+        },
+        {
+          "start": 7.0,
+          "end": 7.42,
+          "word": " first",
+          "probability": 0.9903034567832947
+        }
+      ]
+    }
+  ],
+  "elapsed": 0.513984203338623,
+  "text": "What happened I bought some Bitcoin at first at first at first",
+  "note": "Automatic transcription, not proof of speaker identity or exact delivery."
+}

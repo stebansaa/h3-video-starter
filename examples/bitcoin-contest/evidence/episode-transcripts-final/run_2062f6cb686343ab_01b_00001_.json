@@ -1,0 +1,103 @@
+{
+  "source": "server-output/run_2062f6cb686343ab_01b_00001_.mp4",
+  "model": "base.en",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.2,
+      "text": " Whoa. Look at his monitors.",
+      "no_speech_prob": 0.008943705819547176,
+      "avg_logprob": -0.38966008632079413,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.96,
+          "word": " Whoa.",
+          "probability": 0.7764593064785004
+        },
+        {
+          "start": 2.06,
+          "end": 2.62,
+          "word": " Look",
+          "probability": 0.8485181927680969
+        },
+        {
+          "start": 2.62,
+          "end": 2.82,
+          "word": " at",
+          "probability": 0.9978657364845276
+        },
+        {
+          "start": 2.82,
+          "end": 2.92,
+          "word": " his",
+          "probability": 0.9949080348014832
+        },
+        {
+          "start": 2.92,
+          "end": 3.2,
+          "word": " monitors.",
+          "probability": 0.9968470931053162
+        }
+      ]
+    },
+    {
+      "start": 4.58,
+      "end": 6.22,
+      "text": " He only has one.",
+      "no_speech_prob": 0.008943705819547176,
+      "avg_logprob": -0.38966008632079413,
+      "words": [
+        {
+          "start": 4.58,
+          "end": 4.7,
+          "word": " He",
+          "probability": 0.9395641088485718
+        },
+        {
+          "start": 4.7,
+          "end": 4.84,
+          "word": " only",
+          "probability": 0.9949777722358704
+        },
+        {
+          "start": 4.84,
+          "end": 5.08,
+          "word": " has",
+          "probability": 0.9985846281051636
+        },
+        {
+          "start": 5.08,
+          "end": 6.22,
+          "word": " one.",
+          "probability": 0.9877699017524719
+        }
+      ]
+    },
+    {
+      "start": 6.34,
+      "end": 7.38,
+      "text": " Bitcoin guy.",
+      "no_speech_prob": 0.008943705819547176,
+      "avg_logprob": -0.38966008632079413,
+      "words": [
+        {
+          "start": 6.34,
+          "end": 6.78,
+          "word": " Bitcoin",
+          "probability": 0.8902957439422607
+        },
+        {
+          "start": 6.78,
+          "end": 7.38,
+          "word": " guy.",
+          "probability": 0.9374527931213379
+        }
+      ]
+    }
+  ],
+  "elapsed": 0.49390292167663574,
+  "text": "Whoa. Look at his monitors. He only has one. Bitcoin guy.",
+  "note": "Automatic transcription, not proof of speaker identity or exact delivery."
+}

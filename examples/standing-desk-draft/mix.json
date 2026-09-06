@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "end_hold_frames": 48,
+  "library": {
+    "soft": {
+      "path": "../../references/episode-v1/audio/laugh-soft.wav",
+      "seconds": 2.5,
+      "gain_db": -3
+    }
+  },
+  "after_shots": {
+    "01b": "soft"
+  }
+}

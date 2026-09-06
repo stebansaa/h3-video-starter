@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "end_hold_frames": 48,
+  "library": {
+    "soft": {
+      "path": "../references/episode-v1/audio/laugh-soft.wav",
+      "seconds": 2.5,
+      "gain_db": -3
+    },
+    "medium": {
+      "path": "../references/episode-v1/audio/laugh-medium.wav",
+      "seconds": 2.7,
+      "gain_db": 0
+    },
+    "big": {
+      "path": "../references/episode-v1/audio/laugh-big.wav",
+      "seconds": 2.4,
+      "gain_db": 2
+    }
+  },
+  "after_shots": {
+    "01b": "soft",
+    "02b": "medium",
+    "03b": "soft",
+    "04": "big",
+    "05a": "soft",
+    "05b": "medium",
+    "05c": "big",
+    "06a": "soft",
+    "06b": "soft",
+    "06c": "big"
+  }
+}

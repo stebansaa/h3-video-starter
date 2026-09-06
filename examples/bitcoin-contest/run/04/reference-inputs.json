@@ -1,0 +1,16 @@
+{
+  "first_frame": "references/episode-v1/doorway-kramer.png",
+  "first_frame_sha256": "37daf7421855ac1ffce0721a00ae11e492da64347443600a38f512176f5f1403",
+  "clips": [
+    {
+      "character": "Kramer",
+      "path": "references/opening-v2/kramer.mp4",
+      "sha256": "4925c5a39c93107090665a44a12d5365be482967abaa1c5bfd7640d6e84bf34f",
+      "start": 0,
+      "frames": 56
+    }
+  ],
+  "anchor_mode": "fixed",
+  "actual_first_frame": "references/episode-v1/doorway-kramer.png",
+  "actual_first_frame_sha256": "37daf7421855ac1ffce0721a00ae11e492da64347443600a38f512176f5f1403"
+}

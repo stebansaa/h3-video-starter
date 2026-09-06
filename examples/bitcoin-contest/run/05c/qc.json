@@ -1,0 +1,12 @@
+{
+  "width": 640,
+  "height": 384,
+  "fps": 24.0,
+  "duration": 10.125,
+  "audio": true,
+  "audio_channels": 2,
+  "audio_duration": 10.125,
+  "problems": [],
+  "technical_pass": true,
+  "creative_review": "pending: verify dialogue, faces, voices, acting and continuity"
+}

@@ -1,0 +1,334 @@
+{
+  "sources": [
+    {
+      "shot": "01a",
+      "path": "examples/bitcoin-contest/run/01a/clip.mp4",
+      "sha256": "87a423fbe134a205c1a5c83fb8ff8365ceb1e9fbd8ad79e7fe14a0112b5dcaac",
+      "seconds": 11.541667
+    },
+    {
+      "shot": "01b",
+      "path": "examples/bitcoin-contest/run/01b/clip.mp4",
+      "sha256": "85d463c9f86a694bb5adf71627f1cf3275bdbdff253b8eef0b4c167145797c56",
+      "seconds": 8.0
+    },
+    {
+      "shot": "01c",
+      "path": "examples/bitcoin-contest/run/01c/clip.mp4",
+      "sha256": "386a53ca009ffdcd3c3750711afb4534e6d264d3e784ab4713f8c1ee706cc1ad",
+      "seconds": 10.125
+    },
+    {
+      "shot": "02a",
+      "path": "examples/bitcoin-contest/run/02a/clip.mp4",
+      "sha256": "63d5f977e483d53275817170fbbee0e4c0ef055f9108cb73ea397f2b8c8a7391",
+      "seconds": 8.0
+    },
+    {
+      "shot": "02b",
+      "path": "examples/bitcoin-contest/run/02b/clip.mp4",
+      "sha256": "2ed25bb0f53f27a26d6588507bf2f0433340b7c4e55396513aeb5096f26f0e89",
+      "seconds": 7.291667
+    },
+    {
+      "shot": "03a",
+      "path": "examples/bitcoin-contest/run/03a/clip.mp4",
+      "sha256": "0482618f2774dc979292eb5e1ef9c9a4dc11f07b17619e600b5b367479aeeb6b",
+      "keep_frames": [
+        [
+          49,
+          192
+        ]
+      ],
+      "reason": "Remove unscripted opening, independently detected by base.en and small.en; retain Elaine and Jerry lines.",
+      "edited_sha256": "2c5d4ade746919f6b60adce340a3e3fda0f9eb70e9a0f5bddb1d0fc06627460f",
+      "seconds": 5.958333333333333
+    },
+    {
+      "shot": "03b",
+      "path": "examples/bitcoin-contest/run/03b/clip.mp4",
+      "sha256": "5099556b72c28fd231ffa4788b6e132ecd82f0877b501786832dbe1046a7feda",
+      "keep_frames": [
+        [
+          0,
+          113
+        ],
+        [
+          185,
+          226
+        ]
+      ],
+      "reason": "Remove unscripted middle utterance; retain Elaine date line and George reply with margins.",
+      "edited_sha256": "44e96e816aae45820f5603b6f539fd97ff6a0fd348db176ef613657baffbcbdb",
+      "seconds": 6.416666666666667
+    },
+    {
+      "shot": "04",
+      "path": "examples/bitcoin-contest/run/04/clip.mp4",
+      "sha256": "b987b0767d8060dbee77fd87dcbffad0bb54a38f5616855a5e146b419fbe19f4",
+      "keep_frames": [
+        [
+          0,
+          44
+        ]
+      ],
+      "reason": "End on cash landing after the intended I am out line; remove subsequent unscripted speech.",
+      "edited_sha256": "632efcb30258555f2d1e8b4f68c112319ab36ef7b95404fe395b154f0890e1a9",
+      "seconds": 1.8333333333333333
+    },
+    {
+      "shot": "05a",
+      "path": "examples/bitcoin-contest/run/05a/clip.mp4",
+      "sha256": "6e09a496e21c5edd63a0740ed62951f29ed5a5b53427e22a80e79bc7058e8f8a",
+      "seconds": 9.416667
+    },
+    {
+      "shot": "05b",
+      "path": "examples/bitcoin-contest/run/05b/clip.mp4",
+      "sha256": "f0da85f1e106313a7efa8317d544fb170950d6784320fa564cd43c57335b750e",
+      "keep_frames": [
+        [
+          0,
+          134
+        ],
+        [
+          159,
+          192
+        ]
+      ],
+      "reason": "Remove the extra middle At first echo detected in the full export, retaining the first statement and final response. Margins use full-export word timestamps; ending frame is preserved.",
+      "edited_sha256": "3bf1876b6a03a37d939f4e3c37173fa5241d3bc4f7f097dcf905cb6218d5d191",
+      "seconds": 6.958333333333333
+    },
+    {
+      "shot": "05c",
+      "path": "examples/bitcoin-contest/run/05c/clip.mp4",
+      "sha256": "34ef7032e66dead101ddec17058b7363b631da51af424b2ef40995f721044a46",
+      "seconds": 10.125
+    },
+    {
+      "shot": "06a",
+      "path": "examples/bitcoin-contest/run/06a/clip.mp4",
+      "sha256": "845ca87493a6c602cd18a47684c4c8f0d22968c1a76ca7b272246ac33e3674c9",
+      "keep_frames": [
+        [
+          0,
+          28
+        ],
+        [
+          101,
+          158
+        ]
+      ],
+      "reason": "Remove unscripted middle speech confirmed independently by base.en and small.en; retain Jerry question and Kramer reply plus the ending frame.",
+      "edited_sha256": "a5cb967d0d95282d2b5d11aa231cc96357aef2fbd5ce55e9c21668e2d80fba40",
+      "seconds": 3.5416666666666665
+    },
+    {
+      "shot": "06b",
+      "path": "examples/bitcoin-contest/run/06b/clip.mp4",
+      "sha256": "3a5547425dcfdfed528d31df1e1d7898ea3ccaf2abaf9a1583aa3771827faa19",
+      "keep_frames": [
+        [
+          66,
+          158
+        ]
+      ],
+      "reason": "Remove unscripted opening confirmed by full-export and independent small.en source transcription; retain the entire tea line and Kramer exit.",
+      "edited_sha256": "2f6b448cfe7854135851319ba12919c6dd41ccb7f9796351698c8a3ddf9f86a9",
+      "seconds": 3.8333333333333335
+    },
+    {
+      "shot": "06c",
+      "path": "examples/bitcoin-contest/run/06c/clip.mp4",
+      "sha256": "0d344d06c25b1f98616c0052eec30b952eeb143a79a0ea13e9f996781af98b68",
+      "keep_frames": [
+        [
+          44,
+          96
+        ]
+      ],
+      "reason": "Remove extra speech before and after the final scripted line, independently confirmed by two ASR passes. Keep margins around the complete line; final assembly adds a two-second reaction hold.",
+      "edited_sha256": "4a3f4770793d24e22b88fb802180655f35f17983e9b511ad203335888a312899",
+      "seconds": 2.1666666666666665
+    }
+  ],
+  "cues": [
+    {
+      "path": "references/episode-v1/audio/laugh-soft.wav",
+      "at": 19.081667,
+      "seconds": 2.5,
+      "after_shot": "01b",
+      "gain_db": -3
+    },
+    {
+      "path": "references/episode-v1/audio/laugh-medium.wav",
+      "at": 44.54666700000001,
+      "seconds": 2.7,
+      "after_shot": "02b",
+      "gain_db": 0
+    },
+    {
+      "path": "references/episode-v1/audio/laugh-soft.wav",
+      "at": 56.95666733333334,
+      "seconds": 2.5,
+      "after_shot": "03b",
+      "gain_db": -3
+    },
+    {
+      "path": "references/episode-v1/audio/laugh-big.wav",
+      "at": 58.43333400000001,
+      "seconds": 2.4,
+      "after_shot": "04",
+      "gain_db": 2
+    },
+    {
+      "path": "references/episode-v1/audio/laugh-soft.wav",
+      "at": 68.18666733333335,
+      "seconds": 2.5,
+      "after_shot": "05a",
+      "gain_db": -3
+    },
+    {
+      "path": "references/episode-v1/audio/laugh-medium.wav",
+      "at": 75.12166766666667,
+      "seconds": 2.7,
+      "after_shot": "05b",
+      "gain_db": 0
+    },
+    {
+      "path": "references/episode-v1/audio/laugh-big.wav",
+      "at": 84.94166766666667,
+      "seconds": 2.4,
+      "after_shot": "05c",
+      "gain_db": 2
+    },
+    {
+      "path": "references/episode-v1/audio/laugh-soft.wav",
+      "at": 87.985001,
+      "seconds": 2.5,
+      "after_shot": "06a",
+      "gain_db": -3
+    },
+    {
+      "path": "references/episode-v1/audio/laugh-soft.wav",
+      "at": 91.37833433333334,
+      "seconds": 2.5,
+      "after_shot": "06b",
+      "gain_db": -3
+    },
+    {
+      "path": "references/episode-v1/audio/laugh-big.wav",
+      "at": 94.74833433333333,
+      "seconds": 2.4,
+      "after_shot": "06c",
+      "gain_db": 2
+    }
+  ],
+  "dialogue_lufs_target": -20,
+  "audience_lufs_target": -27,
+  "end_hold_frames": 48,
+  "room_tone": "quiet synthetic brown noise, 80\u2013700 Hz",
+  "speech_timing_changed": true,
+  "output_sha256": "fc663bb2b89cfd062f88475243db9e9ab012e9d1040434ae04ee377bf4e12893",
+  "quality": {
+    "width": 640,
+    "height": 384,
+    "fps": 24.0,
+    "duration": 97.208333,
+    "audio": true,
+    "audio_channels": 2,
+    "audio_duration": 97.208,
+    "problems": [],
+    "technical_pass": true,
+    "creative_review": "pending: verify dialogue, faces, voices, acting and continuity"
+  },
+  "frame_edits": {
+    "version": 1,
+    "shots": {
+      "03a": {
+        "source_sha256": "0482618f2774dc979292eb5e1ef9c9a4dc11f07b17619e600b5b367479aeeb6b",
+        "keep_frames": [
+          [
+            49,
+            192
+          ]
+        ],
+        "reason": "Remove unscripted opening, independently detected by base.en and small.en; retain Elaine and Jerry lines."
+      },
+      "03b": {
+        "source_sha256": "5099556b72c28fd231ffa4788b6e132ecd82f0877b501786832dbe1046a7feda",
+        "keep_frames": [
+          [
+            0,
+            113
+          ],
+          [
+            185,
+            226
+          ]
+        ],
+        "reason": "Remove unscripted middle utterance; retain Elaine date line and George reply with margins."
+      },
+      "04": {
+        "source_sha256": "b987b0767d8060dbee77fd87dcbffad0bb54a38f5616855a5e146b419fbe19f4",
+        "keep_frames": [
+          [
+            0,
+            44
+          ]
+        ],
+        "reason": "End on cash landing after the intended I am out line; remove subsequent unscripted speech."
+      },
+      "06a": {
+        "source_sha256": "845ca87493a6c602cd18a47684c4c8f0d22968c1a76ca7b272246ac33e3674c9",
+        "keep_frames": [
+          [
+            0,
+            28
+          ],
+          [
+            101,
+            158
+          ]
+        ],
+        "reason": "Remove unscripted middle speech confirmed independently by base.en and small.en; retain Jerry question and Kramer reply plus the ending frame."
+      },
+      "06c": {
+        "source_sha256": "0d344d06c25b1f98616c0052eec30b952eeb143a79a0ea13e9f996781af98b68",
+        "keep_frames": [
+          [
+            44,
+            96
+          ]
+        ],
+        "reason": "Remove extra speech before and after the final scripted line, independently confirmed by two ASR passes. Keep margins around the complete line; final assembly adds a two-second reaction hold."
+      },
+      "05b": {
+        "source_sha256": "f0da85f1e106313a7efa8317d544fb170950d6784320fa564cd43c57335b750e",
+        "keep_frames": [
+          [
+            0,
+            134
+          ],
+          [
+            159,
+            192
+          ]
+        ],
+        "reason": "Remove the extra middle At first echo detected in the full export, retaining the first statement and final response. Margins use full-export word timestamps; ending frame is preserved."
+      },
+      "06b": {
+        "source_sha256": "3a5547425dcfdfed528d31df1e1d7898ea3ccaf2abaf9a1583aa3771827faa19",
+        "keep_frames": [
+          [
+            66,
+            158
+          ]
+        ],
+        "reason": "Remove unscripted opening confirmed by full-export and independent small.en source transcription; retain the entire tea line and Kramer exit."
+      }
+    }
+  },
+  "av_sync_preserved": true
+}

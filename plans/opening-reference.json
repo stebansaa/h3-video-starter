@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "id": "opening_with_character_references",
+  "title": "The Bitcoin Contest — reference opening",
+  "source_sha256": "44b010eea8a4e97159544f84fab6b3d12f296a760fa38bb785db5b2ca530ad8a",
+  "style": "1990s American multi-camera television sitcom. Use the composition and wardrobe of the supplied starting image, warm flat studio lighting, slightly soft broadcast-video appearance. Static or gently reframed camera; natural acting and deadpan comedy. Everyone treats their statements as serious. Maintain faces, clothes, voice identities and set geometry across shots. Only Kramer grooming and demeanor change at his return. No captions, graphics, dramatic lighting, extra characters, or cinematic camera movement.",
+  "set": "Jerry's apartment window, viewed from outside looking in, exactly as the supplied starting image. Keep the open casement frames, sill, exterior brickwork, blinds and glass reflections. The opposite building and the crypto trader remain off-screen.",
+  "characters": {
+    "Jerry": "S1. Jerry Seinfeld: slim, short dark curly hair, red shirt as in the starting image. Clear, lightly nasal conversational voice, dry delivery.",
+    "George": "S2. George Costanza: stocky, balding with dark side hair, round glasses, muted brown/olive overshirt as in the starting image. Mid-pitched nasal voice that tightens when agitated.",
+    "Kramer": "S3. Cosmo Kramer: tall, lanky, high dark hair, mustard-brown long-sleeve shirt as in the starting image. Low, slightly gravelly voice. Same face and clothes throughout; posture and grooming change as specified.",
+    "Elaine": "S4. Elaine Benes: shoulder-length dark curly hair, burgundy blouse and dark skirt. Clear expressive mid-pitched voice, clipped skeptical delivery."
+  },
+  "production_notes": [
+    "Same verbatim opening dialogue as the first trial.",
+    "User-supplied image.png anchors frame zero; character video/audio references are separately assigned.",
+    "640x384 preview canvas closely matches the supplied image aspect ratio on H3's 32-pixel grid."
+  ],
+  "shots": [
+    {
+      "id": "01a",
+      "source_section": 1,
+      "source_dialogue_range": [
+        0,
+        3
+      ],
+      "seconds": 11,
+      "characters": [
+        "Jerry",
+        "George",
+        "Kramer"
+      ],
+      "continuity": "reset",
+      "action": "Hold the starting image's outside-looking-in camera angle. Kramer is nearest the open window with his hands at the sill, Jerry stands behind him, and George is at viewer-right behind the glass. Kramer notices the crypto trader off-screen and makes a small pointing gesture. Jerry and George lean slightly closer. Preserve all three faces, window geometry, clothing and relative positions. No camera cut.",
+      "dialogue": [
+        {
+          "speaker": "Kramer",
+          "text": "There’s a crypto trader across the street."
+        },
+        {
+          "speaker": "Jerry",
+          "text": "Where?"
+        },
+        {
+          "speaker": "Kramer",
+          "text": "Second floor from the top. See the window on the left"
+        }
+      ],
+      "state": "Starting image takes precedence for wardrobe and staging. Reference videos supply character identity, mannerisms and voice only."
+    }
+  ]
+}

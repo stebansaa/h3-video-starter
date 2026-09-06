@@ -1,0 +1,25 @@
+{
+  "url": "https://www.youtube.com/watch?v=wGhg-htVnJ0",
+  "title": "Seinfeld: The Contest (Clip) | TBS",
+  "source_sha256": "27bf30af31b5075175e40825f007933e55273b49bc99f106beced409f15038d3",
+  "excerpts": [
+    {
+      "character": "Jerry",
+      "start": 144.8,
+      "seconds": 3.25,
+      "crop": "crop=416:384:390:38"
+    },
+    {
+      "character": "George",
+      "start": 99.2,
+      "seconds": 3.25,
+      "crop": "crop=352:400:412:20"
+    },
+    {
+      "character": "Kramer",
+      "start": 127.4,
+      "seconds": 2.65,
+      "crop": "crop=352:416:164:24"
+    }
+  ]
+}

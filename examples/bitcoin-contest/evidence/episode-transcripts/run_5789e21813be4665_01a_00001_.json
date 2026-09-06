@@ -1,0 +1,160 @@
+{
+  "source": "server-output/run_5789e21813be4665_01a_00001_.mp4",
+  "model": "base.en",
+  "language": "en",
+  "segments": [
+    {
+      "start": 1.3000000000000003,
+      "end": 4.18,
+      "text": " There's a crypto trader across the street.",
+      "no_speech_prob": 0.010005408897995949,
+      "avg_logprob": -0.2503198565858783,
+      "words": [
+        {
+          "start": 1.3000000000000003,
+          "end": 1.98,
+          "word": " There's",
+          "probability": 0.6980552226305008
+        },
+        {
+          "start": 1.98,
+          "end": 2.06,
+          "word": " a",
+          "probability": 0.9969561100006104
+        },
+        {
+          "start": 2.06,
+          "end": 2.32,
+          "word": " crypto",
+          "probability": 0.8988102674484253
+        },
+        {
+          "start": 2.32,
+          "end": 2.92,
+          "word": " trader",
+          "probability": 0.8820582032203674
+        },
+        {
+          "start": 2.92,
+          "end": 3.46,
+          "word": " across",
+          "probability": 0.984264612197876
+        },
+        {
+          "start": 3.46,
+          "end": 3.84,
+          "word": " the",
+          "probability": 0.9992030262947083
+        },
+        {
+          "start": 3.84,
+          "end": 4.18,
+          "word": " street.",
+          "probability": 0.9928275942802429
+        }
+      ]
+    },
+    {
+      "start": 5.0,
+      "end": 5.56,
+      "text": " Where?",
+      "no_speech_prob": 0.010005408897995949,
+      "avg_logprob": -0.2503198565858783,
+      "words": [
+        {
+          "start": 5.0,
+          "end": 5.56,
+          "word": " Where?",
+          "probability": 0.8725770115852356
+        }
+      ]
+    },
+    {
+      "start": 7.300000000000001,
+      "end": 9.1,
+      "text": " Second floor from the top.",
+      "no_speech_prob": 0.010005408897995949,
+      "avg_logprob": -0.2503198565858783,
+      "words": [
+        {
+          "start": 7.300000000000001,
+          "end": 7.98,
+          "word": " Second",
+          "probability": 0.922601044178009
+        },
+        {
+          "start": 7.98,
+          "end": 8.44,
+          "word": " floor",
+          "probability": 0.9933735132217407
+        },
+        {
+          "start": 8.44,
+          "end": 8.7,
+          "word": " from",
+          "probability": 0.9892489910125732
+        },
+        {
+          "start": 8.7,
+          "end": 8.84,
+          "word": " the",
+          "probability": 0.9970911741256714
+        },
+        {
+          "start": 8.84,
+          "end": 9.1,
+          "word": " top.",
+          "probability": 0.9983131885528564
+        }
+      ]
+    },
+    {
+      "start": 9.98,
+      "end": 10.92,
+      "text": " See the window on the left.",
+      "no_speech_prob": 0.010005408897995949,
+      "avg_logprob": -0.2503198565858783,
+      "words": [
+        {
+          "start": 9.98,
+          "end": 10.02,
+          "word": " See",
+          "probability": 0.9845992922782898
+        },
+        {
+          "start": 10.02,
+          "end": 10.14,
+          "word": " the",
+          "probability": 0.9948527216911316
+        },
+        {
+          "start": 10.14,
+          "end": 10.34,
+          "word": " window",
+          "probability": 0.9981598258018494
+        },
+        {
+          "start": 10.34,
+          "end": 10.62,
+          "word": " on",
+          "probability": 0.9974950551986694
+        },
+        {
+          "start": 10.62,
+          "end": 10.74,
+          "word": " the",
+          "probability": 0.9990886449813843
+        },
+        {
+          "start": 10.74,
+          "end": 10.92,
+          "word": " left.",
+          "probability": 0.9984493255615234
+        }
+      ]
+    }
+  ],
+  "elapsed": 1.225996494293213,
+  "text": "There's a crypto trader across the street. Where? Second floor from the top. See the window on the left.",
+  "note": "Automatic transcription, not proof of speaker identity or exact delivery."
+}

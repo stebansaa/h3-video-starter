@@ -1,0 +1,308 @@
+{
+  "prompt": [
+    0,
+    "d86328cd-e2d3-4517-ba71-37a8be96783b",
+    {
+      "1": {
+        "class_type": "UNETLoader",
+        "inputs": {
+          "unet_name": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+          "weight_dtype": "default"
+        }
+      },
+      "2": {
+        "class_type": "CLIPLoader",
+        "inputs": {
+          "clip_name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+          "type": "minimax",
+          "device": "default"
+        }
+      },
+      "3": {
+        "class_type": "VAELoader",
+        "inputs": {
+          "vae_name": "minimax_h3_video_vae_fp16.safetensors"
+        }
+      },
+      "4": {
+        "class_type": "VAELoader",
+        "inputs": {
+          "vae_name": "minimax_h3_audio_vae_fp32.safetensors"
+        }
+      },
+      "5": {
+        "class_type": "MiniMaxH3ReferenceToVideo",
+        "inputs": {
+          "clip": [
+            "2",
+            0
+          ],
+          "vae": [
+            "3",
+            0
+          ],
+          "audio_vae": [
+            "4",
+            0
+          ],
+          "prompt": "Reference assignments: <Picture 1> is the opening composition, wardrobe and set. Start at this image.\nJerry: use <Video 1> for this character's face, mannerisms and identity, and <Audio 1> for their voice. Ignore the reference's wardrobe, setting, laughter and spoken words; follow the new script.\nGeorge: use <Video 2> for this character's face, mannerisms and identity, and <Audio 2> for their voice. Ignore the reference's wardrobe, setting, laughter and spoken words; follow the new script.\n\n1990s American multi-camera television sitcom. Use the composition and wardrobe of the supplied starting image, warm flat studio lighting and slightly soft broadcast-video appearance. Locked camera; natural acting and deadpan comedy. Everyone treats the argument as serious. Maintain faces, clothes, voice identities and set geometry across shots. No captions, graphics, dramatic lighting, extra characters or camera movement. Generate clean dialogue without studio audience sounds; audience reactions are added during editing.\n\nSet: Jerry Seinfeld apartment window, seen from outside looking in as in the approved window-two-v2.png. Jerry stands at screen left and George at screen right behind the sill. Preserve the green-gray open casement, blinds, brick and visible interior. They discuss an off-screen standing desk; no desk, chair or new props need appear.\n\nCast and permanent speaker IDs:\nJerry: S1. Jerry Seinfeld: slim, short dark curly hair, red long-sleeved button-front collared shirt exactly as in the starting image. Clear, lightly nasal conversational voice, dry delivery.\nGeorge: S2. George Costanza: stocky, balding with dark side hair, round glasses, plain brown/olive long-sleeved collared overshirt over a dark polo exactly as in the starting image. Mid-pitched nasal voice that tightens when agitated.\n\nBlocking: Locked outside-looking-in medium two-shot. Jerry at left and George at right begin in the approved image's exact positions. George turns slightly toward Jerry and delivers his complaint with mounting indignation, making only a small open-palm gesture. Jerry listens with lips closed, then turns his eyes toward George for his short dry question. George is silent during Jerry's line. Preserve the camera and finish with both men still by the sill. Exactly two utterances, with short quiet margins.\n\nAppearance state: Jerry remains at screen left in his red collared long-sleeved shirt. George remains at screen right in a plain brown/olive collared long-sleeved overshirt over a dark polo, with round glasses. Preserve all visible clothes, hair, hands and sill geometry from the starting frame. Lower trousers are outside this view and remain outside it. Source clips provide face and voice only: ignore their dialogue, clothes, setting and laughter. No handheld props, no added desk or chair.\n\nDuration: 9.417 seconds, 24 fps. Timeline:\n\n[0.00s–0.50s] Silent establishing/reaction beat. No speech.\n\n[0.50s–5.92s] George alone says exactly: “A standing desk should charge less rent. I'm not even using the chair!”\n\n[6.32s–7.98s] Jerry alone says exactly: “You're renting a desk?”\n\nAfter the last line, hold a silent reaction through 9.417s; no extra words.\n\nAudio: natural conversational English, quiet room tone. Only the identified speaker talks; other mouths remain still. Keep each voice attached to its own character. Clean production dialogue only. No audience, laughter, laugh track, applause, narration, added dialogue, music, or overlapping speech. Leave the opening and ending reaction beats free of speech and vocal sounds for editing. Use small reaction pauses. No subtitles or on-screen text.",
+          "width": 640,
+          "height": 384,
+          "length": 226,
+          "ref_image_size": "match",
+          "ref_images.ref_image_0": [
+            "15",
+            0
+          ],
+          "ref_videos.ref_video_0": [
+            "21",
+            0
+          ],
+          "ref_video_audios.ref_video_audio_0": [
+            "21",
+            1
+          ],
+          "ref_videos.ref_video_1": [
+            "23",
+            0
+          ],
+          "ref_video_audios.ref_video_audio_1": [
+            "23",
+            1
+          ]
+        }
+      },
+      "20": {
+        "class_type": "LoadVideo",
+        "inputs": {
+          "file": "director_d4abd98153f45005ec696633.mp4"
+        }
+      },
+      "21": {
+        "class_type": "GetVideoComponents",
+        "inputs": {
+          "video": [
+            "20",
+            0
+          ]
+        }
+      },
+      "22": {
+        "class_type": "LoadVideo",
+        "inputs": {
+          "file": "director_dacdd56169b0661c2e45f330.mp4"
+        }
+      },
+      "23": {
+        "class_type": "GetVideoComponents",
+        "inputs": {
+          "video": [
+            "22",
+            0
+          ]
+        }
+      },
+      "15": {
+        "class_type": "LoadImage",
+        "inputs": {
+          "image": "director_34eff124df9118cf75e3a077.png"
+        }
+      },
+      "16": {
+        "class_type": "MiniMaxH3AddGuide",
+        "inputs": {
+          "positive": [
+            "5",
+            0
+          ],
+          "latent": [
+            "5",
+            1
+          ],
+          "vae": [
+            "3",
+            0
+          ],
+          "image": [
+            "15",
+            0
+          ],
+          "frame_idx": 0
+        }
+      },
+      "6": {
+        "class_type": "RandomNoise",
+        "inputs": {
+          "noise_seed": 6090601
+        }
+      },
+      "7": {
+        "class_type": "BasicGuider",
+        "inputs": {
+          "model": [
+            "1",
+            0
+          ],
+          "conditioning": [
+            "16",
+            0
+          ]
+        }
+      },
+      "8": {
+        "class_type": "KSamplerSelect",
+        "inputs": {
+          "sampler_name": "res_multistep"
+        }
+      },
+      "9": {
+        "class_type": "BasicScheduler",
+        "inputs": {
+          "model": [
+            "1",
+            0
+          ],
+          "scheduler": "simple",
+          "steps": 20,
+          "denoise": 1.0
+        }
+      },
+      "10": {
+        "class_type": "SamplerCustomAdvanced",
+        "inputs": {
+          "noise": [
+            "6",
+            0
+          ],
+          "guider": [
+            "7",
+            0
+          ],
+          "sampler": [
+            "8",
+            0
+          ],
+          "sigmas": [
+            "9",
+            0
+          ],
+          "latent_image": [
+            "5",
+            1
+          ]
+        }
+      },
+      "11": {
+        "class_type": "VAEDecode",
+        "inputs": {
+          "samples": [
+            "10",
+            0
+          ],
+          "vae": [
+            "3",
+            0
+          ]
+        }
+      },
+      "12": {
+        "class_type": "VAEDecodeAudio",
+        "inputs": {
+          "samples": [
+            "10",
+            0
+          ],
+          "vae": [
+            "4",
+            0
+          ]
+        }
+      },
+      "13": {
+        "class_type": "CreateVideo",
+        "inputs": {
+          "images": [
+            "11",
+            0
+          ],
+          "audio": [
+            "12",
+            0
+          ],
+          "fps": 24.0,
+          "bit_depth": 8
+        }
+      },
+      "14": {
+        "class_type": "SaveVideo",
+        "inputs": {
+          "video": [
+            "13",
+            0
+          ],
+          "filename_prefix": "director/run_a80e837ec117463c_01a",
+          "format": "mp4",
+          "codec": "auto"
+        }
+      }
+    },
+    {
+      "director_request_id": "59cdeee5-5100-414f-9033-f3ff5c388a82",
+      "client_id": "59cdeee5-5100-414f-9033-f3ff5c388a82",
+      "create_time": 1788729970249
+    },
+    [
+      "14"
+    ]
+  ],
+  "outputs": {
+    "14": {
+      "images": [
+        {
+          "filename": "run_a80e837ec117463c_01a_00001_.mp4",
+          "subfolder": "director",
+          "type": "output"
+        }
+      ],
+      "animated": [
+        true
+      ]
+    }
+  },
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "d86328cd-e2d3-4517-ba71-37a8be96783b",
+          "timestamp": 1788729970250
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [],
+          "prompt_id": "d86328cd-e2d3-4517-ba71-37a8be96783b",
+          "timestamp": 1788729970262
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "d86328cd-e2d3-4517-ba71-37a8be96783b",
+          "timestamp": 1788730230185
+        }
+      ]
+    ]
+  },
+  "meta": {
+    "14": {
+      "node_id": "14",
+      "display_node": "14",
+      "parent_node": null,
+      "real_node_id": "14"
+    }
+  }
+}

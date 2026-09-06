@@ -1,0 +1,67 @@
+{
+  "source": "server-output/run_2062f6cb686343ab_06b_00001_.mp4",
+  "model": "base.en",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.66,
+      "text": " I think I'm going to make some tea.",
+      "no_speech_prob": 0.012704056687653065,
+      "avg_logprob": -0.5954447342799261,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.68,
+          "word": " I",
+          "probability": 0.04610537737607956
+        },
+        {
+          "start": 0.68,
+          "end": 1.9,
+          "word": " think",
+          "probability": 0.7541639804840088
+        },
+        {
+          "start": 1.9,
+          "end": 3.82,
+          "word": " I'm",
+          "probability": 0.9572658240795135
+        },
+        {
+          "start": 3.82,
+          "end": 3.92,
+          "word": " going",
+          "probability": 0.4610712230205536
+        },
+        {
+          "start": 3.92,
+          "end": 4.02,
+          "word": " to",
+          "probability": 0.9951620697975159
+        },
+        {
+          "start": 4.02,
+          "end": 4.16,
+          "word": " make",
+          "probability": 0.9959164261817932
+        },
+        {
+          "start": 4.16,
+          "end": 4.38,
+          "word": " some",
+          "probability": 0.9716275930404663
+        },
+        {
+          "start": 4.38,
+          "end": 4.66,
+          "word": " tea.",
+          "probability": 0.9964321851730347
+        }
+      ]
+    }
+  ],
+  "elapsed": 0.39862489700317383,
+  "text": "I think I'm going to make some tea.",
+  "note": "Automatic transcription, not proof of speaker identity or exact delivery."
+}

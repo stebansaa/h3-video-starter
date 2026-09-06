@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "characters": {
+    "Jerry": {
+      "path": "../opening-v2/jerry.mp4",
+      "seconds": 3.25
+    },
+    "George": {
+      "path": "../opening-v2/george.mp4",
+      "seconds": 3.25
+    },
+    "Kramer": {
+      "path": "../opening-v2/kramer.mp4",
+      "seconds": 2.65
+    },
+    "Elaine": {
+      "path": "elaine.mp4",
+      "seconds": 2.65
+    }
+  },
+  "shots": {
+    "01a": {
+      "first_frame": "../../image.png"
+    },
+    "01b": {
+      "first_frame": "window-three-v2.png"
+    },
+    "01c": {},
+    "02a": {
+      "first_frame": "window-two-v2.png"
+    },
+    "02b": {},
+    "03a": {
+      "first_frame": "window-elaine.png"
+    },
+    "03b": {},
+    "04": {
+      "first_frame": "doorway-kramer.png"
+    },
+    "05a": {
+      "first_frame": "counter-four.png"
+    },
+    "05b": {},
+    "05c": {},
+    "06a": {},
+    "06b": {},
+    "06c": {}
+  }
+}

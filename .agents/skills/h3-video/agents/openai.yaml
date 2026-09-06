@@ -1,0 +1,4 @@
+interface:
+  display_name: "H3 Video Director"
+  short_description: "Guide setup, previews and complete H3 video production"
+  default_prompt: "Use $h3-video to check this checkout and guide me through preparing and reviewing a new video preview."

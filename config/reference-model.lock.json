@@ -1,0 +1,11 @@
+{
+  "comfy_revision": "e01fb4c56b7a88149d469b99cbbfe3223d715054",
+  "min_vcpus": 6,
+  "upstream_guide_pr": "https://github.com/Comfy-Org/ComfyUI/pull/15439",
+  "file": {
+    "path": "diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+    "size": 20970379616,
+    "sha256": "9255f52b6677845ad238f20dfaafa94727053694127ab7f255c048f0f9365779",
+    "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/4cc1d817b6184899b41293954329f576cb5ae86b/diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors"
+  }
+}

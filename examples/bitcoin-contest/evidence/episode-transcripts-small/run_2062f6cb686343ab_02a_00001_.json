@@ -1,0 +1,121 @@
+{
+  "source": "server-output/run_2062f6cb686343ab_02a_00001_.mp4",
+  "model": "small.en",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.18,
+      "text": " He hasn't sold.",
+      "no_speech_prob": 0.0023233680985867977,
+      "avg_logprob": -0.49070817947387696,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.32,
+          "word": " He",
+          "probability": 0.7303495407104492
+        },
+        {
+          "start": 0.32,
+          "end": 0.72,
+          "word": " hasn't",
+          "probability": 0.9983261227607727
+        },
+        {
+          "start": 0.72,
+          "end": 1.18,
+          "word": " sold.",
+          "probability": 0.9980389475822449
+        }
+      ]
+    },
+    {
+      "start": 1.92,
+      "end": 2.56,
+      "text": " Same position.",
+      "no_speech_prob": 0.0023233680985867977,
+      "avg_logprob": -0.49070817947387696,
+      "words": [
+        {
+          "start": 1.92,
+          "end": 2.14,
+          "word": " Same",
+          "probability": 0.9688543081283569
+        },
+        {
+          "start": 2.14,
+          "end": 2.56,
+          "word": " position.",
+          "probability": 0.9993230104446411
+        }
+      ]
+    },
+    {
+      "start": 3.34,
+      "end": 6.64,
+      "text": " The average salon a whole time is 40 seconds.",
+      "no_speech_prob": 0.0023233680985867977,
+      "avg_logprob": -0.49070817947387696,
+      "words": [
+        {
+          "start": 3.34,
+          "end": 3.56,
+          "word": " The",
+          "probability": 0.9961028099060059
+        },
+        {
+          "start": 3.56,
+          "end": 3.92,
+          "word": " average",
+          "probability": 0.9980377554893494
+        },
+        {
+          "start": 3.92,
+          "end": 4.32,
+          "word": " salon",
+          "probability": 0.3343833386898041
+        },
+        {
+          "start": 4.32,
+          "end": 4.52,
+          "word": " a",
+          "probability": 0.7950134873390198
+        },
+        {
+          "start": 4.52,
+          "end": 4.74,
+          "word": " whole",
+          "probability": 0.9971597194671631
+        },
+        {
+          "start": 4.74,
+          "end": 5.16,
+          "word": " time",
+          "probability": 0.995547890663147
+        },
+        {
+          "start": 5.16,
+          "end": 5.66,
+          "word": " is",
+          "probability": 0.9867560863494873
+        },
+        {
+          "start": 5.66,
+          "end": 6.12,
+          "word": " 40",
+          "probability": 0.9520768523216248
+        },
+        {
+          "start": 6.12,
+          "end": 6.64,
+          "word": " seconds.",
+          "probability": 0.9974557757377625
+        }
+      ]
+    }
+  ],
+  "elapsed": 1.0979008674621582,
+  "text": "He hasn't sold. Same position. The average salon a whole time is 40 seconds.",
+  "note": "Automatic transcription, not proof of speaker identity or exact delivery."
+}

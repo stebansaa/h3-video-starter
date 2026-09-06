@@ -1,0 +1,142 @@
+{
+  "source": "server-output/run_2062f6cb686343ab_06a_00001_.mp4",
+  "model": "small.en",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.04,
+      "text": " What if it dips?",
+      "no_speech_prob": 0.014414518140256405,
+      "avg_logprob": -0.4589854385703802,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.42,
+          "word": " What",
+          "probability": 0.7564839124679565
+        },
+        {
+          "start": 0.42,
+          "end": 0.56,
+          "word": " if",
+          "probability": 0.9931875467300415
+        },
+        {
+          "start": 0.56,
+          "end": 0.7,
+          "word": " it",
+          "probability": 0.9964494705200195
+        },
+        {
+          "start": 0.7,
+          "end": 1.04,
+          "word": " dips?",
+          "probability": 0.994847297668457
+        }
+      ]
+    },
+    {
+      "start": 1.82,
+      "end": 3.12,
+      "text": " Some recertaining on and on the buck.",
+      "no_speech_prob": 0.014414518140256405,
+      "avg_logprob": -0.4589854385703802,
+      "words": [
+        {
+          "start": 1.82,
+          "end": 1.82,
+          "word": " Some",
+          "probability": 0.8227124214172363
+        },
+        {
+          "start": 1.82,
+          "end": 2.4,
+          "word": " recertaining",
+          "probability": 0.6155416170756022
+        },
+        {
+          "start": 2.4,
+          "end": 2.64,
+          "word": " on",
+          "probability": 0.3574025630950928
+        },
+        {
+          "start": 2.64,
+          "end": 2.74,
+          "word": " and",
+          "probability": 0.7820664048194885
+        },
+        {
+          "start": 2.74,
+          "end": 2.84,
+          "word": " on",
+          "probability": 0.979225218296051
+        },
+        {
+          "start": 2.84,
+          "end": 2.96,
+          "word": " the",
+          "probability": 0.9834700226783752
+        },
+        {
+          "start": 2.96,
+          "end": 3.12,
+          "word": " buck.",
+          "probability": 0.5530755519866943
+        }
+      ]
+    },
+    {
+      "start": 3.26,
+      "end": 3.88,
+      "text": " Different cereal.",
+      "no_speech_prob": 0.014414518140256405,
+      "avg_logprob": -0.4589854385703802,
+      "words": [
+        {
+          "start": 3.26,
+          "end": 3.48,
+          "word": " Different",
+          "probability": 0.7632509469985962
+        },
+        {
+          "start": 3.48,
+          "end": 3.88,
+          "word": " cereal.",
+          "probability": 0.19291234016418457
+        }
+      ]
+    },
+    {
+      "start": 4.6,
+      "end": 5.2,
+      "text": " I'll buy more.",
+      "no_speech_prob": 0.014414518140256405,
+      "avg_logprob": -0.4589854385703802,
+      "words": [
+        {
+          "start": 4.6,
+          "end": 4.78,
+          "word": " I'll",
+          "probability": 0.9904300570487976
+        },
+        {
+          "start": 4.78,
+          "end": 4.96,
+          "word": " buy",
+          "probability": 0.9985913634300232
+        },
+        {
+          "start": 4.96,
+          "end": 5.2,
+          "word": " more.",
+          "probability": 0.9990643858909607
+        }
+      ]
+    }
+  ],
+  "elapsed": 1.167253017425537,
+  "text": "What if it dips? Some recertaining on and on the buck. Different cereal. I'll buy more.",
+  "note": "Automatic transcription, not proof of speaker identity or exact delivery."
+}

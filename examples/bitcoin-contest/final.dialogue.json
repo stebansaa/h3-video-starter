@@ -1,0 +1,142 @@
+[
+  {
+    "shot": "01a",
+    "expected": "There\u2019s a crypto trader across the street. Where? Second floor from the top. See the window on the left",
+    "transcript": "There's a crypto trader across the street. Where? Second floor from the top. See the window on the left.",
+    "uncut_transcript": "There's a crypto trader across the street. Where? Second floor from the top. See the window on the left.",
+    "word_error_rate": 0.0,
+    "start": 0.0,
+    "seconds": 11.541667,
+    "last_recognized_word_end": 10.92
+  },
+  {
+    "shot": "01b",
+    "expected": "Woah. Look at his monitors. He only has one. Bitcoin guy.",
+    "transcript": "Whoa. Look at his monitors. He only has one. Bitcoin guy.",
+    "uncut_transcript": "Whoa. Look at his monitors. He only has one. Bitcoin guy.",
+    "word_error_rate": 0.09090909090909091,
+    "start": 11.541667,
+    "seconds": 8.0,
+    "last_recognized_word_end": 7.38
+  },
+  {
+    "shot": "01c",
+    "expected": "Look at him! He\u2019s not even trading. He\u2019s just sitting there! Look. He\u2019s drinking tea. Yeah.",
+    "transcript": "Look at him. He's not even trading. He's just sitting there. Look. He's drinking tea. Yeah.",
+    "uncut_transcript": "Look at him. He's not even trading. He's just sitting there. Look. He's drinking tea. Yeah.",
+    "word_error_rate": 0.0,
+    "start": 19.541667,
+    "seconds": 10.125,
+    "last_recognized_word_end": 8.42
+  },
+  {
+    "shot": "02a",
+    "expected": "He hasn\u2019t sold. Same position. The average Solana hold time is forty seconds!",
+    "transcript": "He hasn't sold. Same position. The average Solana whole time is 40 seconds.",
+    "uncut_transcript": "He hasn't sold. Same position. The average Solana whole time is 40 seconds.",
+    "word_error_rate": 0.15384615384615385,
+    "start": 29.666667,
+    "seconds": 8.0,
+    "last_recognized_word_end": 6.56
+  },
+  {
+    "shot": "02b",
+    "expected": "Who lives like this?! Bitcoiners. They\u2019re animals.",
+    "transcript": "Who lives like this Bitcoin is Their animals",
+    "uncut_transcript": "Who lives like this Bitcoin is Their animals",
+    "word_error_rate": 0.42857142857142855,
+    "start": 37.666667000000004,
+    "seconds": 7.291667,
+    "last_recognized_word_end": 6.72
+  },
+  {
+    "shot": "03a",
+    "expected": "The PONS dev pulled liquidity. The waitress should\u2019ve taken it back.",
+    "transcript": "The P.O.N.S. dev pulled liquidity. The waitress should have taken it back.",
+    "uncut_transcript": "Oh, see what Lutrow may have love. The P.O.N.S. dev pulled liquidity. The waitress should have taken it back.",
+    "word_error_rate": 0.5454545454545454,
+    "start": 44.95833400000001,
+    "seconds": 5.958333333333333,
+    "last_recognized_word_end": 5.318333333333333
+  },
+  {
+    "shot": "03b",
+    "expected": "So, Vlad Tenev and I are going on a date tonight. Have a good time.",
+    "transcript": "So, Vlad, Tenev and I are going on a date tonight. Have a good time.",
+    "uncut_transcript": "So, Vlad, Tenev and I are going on a date tonight. You've placed it in a well and in a tray chain of frisbee. Have a good time.",
+    "word_error_rate": 0.0,
+    "start": 50.91666733333334,
+    "seconds": 6.416666666666667,
+    "last_recognized_word_end": 5.880000000000002
+  },
+  {
+    "shot": "04",
+    "expected": "I\u2019m out.",
+    "transcript": "I'm out.",
+    "uncut_transcript": "I'm out. School has some myself. Is mine not Belite? No.",
+    "word_error_rate": 0.0,
+    "start": 57.33333400000001,
+    "seconds": 1.8333333333333333,
+    "last_recognized_word_end": 0.94
+  },
+  {
+    "shot": "05a",
+    "expected": "I\u2019m out. You\u2019re out?! I\u2019m out of the contest. Already?! That was fast.",
+    "transcript": "Uh, I'm out. You're out? I'm out of the contest. Already? That was fast.",
+    "uncut_transcript": "Uh, I'm out. You're out? I'm out of the contest. Already? That was fast.",
+    "word_error_rate": 0.07692307692307693,
+    "start": 59.16666733333334,
+    "seconds": 9.416667,
+    "last_recognized_word_end": 8.86
+  },
+  {
+    "shot": "05b",
+    "expected": "What happened? I bought some. Bitcoin? At first. At first?!",
+    "transcript": "What happened I bought some Bitcoin at first at first",
+    "uncut_transcript": "What happened I bought some Bitcoin at first at first at first",
+    "word_error_rate": 0.0,
+    "start": 68.58333433333334,
+    "seconds": 6.958333333333333,
+    "last_recognized_word_end": 6.378333333333334
+  },
+  {
+    "shot": "05c",
+    "expected": "Then I set up a DCA. Oh boy. I deleted Fomo. No. Dexscreener too. NO!",
+    "transcript": "Then, I set up a DCA. Oh, boy. I deleted FOMO. No. Deck screener, too. No.",
+    "uncut_transcript": "Then, I set up a DCA. Oh, boy. I deleted FOMO. No. Deck screener, too. No.",
+    "word_error_rate": 0.13333333333333333,
+    "start": 75.54166766666667,
+    "seconds": 10.125,
+    "last_recognized_word_end": 9.24
+  },
+  {
+    "shot": "06a",
+    "expected": "What if it dips? I'll buy more.",
+    "transcript": "What if it dips? I'll buy more.",
+    "uncut_transcript": "What if it dips? Some recertaining on and on the buck. Different cereal. I'll buy more.",
+    "word_error_rate": 0.0,
+    "start": 85.66666766666667,
+    "seconds": 3.5416666666666665,
+    "last_recognized_word_end": 2.158333333333334
+  },
+  {
+    "shot": "06b",
+    "expected": "I think I'm gonna make some tea.",
+    "transcript": "I think I'm gonna make some tea.",
+    "uncut_transcript": "You're Austrian. You already like juice. I think I'm gonna make some tea.",
+    "word_error_rate": 0.0,
+    "start": 89.20833433333334,
+    "seconds": 3.8333333333333335,
+    "last_recognized_word_end": 2.01
+  },
+  {
+    "shot": "06c",
+    "expected": "And then there were three.",
+    "transcript": "And then there were three.",
+    "uncut_transcript": "Oh, yes, to that. And then there were three. At your time, I rhyme along with this.",
+    "word_error_rate": 0.0,
+    "start": 93.04166766666667,
+    "seconds": 2.1666666666666665,
+    "last_recognized_word_end": 1.5466666666666666
+  }
+]

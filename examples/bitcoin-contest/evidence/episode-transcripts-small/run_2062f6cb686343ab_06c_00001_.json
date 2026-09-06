@@ -1,0 +1,139 @@
+{
+  "source": "server-output/run_2062f6cb686343ab_06c_00001_.mp4",
+  "model": "small.en",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.5,
+      "end": 1.68,
+      "text": " Oh, yes, to that.",
+      "no_speech_prob": 0.05697859823703766,
+      "avg_logprob": -0.46683911354311053,
+      "words": [
+        {
+          "start": 0.5,
+          "end": 0.94,
+          "word": " Oh,",
+          "probability": 0.23780173063278198
+        },
+        {
+          "start": 0.94,
+          "end": 1.2,
+          "word": " yes,",
+          "probability": 0.3541800379753113
+        },
+        {
+          "start": 1.42,
+          "end": 1.46,
+          "word": " to",
+          "probability": 0.18344002962112427
+        },
+        {
+          "start": 1.46,
+          "end": 1.68,
+          "word": " that.",
+          "probability": 0.8544934391975403
+        }
+      ]
+    },
+    {
+      "start": 2.32,
+      "end": 3.38,
+      "text": " And then there were three.",
+      "no_speech_prob": 0.05697859823703766,
+      "avg_logprob": -0.46683911354311053,
+      "words": [
+        {
+          "start": 2.32,
+          "end": 2.42,
+          "word": " And",
+          "probability": 0.9698278903961182
+        },
+        {
+          "start": 2.42,
+          "end": 2.58,
+          "word": " then",
+          "probability": 0.9910578727722168
+        },
+        {
+          "start": 2.58,
+          "end": 2.78,
+          "word": " there",
+          "probability": 0.934837818145752
+        },
+        {
+          "start": 2.78,
+          "end": 2.94,
+          "word": " were",
+          "probability": 0.9932077527046204
+        },
+        {
+          "start": 2.94,
+          "end": 3.38,
+          "word": " three.",
+          "probability": 0.9854785203933716
+        }
+      ]
+    },
+    {
+      "start": 4.32,
+      "end": 6.4,
+      "text": " At your time, I rhyme along with this.",
+      "no_speech_prob": 0.05697859823703766,
+      "avg_logprob": -0.46683911354311053,
+      "words": [
+        {
+          "start": 4.32,
+          "end": 4.58,
+          "word": " At",
+          "probability": 0.8263841271400452
+        },
+        {
+          "start": 4.58,
+          "end": 4.78,
+          "word": " your",
+          "probability": 0.9959505796432495
+        },
+        {
+          "start": 4.78,
+          "end": 5.12,
+          "word": " time,",
+          "probability": 0.9946704506874084
+        },
+        {
+          "start": 5.2,
+          "end": 5.3,
+          "word": " I",
+          "probability": 0.9916490316390991
+        },
+        {
+          "start": 5.3,
+          "end": 5.64,
+          "word": " rhyme",
+          "probability": 0.5517779439687729
+        },
+        {
+          "start": 5.64,
+          "end": 5.84,
+          "word": " along",
+          "probability": 0.5122889876365662
+        },
+        {
+          "start": 5.84,
+          "end": 6.14,
+          "word": " with",
+          "probability": 0.9976319074630737
+        },
+        {
+          "start": 6.14,
+          "end": 6.4,
+          "word": " this.",
+          "probability": 0.9943753480911255
+        }
+      ]
+    }
+  ],
+  "elapsed": 1.0478203296661377,
+  "text": "Oh, yes, to that. And then there were three. At your time, I rhyme along with this.",
+  "note": "Automatic transcription, not proof of speaker identity or exact delivery."
+}

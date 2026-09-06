@@ -1,0 +1,106 @@
+{
+  "source": "server-output/run_2062f6cb686343ab_06b_00001_.mp4",
+  "model": "small.en",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.9,
+      "text": " You're Austrian. You already like juice.",
+      "no_speech_prob": 0.019887102767825127,
+      "avg_logprob": -0.4336267942967622,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.84,
+          "word": " You're",
+          "probability": 0.7429498136043549
+        },
+        {
+          "start": 0.84,
+          "end": 1.18,
+          "word": " Austrian.",
+          "probability": 0.39018571376800537
+        },
+        {
+          "start": 1.34,
+          "end": 1.34,
+          "word": " You",
+          "probability": 0.9762142300605774
+        },
+        {
+          "start": 1.34,
+          "end": 1.42,
+          "word": " already",
+          "probability": 0.9687012434005737
+        },
+        {
+          "start": 1.42,
+          "end": 1.64,
+          "word": " like",
+          "probability": 0.945438802242279
+        },
+        {
+          "start": 1.64,
+          "end": 1.9,
+          "word": " juice.",
+          "probability": 0.9948522448539734
+        }
+      ]
+    },
+    {
+      "start": 3.14,
+      "end": 4.76,
+      "text": " I think I'm gonna make some tea.",
+      "no_speech_prob": 0.019887102767825127,
+      "avg_logprob": -0.4336267942967622,
+      "words": [
+        {
+          "start": 3.14,
+          "end": 3.46,
+          "word": " I",
+          "probability": 0.9878354668617249
+        },
+        {
+          "start": 3.46,
+          "end": 3.64,
+          "word": " think",
+          "probability": 0.996906578540802
+        },
+        {
+          "start": 3.64,
+          "end": 3.88,
+          "word": " I'm",
+          "probability": 0.9976398050785065
+        },
+        {
+          "start": 3.88,
+          "end": 4.0,
+          "word": " gonna",
+          "probability": 0.8805433511734009
+        },
+        {
+          "start": 4.0,
+          "end": 4.2,
+          "word": " make",
+          "probability": 0.9986384510993958
+        },
+        {
+          "start": 4.2,
+          "end": 4.42,
+          "word": " some",
+          "probability": 0.9991631507873535
+        },
+        {
+          "start": 4.42,
+          "end": 4.76,
+          "word": " tea.",
+          "probability": 0.9982505440711975
+        }
+      ]
+    }
+  ],
+  "elapsed": 0.973799467086792,
+  "text": "You're Austrian. You already like juice. I think I'm gonna make some tea.",
+  "note": "Automatic transcription, not proof of speaker identity or exact delivery."
+}

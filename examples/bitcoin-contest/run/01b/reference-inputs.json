@@ -1,0 +1,30 @@
+{
+  "first_frame": "references/episode-v1/window-three-v2.png",
+  "first_frame_sha256": "4930711eae4dcf1f8af5c928f122a85f00c21f123fbccfcf9171be55c0d16b3d",
+  "clips": [
+    {
+      "character": "Jerry",
+      "path": "references/opening-v2/jerry.mp4",
+      "sha256": "bda51381d94aad4a56a4c863887fd4a1dde2917a2a066ac96cf541378b4ee796",
+      "start": 0,
+      "frames": 73
+    },
+    {
+      "character": "George",
+      "path": "references/opening-v2/george.mp4",
+      "sha256": "7e94dc27aa3687752cf54e1e058538f218c3243d1768b3159883a01f69d6737f",
+      "start": 0,
+      "frames": 73
+    },
+    {
+      "character": "Kramer",
+      "path": "references/opening-v2/kramer.mp4",
+      "sha256": "4925c5a39c93107090665a44a12d5365be482967abaa1c5bfd7640d6e84bf34f",
+      "start": 0,
+      "frames": 56
+    }
+  ],
+  "anchor_mode": "fixed",
+  "actual_first_frame": "references/episode-v1/window-three-v2.png",
+  "actual_first_frame_sha256": "4930711eae4dcf1f8af5c928f122a85f00c21f123fbccfcf9171be55c0d16b3d"
+}

@@ -1,0 +1,93 @@
+{
+  "01a": {
+    "decision": "accepted_for_assembly",
+    "visual": "Six-frame contact sheet: original window staging, character identities and clothes retained; Kramer gestures naturally.",
+    "dialogue": "Remote Whisper transcript matches all three scripted lines.",
+    "limitation": "Voice timbre not independently listened to."
+  },
+  "01b": {
+    "decision": "accepted_for_assembly",
+    "run": "examples/bitcoin-contest/run",
+    "visual": "Interior three-shot: identities and wardrobe remain stable; Jerry gestures on his line, George reacts, Kramer stays a listener.",
+    "dialogue": "Remote Whisper transcript matches all four scripted lines; unwanted phrase absent.",
+    "limitation": "Voice timbre not independently listened to."
+  },
+  "01c": {
+    "decision": "accepted_for_assembly",
+    "run": "examples/bitcoin-contest/run",
+    "visual": "Same interior angle and wardrobe; Kramer exits right after his last line.",
+    "dialogue": "Full-clip pass matched Jerry/George lines. Independent 7\u201310.125 second transcription detected Kramer Yeah at 8.18\u20138.42 seconds without an expected-text prompt.",
+    "limitation": "Voice timbre not independently listened to."
+  },
+  "02a": {
+    "decision": "accepted_for_assembly",
+    "run": "examples/bitcoin-contest/run",
+    "visual": "Window two-shot: Jerry red, George plain brown/olive; stable faces and position. Jerry gestures on his line; George is animated during the Solana line.",
+    "dialogue": "All three planned utterances present. Both ASR models write whole time for hold time; exact consonant remains uncertain, with no missing or added substantive line. Crypto-name spelling also varies in small.en, showing an ASR limitation."
+  },
+  "02b": {
+    "decision": "accepted_for_assembly",
+    "run": "examples/bitcoin-contest/run",
+    "visual": "Jerry and George retain clothes, faces and window positions. George reacts angrily; Jerry turns toward him for the reply.",
+    "dialogue": "Three scripted utterances are present. Base ASR spells Bitcoiners as Bitcoin is and They're as Their; pronunciation cannot be conclusively judged from ASR alone."
+  },
+  "03a": {
+    "decision": "accepted_for_assembly_with_recorded_edits",
+    "run": "examples/bitcoin-contest/run",
+    "visual_and_dialogue": "Interior three-shot retains Jerry red, George plain brown/olive and Elaine burgundy. Head edit removes unscripted introduction; fresh small.en transcription of edited media contains both intended lines.",
+    "limitation": "Voice timbre not independently listened to."
+  },
+  "03b": {
+    "decision": "accepted_for_assembly_with_recorded_edits",
+    "run": "examples/bitcoin-contest/run",
+    "visual_and_dialogue": "Same interior arrangement; Elaine gestures for date line, George turns to her for reply. Middle edit removes unscripted utterance; fresh small.en transcription contains the complete date line and reply.",
+    "limitation": "Voice timbre not independently listened to."
+  },
+  "04": {
+    "decision": "accepted_for_assembly_with_recorded_edits",
+    "run": "examples/bitcoin-contest/run",
+    "visual_and_dialogue": "Kramer returns in mustard shirt and places cash on the counter. End edit retains the cash movement and intended I am out; fresh small.en transcription confirms only that line.",
+    "limitation": "Voice timbre not independently listened to."
+  },
+  "05a": {
+    "decision": "accepted_for_assembly",
+    "run": "examples/bitcoin-contest/run",
+    "visual_and_dialogue": "Four-shot at the counter retains all four faces and clothes. Kramer gestures, George and Elaine react, Jerry delivers final line. ASR contains all five intended lines with a short introductory hesitation.",
+    "limitation": "Voice timbre not independently listened to."
+  },
+  "05b": {
+    "decision": "accepted_for_assembly_with_recorded_edits",
+    "run": "examples/bitcoin-contest/run",
+    "visual": "Counter four-shot retains positions and clothing. Faces remain stable as the group reacts.",
+    "dialogue": "Full-export transcription confirmed three At first utterances. The reviewed middle edit removes the extra echo; fresh small.en transcription of the edit has exactly the five intended lines.",
+    "limitation": "Voice timbre not independently listened to."
+  },
+  "05c": {
+    "decision": "accepted_for_assembly",
+    "run": "examples/bitcoin-contest/run",
+    "visual": "Four-person counter scene maintains clothes and faces; Elaine reacts to Fomo, Kramer gestures, George reacts at the end.",
+    "dialogue": "small.en independently detects all six planned utterances, including both No responses missed by base.en. Dexscreener is written phonetically as Deck screener. Use small.en for final comparison.",
+    "limitation": "Voice timbre not independently listened to."
+  },
+  "06a": {
+    "decision": "accepted_for_assembly_with_recorded_edits",
+    "run": "examples/bitcoin-contest/run",
+    "visual": "Same counter positions and clothing. Jerry turns toward Kramer; Kramer gestures for his reply. Ending frame retained for next-shot continuity.",
+    "dialogue": "Both base.en and small.en detected an unwanted middle utterance. Reviewed frame edit removes it; fresh small.en pass of edited media contains only What if it dips? and I will buy more.",
+    "limitation": "Voice timbre not independently listened to."
+  },
+  "06b": {
+    "decision": "accepted_for_assembly_with_recorded_edits",
+    "run": "examples/bitcoin-contest/run",
+    "visual": "Kramer retains mustard shirt, delivers his line, and walks out to the right; the others follow him with their eyes.",
+    "dialogue": "Final mixed-track transcription and independent small.en source pass both detected an unscripted opening missed by base.en. The reviewed head edit preserves the complete tea line and the exit; fresh small.en transcription confirms the line alone.",
+    "limitation": "Voice timbre not independently listened to."
+  },
+  "06c": {
+    "decision": "accepted_for_assembly_with_recorded_edits",
+    "run": "examples/bitcoin-contest/run",
+    "visual": "Jerry, George and Elaine remain at the counter in the same wardrobe after Kramer has exited. Jerry gestures toward the other two for the final line.",
+    "dialogue": "Both ASR models confirmed extra speech outside the intended line. Reviewed cut retains And then there were three; a fresh small.en pass of the edited clip confirms that line alone.",
+    "limitation": "Voice timbre not independently listened to."
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "id": "standing-desk-rent",
+  "title": "Standing Room Only",
+  "source_sha256": "e5e50a3178095c80e6fa7adb0cdb8907394bf2bde1a268c84ce5f171faa17a05",
+  "style": "1990s American multi-camera television sitcom. Use the composition and wardrobe of the supplied starting image, warm flat studio lighting and slightly soft broadcast-video appearance. Locked camera; natural acting and deadpan comedy. Everyone treats the argument as serious. Maintain faces, clothes, voice identities and set geometry across shots. No captions, graphics, dramatic lighting, extra characters or camera movement. Generate clean dialogue without studio audience sounds; audience reactions are added during editing.",
+  "set": "Jerry Seinfeld apartment window, seen from outside looking in as in the approved window-two-v2.png. Jerry stands at screen left and George at screen right behind the sill. Preserve the green-gray open casement, blinds, brick and visible interior. They discuss an off-screen standing desk; no desk, chair or new props need appear.",
+  "characters": {
+    "Jerry": "S1. Jerry Seinfeld: slim, short dark curly hair, red long-sleeved button-front collared shirt exactly as in the starting image. Clear, lightly nasal conversational voice, dry delivery.",
+    "George": "S2. George Costanza: stocky, balding with dark side hair, round glasses, plain brown/olive long-sleeved collared overshirt over a dark polo exactly as in the starting image. Mid-pitched nasal voice that tightens when agitated."
+  },
+  "production_notes": [
+    "Offline draft only; no GPU spending is authorized.",
+    "Tested reference-preview profile: 640x384, 24 fps, 20 steps.",
+    "Reuse the approved apartment two-shot; no new image generation required.",
+    "Starting image governs wardrobe and staging; supplied clips govern face/voice only.",
+    "Shot 01b continues from the preceding raw last frame; no audio latent crosses clips.",
+    "Review first clip 01a before authorizing 01b and inspecting the continuity join."
+  ],
+  "shots": [
+    {
+      "id": "01a",
+      "source_section": 1,
+      "source_dialogue_range": [
+        0,
+        2
+      ],
+      "seconds": 9,
+      "characters": [
+        "Jerry",
+        "George"
+      ],
+      "continuity": "reset",
+      "action": "Locked outside-looking-in medium two-shot. Jerry at left and George at right begin in the approved image's exact positions. George turns slightly toward Jerry and delivers his complaint with mounting indignation, making only a small open-palm gesture. Jerry listens with lips closed, then turns his eyes toward George for his short dry question. George is silent during Jerry's line. Preserve the camera and finish with both men still by the sill. Exactly two utterances, with short quiet margins.",
+      "dialogue": [
+        {
+          "speaker": "George",
+          "text": "A standing desk should charge less rent. I'm not even using the chair!"
+        },
+        {
+          "speaker": "Jerry",
+          "text": "You're renting a desk?"
+        }
+      ],
+      "state": "Jerry remains at screen left in his red collared long-sleeved shirt. George remains at screen right in a plain brown/olive collared long-sleeved overshirt over a dark polo, with round glasses. Preserve all visible clothes, hair, hands and sill geometry from the starting frame. Lower trousers are outside this view and remain outside it. Source clips provide face and voice only: ignore their dialogue, clothes, setting and laughter. No handheld props, no added desk or chair."
+    },
+    {
+      "id": "01b",
+      "source_section": 2,
+      "source_dialogue_range": [
+        0,
+        2
+      ],
+      "seconds": 8,
+      "characters": [
+        "Jerry",
+        "George"
+      ],
+      "continuity": "previous",
+      "action": "Continue the identical two-shot from 01a's raw last frame; preserve positions and hand placement at the join. George makes a small counting gesture as he demands a chair, then listens in indignant silence. Jerry alone delivers the final line with a deadpan look. Hold George's wounded silent reaction briefly. Exactly two utterances, no extra words or laughter. No cut or new camera angle inside the clip.",
+      "dialogue": [
+        {
+          "speaker": "George",
+          "text": "At these prices, I should get a chair."
+        },
+        {
+          "speaker": "Jerry",
+          "text": "For you, that's a second bedroom."
+        }
+      ],
+      "state": "Jerry remains at screen left in his red collared long-sleeved shirt. George remains at screen right in a plain brown/olive collared long-sleeved overshirt over a dark polo, with round glasses. Preserve all visible clothes, hair, hands and sill geometry from the starting frame. Lower trousers are outside this view and remain outside it. Source clips provide face and voice only: ignore their dialogue, clothes, setting and laughter. No handheld props, no added desk or chair."
+    }
+  ]
+}

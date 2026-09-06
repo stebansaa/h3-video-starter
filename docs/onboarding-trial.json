@@ -1,0 +1,175 @@
+{
+  "date": "2026-09-06",
+  "method": "Independent agent with no conversation-history fork, restricted to a separate Git clone and its skill/guides. Same host tooling; not a fresh Codex installation or paid GPU trial.",
+  "agent_report": {
+    "version": 1,
+    "outcome": "passed_offline_preparation",
+    "request": "Fresh clone with no RunPod key or MCP; prepare a short two-shot apartment scene where George argues a standing desk should charge less rent, ready for a later first-clip preview; no GPU spending.",
+    "project": "projects/standing-desk-rent",
+    "skill_used": ".agents/skills/h3-video/SKILL.md",
+    "isolation": {
+      "other_project_files_read": false,
+      "global_runpod_skills_used": false,
+      "credential_contents_read": false,
+      "global_codex_or_mcp_config_changed": false,
+      "cleared_subprocess_environment": [
+        "RUNPOD_API_KEY",
+        "COMFY_API_KEY",
+        "COMFY_URL",
+        "FFMPEG",
+        "FFPROBE",
+        "PYTHONPATH"
+      ],
+      "paid_requests": 0,
+      "api_requests": 0,
+      "model_downloads": 0,
+      "gpu_spend_usd": 0,
+      "new_run_or_resources_created": false,
+      "tracked_baseline_changes": false
+    },
+    "setup": {
+      "initial_first_session_exit": 1,
+      "initial_missing": [
+        "ffmpeg",
+        "ffprobe",
+        "RunPod key"
+      ],
+      "remediation": "python3 scripts/install_test_media.py installed static-ffmpeg==3.0 in clone-local .venv",
+      "network_used": "Authorized media installer only",
+      "post_install_offline_ready": true,
+      "auth_status": "missing; not tested",
+      "mcp_status": "not configured or used; optional"
+    },
+    "checks": [
+      {
+        "command": "python3 scripts/first_session.py --json",
+        "result": "pass: local prerequisites, missing auth correctly non-blocking",
+        "evidence": "first-session.json"
+      },
+      {
+        "command": "python3 scripts/verify_package.py",
+        "result": "pass before and after trial",
+        "verified_files": 303,
+        "bytes": 40034790
+      },
+      {
+        "command": "python3 -m unittest discover -s tests -v",
+        "result": "pass",
+        "tests": 84,
+        "seconds": 23.147,
+        "evidence": "offline-tests.log"
+      },
+      {
+        "command": "python3 scripts/check_project.py",
+        "result": "pass",
+        "shots": 14,
+        "seconds_before_editing": 116.25
+      },
+      {
+        "command": "python3 scripts/check_project.py --plan projects/standing-desk-rent/plan.json --references projects/standing-desk-rent/references.json --profile reference-preview",
+        "result": "pass",
+        "shots": 2,
+        "seconds_before_editing": 17.416666666666668,
+        "evidence": "offline-check.json"
+      },
+      {
+        "command": "python3 -m director plan --plan projects/standing-desk-rent/plan.json --profile reference-preview",
+        "result": "pass",
+        "evidence": "plan-report.txt"
+      },
+      {
+        "command": "director.references.load_sequence and prepare, plus ordered dialogue/hash and mix asset assertions",
+        "result": "pass: Jerry and George each 73 frames, 24 fps, stereo 32 kHz; full decode",
+        "evidence": "prepared-references.json"
+      },
+      {
+        "command": "python3 scripts/replay_example.py",
+        "result": "pass: 14 shots, 10 audience cues, full decode, 640x384, 24 fps, stereo, 97.208333 seconds",
+        "sha256": "fc663bb2b89cfd062f88475243db9e9ab012e9d1040434ae04ee377bf4e12893",
+        "evidence": "replay.log"
+      },
+      {
+        "command": "python3 scripts/bundle.py --out projects/standing-desk-rent/upload/server-code.tar.gz",
+        "result": "pass: 57 files; separately created 13-file allowlisted project input archive",
+        "evidence": "handoff-validation.json"
+      },
+      {
+        "command": "git status --porcelain",
+        "result": "empty; baseline unchanged"
+      }
+    ],
+    "outputs": {
+      "script": "script.txt",
+      "plan": "plan.json",
+      "references": "references.json",
+      "mix": "mix.json",
+      "cuts": "cuts.json",
+      "session": "session.json",
+      "progress": "PROGRESS.md",
+      "first_clip_handoff": "PREVIEW.md",
+      "first_clip_prompt": "01a-prompt.txt",
+      "paired_reference_samples": "prepared-references/",
+      "upload_bundles": "upload/",
+      "existing_example_replay": "../../output/replayed-example.mp4",
+      "new_ai_preview": null
+    },
+    "creative_plan": {
+      "title": "Standing Room Only",
+      "shot_order": [
+        "01a",
+        "01b"
+      ],
+      "first_clip_preview_through": "01a",
+      "second_clip_continuity": "previous raw last frame",
+      "characters_in_reference_order": [
+        "Jerry",
+        "George"
+      ],
+      "starting_image": "references/episode-v1/window-two-v2.png",
+      "profile": "reference-preview",
+      "resolution": [
+        640,
+        384
+      ],
+      "fps": 24,
+      "steps": 20,
+      "seed": 3001,
+      "script_review": "pending user review"
+    },
+    "guidance_gaps": [
+      {
+        "severity": "non_blocking",
+        "finding": "The copied baseline production_notes retain stale 512x384 preview / 1024x768 quality text and original-story transformation notes despite the tested reference-preview instructions.",
+        "observed_effect": "Normal new-project adaptation included replacing those notes in the new plan; no baseline file was modified.",
+        "suggestion": "The scaffold could explicitly flag copied production_notes for adaptation or initialize neutral notes."
+      },
+      {
+        "severity": "non_blocking",
+        "finding": "The README new_project command copies the original source script verbatim, including the historical HappyHorse instruction; the guide explicitly explains that it must be adapted.",
+        "observed_effect": "Clear instructions prevented treating the copied example as a new screenplay. No missing guidance blocked the task."
+      },
+      {
+        "severity": "informational",
+        "finding": "Media installer emitted old-pip and urllib3/LibreSSL compatibility warnings on host Python 3.9.",
+        "observed_effect": "Installation, media validation, all tests and replay still succeeded. No workaround or global upgrade was needed."
+      }
+    ],
+    "blocking_instruction_failures": [],
+    "limits": [
+      "No live authentication, balance, availability, price, SSH connectivity, GPU provisioning or model readiness was checked.",
+      "No new AI video, ASR or image generation was performed.",
+      "Images/contact sheets were inspected; source voices and acting were not independently listened to or certified.",
+      "Draft screenplay still needs user creative review; first-clip output does not exist.",
+      "Offline readiness is not authorization for paid compute."
+    ],
+    "next_user_message": "Your two-shot draft and first-clip preparation are ready. The scene is about 17.4 seconds before editing, uses the included Jerry/George references, and the offline checks and example replay pass. No GPU was rented or charged. Review script.txt and the starting image; when you want a new preview, privately add your RunPod key, obtain a current estimate and authorize a first-clip budget. MCP is optional.",
+    "next_resume_record": "PROGRESS.md"
+  },
+  "review": {
+    "project_inputs_inspected": true,
+    "two_shot_draft_retained": "examples/standing-desk-draft",
+    "baseline_media_unchanged": true,
+    "followup_fix": "New-project scaffolding now initializes neutral production notes for reference-preview instead of copying obsolete resolution and story-specific notes.",
+    "remaining_live_test": "Completed in the subsequent fresh-agent trial; see docs/live-handoff-trial.md and examples/standing-desk-preview."
+  }
+}

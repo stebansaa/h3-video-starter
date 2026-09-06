@@ -1,0 +1,145 @@
+{
+  "source": "server-output/run_2062f6cb686343ab_06c_00001_.mp4",
+  "model": "base.en",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.5000000000000001,
+      "end": 1.6,
+      "text": " Oh, you used to that.",
+      "no_speech_prob": 0.009398526512086391,
+      "avg_logprob": -0.4426477284267031,
+      "words": [
+        {
+          "start": 0.5000000000000001,
+          "end": 0.92,
+          "word": " Oh,",
+          "probability": 0.2366020381450653
+        },
+        {
+          "start": 1.0,
+          "end": 1.1,
+          "word": " you",
+          "probability": 0.3797938823699951
+        },
+        {
+          "start": 1.1,
+          "end": 1.26,
+          "word": " used",
+          "probability": 0.7062573432922363
+        },
+        {
+          "start": 1.26,
+          "end": 1.42,
+          "word": " to",
+          "probability": 0.9912551641464233
+        },
+        {
+          "start": 1.42,
+          "end": 1.6,
+          "word": " that.",
+          "probability": 0.8689284324645996
+        }
+      ]
+    },
+    {
+      "start": 2.12,
+      "end": 3.28,
+      "text": " And then there were three.",
+      "no_speech_prob": 0.009398526512086391,
+      "avg_logprob": -0.4426477284267031,
+      "words": [
+        {
+          "start": 2.12,
+          "end": 2.34,
+          "word": " And",
+          "probability": 0.9483328461647034
+        },
+        {
+          "start": 2.34,
+          "end": 2.54,
+          "word": " then",
+          "probability": 0.9921311736106873
+        },
+        {
+          "start": 2.54,
+          "end": 2.72,
+          "word": " there",
+          "probability": 0.9393258094787598
+        },
+        {
+          "start": 2.72,
+          "end": 2.88,
+          "word": " were",
+          "probability": 0.9564252495765686
+        },
+        {
+          "start": 2.88,
+          "end": 3.28,
+          "word": " three.",
+          "probability": 0.9777204990386963
+        }
+      ]
+    },
+    {
+      "start": 4.22,
+      "end": 6.3,
+      "text": " At your time I ran along with this.",
+      "no_speech_prob": 0.009398526512086391,
+      "avg_logprob": -0.4426477284267031,
+      "words": [
+        {
+          "start": 4.22,
+          "end": 4.54,
+          "word": " At",
+          "probability": 0.523742139339447
+        },
+        {
+          "start": 4.54,
+          "end": 4.68,
+          "word": " your",
+          "probability": 0.9906627535820007
+        },
+        {
+          "start": 4.68,
+          "end": 5.04,
+          "word": " time",
+          "probability": 0.998299777507782
+        },
+        {
+          "start": 5.04,
+          "end": 5.22,
+          "word": " I",
+          "probability": 0.511203408241272
+        },
+        {
+          "start": 5.22,
+          "end": 5.44,
+          "word": " ran",
+          "probability": 0.31482988595962524
+        },
+        {
+          "start": 5.44,
+          "end": 5.78,
+          "word": " along",
+          "probability": 0.636591374874115
+        },
+        {
+          "start": 5.78,
+          "end": 6.1,
+          "word": " with",
+          "probability": 0.9985207915306091
+        },
+        {
+          "start": 6.1,
+          "end": 6.3,
+          "word": " this.",
+          "probability": 0.9941217303276062
+        }
+      ]
+    }
+  ],
+  "elapsed": 0.4593007564544678,
+  "text": "Oh, you used to that. And then there were three. At your time I ran along with this.",
+  "note": "Automatic transcription, not proof of speaker identity or exact delivery."
+}

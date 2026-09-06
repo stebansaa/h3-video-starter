@@ -1,0 +1,115 @@
+{
+  "source": "server-output/run_2062f6cb686343ab_02a_00001_.mp4",
+  "model": "base.en",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.04,
+      "text": " He hasn't sold.",
+      "no_speech_prob": 0.0034487759694457054,
+      "avg_logprob": -0.46041192054748536,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.3,
+          "word": " He",
+          "probability": 0.7422080636024475
+        },
+        {
+          "start": 0.3,
+          "end": 0.66,
+          "word": " hasn't",
+          "probability": 0.9966343641281128
+        },
+        {
+          "start": 0.66,
+          "end": 1.04,
+          "word": " sold.",
+          "probability": 0.9881412982940674
+        }
+      ]
+    },
+    {
+      "start": 1.7,
+      "end": 2.34,
+      "text": " Same position.",
+      "no_speech_prob": 0.0034487759694457054,
+      "avg_logprob": -0.46041192054748536,
+      "words": [
+        {
+          "start": 1.7,
+          "end": 2.08,
+          "word": " Same",
+          "probability": 0.8475823998451233
+        },
+        {
+          "start": 2.08,
+          "end": 2.34,
+          "word": " position.",
+          "probability": 0.9963776469230652
+        }
+      ]
+    },
+    {
+      "start": 3.08,
+      "end": 6.56,
+      "text": " The average Solana whole time is 40 seconds.",
+      "no_speech_prob": 0.0034487759694457054,
+      "avg_logprob": -0.46041192054748536,
+      "words": [
+        {
+          "start": 3.08,
+          "end": 3.52,
+          "word": " The",
+          "probability": 0.9810954928398132
+        },
+        {
+          "start": 3.52,
+          "end": 3.82,
+          "word": " average",
+          "probability": 0.9991055130958557
+        },
+        {
+          "start": 3.82,
+          "end": 4.34,
+          "word": " Solana",
+          "probability": 0.8535805344581604
+        },
+        {
+          "start": 4.34,
+          "end": 4.64,
+          "word": " whole",
+          "probability": 0.8518276810646057
+        },
+        {
+          "start": 4.64,
+          "end": 5.12,
+          "word": " time",
+          "probability": 0.9791293144226074
+        },
+        {
+          "start": 5.12,
+          "end": 5.58,
+          "word": " is",
+          "probability": 0.9717037677764893
+        },
+        {
+          "start": 5.58,
+          "end": 6.0,
+          "word": " 40",
+          "probability": 0.93482905626297
+        },
+        {
+          "start": 6.0,
+          "end": 6.56,
+          "word": " seconds.",
+          "probability": 0.9953430891036987
+        }
+      ]
+    }
+  ],
+  "elapsed": 0.43329596519470215,
+  "text": "He hasn't sold. Same position. The average Solana whole time is 40 seconds.",
+  "note": "Automatic transcription, not proof of speaker identity or exact delivery."
+}

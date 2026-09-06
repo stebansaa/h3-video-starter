@@ -1,0 +1,27 @@
+{
+  "original_image": {
+    "path": "../../image.png",
+    "sha256": "bdbd7e4a3fd0b9142627ad17556c1ca1674bcb2ef442709bcb694ac409702bad"
+  },
+  "character_and_audience_source": "https://www.youtube.com/watch?v=wGhg-htVnJ0",
+  "elaine": {
+    "source_start": 154.5,
+    "seconds": 2.65,
+    "crop": "352:416:16:20"
+  },
+  "audience": {
+    "laugh-soft": [
+      13.2,
+      2.5
+    ],
+    "laugh-medium": [
+      93,
+      2.7
+    ],
+    "laugh-big": [
+      133.4,
+      2.4
+    ]
+  },
+  "image_generation": "built-in image_gen, original image and approved master used for references"
+}

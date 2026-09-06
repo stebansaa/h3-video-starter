@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "shot": "01a",
+  "first_frame": "../../image.png",
+  "clips": [
+    {
+      "character": "Jerry",
+      "path": "jerry.mp4",
+      "seconds": 3.25
+    },
+    {
+      "character": "George",
+      "path": "george.mp4",
+      "seconds": 3.25
+    },
+    {
+      "character": "Kramer",
+      "path": "kramer.mp4",
+      "seconds": 2.65
+    }
+  ]
+}

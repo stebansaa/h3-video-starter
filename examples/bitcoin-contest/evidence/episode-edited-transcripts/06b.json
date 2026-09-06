@@ -1,0 +1,61 @@
+{
+  "source": "edited-checks/06b.mov",
+  "model": "small.en",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.02,
+      "text": " I think I'm gonna make some tea.",
+      "no_speech_prob": 0.009000537917017937,
+      "avg_logprob": -0.31903362025817233,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.7,
+          "word": " I",
+          "probability": 0.8883832097053528
+        },
+        {
+          "start": 0.7,
+          "end": 0.9,
+          "word": " think",
+          "probability": 0.9798475503921509
+        },
+        {
+          "start": 0.9,
+          "end": 1.12,
+          "word": " I'm",
+          "probability": 0.9945218861103058
+        },
+        {
+          "start": 1.12,
+          "end": 1.26,
+          "word": " gonna",
+          "probability": 0.714404284954071
+        },
+        {
+          "start": 1.26,
+          "end": 1.46,
+          "word": " make",
+          "probability": 0.9985390901565552
+        },
+        {
+          "start": 1.46,
+          "end": 1.68,
+          "word": " some",
+          "probability": 0.9990749359130859
+        },
+        {
+          "start": 1.68,
+          "end": 2.02,
+          "word": " tea.",
+          "probability": 0.9974281191825867
+        }
+      ]
+    }
+  ],
+  "elapsed": 0.6990556716918945,
+  "text": "I think I'm gonna make some tea.",
+  "note": "Automatic transcription, not proof of speaker identity or exact delivery."
+}

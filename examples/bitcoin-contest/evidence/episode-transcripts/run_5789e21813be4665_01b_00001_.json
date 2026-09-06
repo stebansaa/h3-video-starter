@@ -1,0 +1,121 @@
+{
+  "source": "server-output/run_5789e21813be4665_01b_00001_.mp4",
+  "model": "base.en",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.96,
+      "text": " Whoa, the stars toss",
+      "no_speech_prob": 0.01060061901807785,
+      "avg_logprob": -0.4047069475054741,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.7,
+          "word": " Whoa,",
+          "probability": 0.7859163880348206
+        },
+        {
+          "start": 1.22,
+          "end": 1.3,
+          "word": " the",
+          "probability": 0.4823037087917328
+        },
+        {
+          "start": 1.3,
+          "end": 1.58,
+          "word": " stars",
+          "probability": 0.29967573285102844
+        },
+        {
+          "start": 1.58,
+          "end": 1.96,
+          "word": " toss",
+          "probability": 0.9718404412269592
+        }
+      ]
+    },
+    {
+      "start": 2.6400000000000006,
+      "end": 5.52,
+      "text": " Look at his monitors. He only has one",
+      "no_speech_prob": 0.01060061901807785,
+      "avg_logprob": -0.4047069475054741,
+      "words": [
+        {
+          "start": 2.6400000000000006,
+          "end": 3.22,
+          "word": " Look",
+          "probability": 0.3049975037574768
+        },
+        {
+          "start": 3.22,
+          "end": 3.4,
+          "word": " at",
+          "probability": 0.9961289167404175
+        },
+        {
+          "start": 3.4,
+          "end": 3.5,
+          "word": " his",
+          "probability": 0.9808657169342041
+        },
+        {
+          "start": 3.5,
+          "end": 3.8,
+          "word": " monitors.",
+          "probability": 0.9938318729400635
+        },
+        {
+          "start": 4.3,
+          "end": 4.88,
+          "word": " He",
+          "probability": 0.9614864587783813
+        },
+        {
+          "start": 4.88,
+          "end": 5.02,
+          "word": " only",
+          "probability": 0.9990788698196411
+        },
+        {
+          "start": 5.02,
+          "end": 5.26,
+          "word": " has",
+          "probability": 0.9991115927696228
+        },
+        {
+          "start": 5.26,
+          "end": 5.52,
+          "word": " one",
+          "probability": 0.974489152431488
+        }
+      ]
+    },
+    {
+      "start": 6.3,
+      "end": 7.46,
+      "text": " Bitcoin guy",
+      "no_speech_prob": 0.01060061901807785,
+      "avg_logprob": -0.4047069475054741,
+      "words": [
+        {
+          "start": 6.3,
+          "end": 6.88,
+          "word": " Bitcoin",
+          "probability": 0.8438556790351868
+        },
+        {
+          "start": 6.88,
+          "end": 7.46,
+          "word": " guy",
+          "probability": 0.9665374159812927
+        }
+      ]
+    }
+  ],
+  "elapsed": 0.4755678176879883,
+  "text": "Whoa, the stars toss Look at his monitors. He only has one Bitcoin guy",
+  "note": "Automatic transcription, not proof of speaker identity or exact delivery."
+}

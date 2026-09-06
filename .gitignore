@@ -1,0 +1,21 @@
+# Private credentials, machine configuration and generated work
+.env
+.env.*
+!.env.example
+key.env
+*.pem
+*.key
+.local/
+/.codex/
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+/projects/
+/runs/
+/output/
+*.log
+*.tar.gz
+*.zip
+
+# References and examples (including MP4/WAV/PNG/JPG) are deliberately tracked.

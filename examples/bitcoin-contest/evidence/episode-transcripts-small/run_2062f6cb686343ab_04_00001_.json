@@ -1,0 +1,82 @@
+{
+  "source": "server-output/run_2062f6cb686343ab_04_00001_.mp4",
+  "model": "small.en",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.14,
+      "text": " I'm out.",
+      "no_speech_prob": 0.03824179247021675,
+      "avg_logprob": -0.7999330448067706,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.82,
+          "word": " I'm",
+          "probability": 0.7621117830276489
+        },
+        {
+          "start": 0.82,
+          "end": 1.14,
+          "word": " out.",
+          "probability": 0.9949352145195007
+        }
+      ]
+    },
+    {
+      "start": 2.38,
+      "end": 4.34,
+      "text": " Solhassen, my father, is my not belite.",
+      "no_speech_prob": 0.03824179247021675,
+      "avg_logprob": -0.7999330448067706,
+      "words": [
+        {
+          "start": 2.38,
+          "end": 2.72,
+          "word": " Solhassen,",
+          "probability": 0.4589895363897085
+        },
+        {
+          "start": 2.74,
+          "end": 2.86,
+          "word": " my",
+          "probability": 0.8996576070785522
+        },
+        {
+          "start": 2.86,
+          "end": 3.1,
+          "word": " father,",
+          "probability": 0.15193450450897217
+        },
+        {
+          "start": 3.52,
+          "end": 3.6,
+          "word": " is",
+          "probability": 0.9869185090065002
+        },
+        {
+          "start": 3.6,
+          "end": 3.78,
+          "word": " my",
+          "probability": 0.5270749926567078
+        },
+        {
+          "start": 3.78,
+          "end": 3.96,
+          "word": " not",
+          "probability": 0.5525884628295898
+        },
+        {
+          "start": 3.96,
+          "end": 4.34,
+          "word": " belite.",
+          "probability": 0.3345096930861473
+        }
+      ]
+    }
+  ],
+  "elapsed": 0.8331193923950195,
+  "text": "I'm out. Solhassen, my father, is my not belite.",
+  "note": "Automatic transcription, not proof of speaker identity or exact delivery."
+}

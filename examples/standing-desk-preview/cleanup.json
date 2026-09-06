@@ -1,0 +1,9 @@
+{
+  "pod_owned_by_trial": true,
+  "stop_confirmed": "EXITED",
+  "delete_confirmed": "GET returned HTTP 404",
+  "independently_confirmed_by_supervisor": true,
+  "preexisting_pods_changed": false,
+  "volumes_created": 0,
+  "tunnel_and_watchdog_exited": true
+}

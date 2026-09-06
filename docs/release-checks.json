@@ -1,0 +1,289 @@
+{
+  "date": "2026-09-06",
+  "platform": "macOS arm64",
+  "python": "3.9.6",
+  "method": "Temporary Git repository cloned into a path containing spaces; own media tools installed after first-session diagnostic; API/media environment overrides removed.",
+  "offline_tests_passed": 85,
+  "steps": [
+    {
+      "name": "initial-setup-check",
+      "exit_code": 1,
+      "passed": true,
+      "seconds": 0.14,
+      "offline_ready": false
+    },
+    {
+      "name": "media-install",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 13.89
+    },
+    {
+      "name": "setup-check",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 1.95,
+      "offline_ready": true
+    },
+    {
+      "name": "tests",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 21.88
+    },
+    {
+      "name": "baseline-inputs",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 0.71
+    },
+    {
+      "name": "replay",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 10.34
+    },
+    {
+      "name": "server-bundle",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 0.05
+    }
+  ],
+  "baseline_shots_validated": 14,
+  "new_project_scaffold_validated": true,
+  "media_files_tracked_by_git": 70,
+  "package_scan": {
+    "credentials_found": false,
+    "private_keys_found": false,
+    "original_personal_paths_found": false,
+    "model_weight_files_found": false,
+    "symlinks_found": false,
+    "note": "Upstream vendor code contains generic Windows username examples, retained unchanged."
+  },
+  "replay": {
+    "source_shots": 14,
+    "audience_cues": 10,
+    "required_source_edits": 7,
+    "frames": 2333,
+    "last_frame_rgb": [
+      0,
+      0,
+      0
+    ],
+    "media": {
+      "width": 640,
+      "height": 384,
+      "fps": 24.0,
+      "duration": 97.208333,
+      "audio": true,
+      "audio_channels": 2,
+      "audio_duration": 97.208
+    },
+    "audio_levels": [
+      "mean_volume: -24.1 dB",
+      "max_volume: -2.9 dB"
+    ],
+    "sha256": "5eb69f9428a1cf0c37e24302f0b0d6a954c0452686179ba26c87a4cf7059a970",
+    "matches_included_final_bytes": false,
+    "included_final_sha256": "fc663bb2b89cfd062f88475243db9e9ab012e9d1040434ae04ee377bf4e12893",
+    "comparison": {
+      "cue_timing_and_gains_identical": true,
+      "decoded_video_identical": true,
+      "pcm_samples": 9332736,
+      "different_samples": 50162,
+      "max_pcm16_delta": 2075,
+      "rms_difference_dbfs": -63.13968925186339
+    },
+    "note": "Earlier release replay matched bytes exactly. This repeat has identical decoded picture, cue timing/gains and duration, but different encoded audio bytes. Cause not isolated; byte-identical audio is not promised. Original example bytes remain unchanged.",
+    "ffmpeg": "ffmpeg version 7.0 Copyright (c) 2000-2024 the FFmpeg developers"
+  },
+  "server_code_bundle": {
+    "checked": true,
+    "members": 58,
+    "contains_root_agent_instructions": true,
+    "contains_secrets_media_or_models": false,
+    "contains_repository_skill": true
+  },
+  "paid_requests": 0,
+  "model_downloads": 0,
+  "new_gpu_generation_performed": false,
+  "github_actions_run_performed": false,
+  "limitations": [
+    "Original packaging checks were offline; see live_handoff_trial for the subsequent fresh paid first-clip verification.",
+    "Offline replay uses recorded footage.",
+    "Linux GitHub Actions workflow is prepared but awaits publishing and execution.",
+    "FFmpeg/Python media-tool packages were installed explicitly; no AI weights were downloaded."
+  ],
+  "first_session": {
+    "initial_missing_media_detected": true,
+    "passed_after_explicit_media_install": true,
+    "missing_key_allows_offline_work": true,
+    "mcp_required": false,
+    "auth_status": "missing",
+    "read_only_api_requests": 0,
+    "paid_requests": 0,
+    "model_downloads": 0,
+    "explicit_auth_branch": "tested against mocked HTTP; no live auth check in this packaging pass"
+  },
+  "skill": {
+    "path": ".agents/skills/h3-video/SKILL.md",
+    "frontmatter_validator_passed": true,
+    "local_reference_links_checked": true,
+    "implicit_invocation": "default allowed",
+    "mcp_dependency": false
+  },
+  "independent_handoff_trial": {
+    "report": "docs/onboarding-trial.json",
+    "result": "passed_offline_preparation",
+    "blocking_guidance_failures": 0,
+    "reported_tests_passed": 84,
+    "reported_replay_matches_original_bytes": true,
+    "new_draft_shots": 2,
+    "new_draft_seconds_before_editing": 17.416666666666668,
+    "mcp_used": false,
+    "api_requests": 0,
+    "gpu_spend_usd": 0,
+    "limits": "Separate agent context and clone on the same host; not a new paid generation or fresh Codex installation.",
+    "followup_scaffold_fix_tested": true
+  },
+  "final_followup_checks": [
+    {
+      "name": "setup",
+      "exit_code": 0,
+      "seconds": 0.17
+    },
+    {
+      "name": "tests",
+      "exit_code": 0,
+      "seconds": 20.93
+    },
+    {
+      "name": "short-draft",
+      "exit_code": 0,
+      "seconds": 0.11
+    },
+    {
+      "name": "new-project",
+      "exit_code": 0,
+      "seconds": 0.03
+    },
+    {
+      "name": "new-project-inputs",
+      "exit_code": 0,
+      "seconds": 0.6
+    },
+    {
+      "name": "bundle",
+      "exit_code": 0,
+      "seconds": 0.04
+    }
+  ],
+  "scope": "Original offline packaging checks; the subsequent paid first-clip trial and final release verification are summarized separately below.",
+  "live_handoff_trial": {
+    "report": "docs/live-handoff-trial.md",
+    "evidence": "examples/standing-desk-preview",
+    "result": "new_clip_generated_and_edited_preview_verified",
+    "offline_tests_passed": 85,
+    "conversation_history_forked": false,
+    "mcp_used": false,
+    "global_runpod_skills_used": false,
+    "render_or_install_source_code_fixes": 0,
+    "generated_shots": 1,
+    "rerolls": 0,
+    "seed": 6090601,
+    "execution_seconds": 259.935,
+    "model_weights_downloaded_on_local_host": false,
+    "estimated_cost_usd": 0.429244817276207,
+    "cost_status": "estimate; provider billing records not yet posted",
+    "owned_pod_stopped_and_deleted": true,
+    "supervisor_independently_confirmed_cleanup": true,
+    "raw_sha256": "6e6062018be4748496675f36c8a7cc1fb40f1b154d46e5008d17e1b235f05b94",
+    "final_sha256": "447798752f25d8540625a136e3566a37449eb76dd2819757d4698f010510b088",
+    "remaining_review": "human listening, voice identity, acting and precise lip sync"
+  },
+  "post_live_release_validation": {
+    "date": "2026-09-06",
+    "method": "Another clean Git clone in a path containing spaces, cleared API/media overrides, own explicit media installation, no API or GPU requests",
+    "steps": [
+      {
+        "name": "first-session-before",
+        "exit_code": 1,
+        "seconds": 0.14
+      },
+      {
+        "name": "media-install",
+        "exit_code": 0,
+        "seconds": 11.94
+      },
+      {
+        "name": "first-session",
+        "exit_code": 0,
+        "seconds": 1.15
+      },
+      {
+        "name": "package",
+        "exit_code": 0,
+        "seconds": 0.06
+      },
+      {
+        "name": "tests",
+        "exit_code": 0,
+        "seconds": 21.3
+      },
+      {
+        "name": "baseline",
+        "exit_code": 0,
+        "seconds": 0.67
+      },
+      {
+        "name": "draft",
+        "exit_code": 0,
+        "seconds": 0.12
+      },
+      {
+        "name": "replay",
+        "exit_code": 0,
+        "seconds": 10.28
+      },
+      {
+        "name": "bundle",
+        "exit_code": 0,
+        "seconds": 0.06
+      },
+      {
+        "name": "preview-recipe",
+        "exit_code": 0,
+        "seconds": 0.57
+      }
+    ],
+    "tests_passed": 85,
+    "test_log": "docs/post-live-offline-tests.txt",
+    "new_preview_recipe": {
+      "output": "output/standing-desk-preview-check/preview.mp4",
+      "quality": {
+        "width": 640,
+        "height": 384,
+        "fps": 24.0,
+        "duration": 7.541667,
+        "audio": true,
+        "audio_channels": 2,
+        "audio_duration": 7.541,
+        "problems": [],
+        "technical_pass": true,
+        "creative_review": "pending: verify dialogue, faces, voices, acting and continuity"
+      },
+      "frames": {
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_read_frames": "181"
+      }
+    },
+    "local_links_checked": 53,
+    "missing_links": 0,
+    "server_bundle_members": 61,
+    "server_bundle_secrets_media_models": false,
+    "quote_guide_exact_live_snippets_passed": 2,
+    "trial_agent_documentation_review": "passed after clarifying catalog VRAM versus allocated system RAM"
+  }
+}

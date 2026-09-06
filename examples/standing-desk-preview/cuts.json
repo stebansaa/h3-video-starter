@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "shots": {
+    "01a": {
+      "source_sha256": "6e6062018be4748496675f36c8a7cc1fb40f1b154d46e5008d17e1b235f05b94",
+      "keep_frames": [
+        [
+          45,
+          226
+        ]
+      ],
+      "reason": "Remove isolated extra opening phrase reported by full and unprompted opening ASR. Last unwanted word ends around 1.50-1.52 s. Audio RMS falls below -50 dBFS from 1.75 s and new dialogue energy begins around 2.25 s. Retain from frame 45 (1.875 s), within quiet gap, leaving about 0.375 s before intended speech. Ending frame unchanged. Human listening/lip-sync review not established."
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "source": "edited-checks/03b.mov",
+  "model": "small.en",
+  "language": "en",
+  "segments": [
+    {
+      "start": 1.1399999999999997,
+      "end": 4.5,
+      "text": " So, Vlad Tenev and I are going on a date tonight.",
+      "no_speech_prob": 0.06251756101846695,
+      "avg_logprob": -0.31386580467224123,
+      "words": [
+        {
+          "start": 1.1399999999999997,
+          "end": 1.62,
+          "word": " So,",
+          "probability": 0.7293399572372437
+        },
+        {
+          "start": 2.36,
+          "end": 2.36,
+          "word": " Vlad",
+          "probability": 0.9739866256713867
+        },
+        {
+          "start": 2.36,
+          "end": 2.82,
+          "word": " Tenev",
+          "probability": 0.7367289960384369
+        },
+        {
+          "start": 2.82,
+          "end": 2.9,
+          "word": " and",
+          "probability": 0.9921088814735413
+        },
+        {
+          "start": 2.9,
+          "end": 3.1,
+          "word": " I",
+          "probability": 0.9982361793518066
+        },
+        {
+          "start": 3.1,
+          "end": 3.24,
+          "word": " are",
+          "probability": 0.9944872260093689
+        },
+        {
+          "start": 3.24,
+          "end": 3.46,
+          "word": " going",
+          "probability": 0.9984489679336548
+        },
+        {
+          "start": 3.46,
+          "end": 3.7,
+          "word": " on",
+          "probability": 0.9988743662834167
+        },
+        {
+          "start": 3.7,
+          "end": 3.84,
+          "word": " a",
+          "probability": 0.9985840320587158
+        },
+        {
+          "start": 3.84,
+          "end": 4.06,
+          "word": " date",
+          "probability": 0.9993627667427063
+        },
+        {
+          "start": 4.06,
+          "end": 4.5,
+          "word": " tonight.",
+          "probability": 0.9957767128944397
+        }
+      ]
+    },
+    {
+      "start": 5.2,
+      "end": 5.92,
+      "text": " Have a good time.",
+      "no_speech_prob": 0.06251756101846695,
+      "avg_logprob": -0.31386580467224123,
+      "words": [
+        {
+          "start": 5.2,
+          "end": 5.48,
+          "word": " Have",
+          "probability": 0.9705080986022949
+        },
+        {
+          "start": 5.48,
+          "end": 5.6,
+          "word": " a",
+          "probability": 0.9991989731788635
+        },
+        {
+          "start": 5.6,
+          "end": 5.68,
+          "word": " good",
+          "probability": 0.9938960671424866
+        },
+        {
+          "start": 5.68,
+          "end": 5.92,
+          "word": " time.",
+          "probability": 0.9967737793922424
+        }
+      ]
+    }
+  ],
+  "elapsed": 1.0639774799346924,
+  "text": "So, Vlad Tenev and I are going on a date tonight. Have a good time.",
+  "note": "Automatic transcription, not proof of speaker identity or exact delivery."
+}

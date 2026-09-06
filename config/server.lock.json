@@ -1,0 +1,16 @@
+{
+  "comfy_repository": "https://github.com/Comfy-Org/ComfyUI.git",
+  "comfy_revision": "2f35f4a08176d993cded35dac3332be4f7287f41",
+  "comfy_version": "0.33.0",
+  "image": "runpod/comfyui@sha256:094dc6d79448b6f118c4d2b054073f92d765c568598e7a96aaeda678a6bcbf3b",
+  "image_tag_at_verification": "runpod/comfyui:1.4.7-cuda13.0",
+  "verified_date": "2026-09-05",
+  "cuda_minimum": "13.0",
+  "min_system_ram_gb": 64,
+  "min_vram_gb": 32,
+  "min_vcpus": 8,
+  "container_disk_gb": 150,
+  "volume_disk_gb": 100,
+  "listen_host": "127.0.0.1",
+  "port": 8189
+}

@@ -1,0 +1,29 @@
+{
+  "checked": "2026-09-06",
+  "source": "https://api.runpod.io/v2/openapi.json",
+  "create_properties": [
+    "args",
+    "disk",
+    "env",
+    "image",
+    "ports",
+    "registry",
+    "name",
+    "cloud",
+    "cpu",
+    "dataCenterIds",
+    "globalNetworking",
+    "gpu",
+    "mounts",
+    "startJupyter",
+    "startSsh",
+    "templateId"
+  ],
+  "paths_checked": [
+    "/v2/pods",
+    "/v2/pods/{id}",
+    "/v2/pods/{id}/action",
+    "/v2/catalog/gpus",
+    "/v2/billing"
+  ]
+}

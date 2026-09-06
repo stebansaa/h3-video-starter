@@ -1,0 +1,121 @@
+{
+  "source": "server-output/run_2062f6cb686343ab_05a_00001_.mp4",
+  "model": "base.en",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.32,
+      "text": " Uh, I'm out. You're out? I'm out of the contest.",
+      "no_speech_prob": 0.012029199860990047,
+      "avg_logprob": -0.2892368634541829,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.52,
+          "word": " Uh,",
+          "probability": 0.16765889525413513
+        },
+        {
+          "start": 0.78,
+          "end": 1.02,
+          "word": " I'm",
+          "probability": 0.9836083948612213
+        },
+        {
+          "start": 1.02,
+          "end": 1.16,
+          "word": " out.",
+          "probability": 0.9993509650230408
+        },
+        {
+          "start": 1.62,
+          "end": 2.02,
+          "word": " You're",
+          "probability": 0.9888961613178253
+        },
+        {
+          "start": 2.02,
+          "end": 2.26,
+          "word": " out?",
+          "probability": 0.9992658495903015
+        },
+        {
+          "start": 2.9,
+          "end": 3.44,
+          "word": " I'm",
+          "probability": 0.9939268529415131
+        },
+        {
+          "start": 3.44,
+          "end": 3.68,
+          "word": " out",
+          "probability": 0.9986732006072998
+        },
+        {
+          "start": 3.68,
+          "end": 3.9,
+          "word": " of",
+          "probability": 0.9966135621070862
+        },
+        {
+          "start": 3.9,
+          "end": 4.0,
+          "word": " the",
+          "probability": 0.9988881945610046
+        },
+        {
+          "start": 4.0,
+          "end": 4.32,
+          "word": " contest.",
+          "probability": 0.9975374937057495
+        }
+      ]
+    },
+    {
+      "start": 5.12,
+      "end": 5.64,
+      "text": " Already?",
+      "no_speech_prob": 0.012029199860990047,
+      "avg_logprob": -0.2892368634541829,
+      "words": [
+        {
+          "start": 5.12,
+          "end": 5.64,
+          "word": " Already?",
+          "probability": 0.8192461729049683
+        }
+      ]
+    },
+    {
+      "start": 7.76,
+      "end": 8.86,
+      "text": " That was fast.",
+      "no_speech_prob": 0.012029199860990047,
+      "avg_logprob": -0.2892368634541829,
+      "words": [
+        {
+          "start": 7.76,
+          "end": 8.48,
+          "word": " That",
+          "probability": 0.9706745147705078
+        },
+        {
+          "start": 8.48,
+          "end": 8.64,
+          "word": " was",
+          "probability": 0.9995287656784058
+        },
+        {
+          "start": 8.64,
+          "end": 8.86,
+          "word": " fast.",
+          "probability": 0.997635006904602
+        }
+      ]
+    }
+  ],
+  "elapsed": 0.49968743324279785,
+  "text": "Uh, I'm out. You're out? I'm out of the contest. Already? That was fast.",
+  "note": "Automatic transcription, not proof of speaker identity or exact delivery."
+}
