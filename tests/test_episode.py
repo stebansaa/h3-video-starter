@@ -143,7 +143,17 @@ class EpisodeMediaTests(unittest.TestCase):
                                      "-vf", "scale=1:1", "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
                                     capture_output=True, check=True).stdout
             self.assertEqual(len(frames), 172 * 3)
-            self.assertLessEqual(max(frames[-3:]), 1)
+            # Check every pixel of the actual final image, without making the
+            # black-frame assertion depend on a 1x1 rescale/color conversion.
+            final_frame = subprocess.run([
+                media.executable("ffmpeg"), "-v", "error", "-i", str(output),
+                "-vf", "select=eq(n\\,171)", "-frames:v", "1",
+                "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
+                capture_output=True, check=True).stdout
+            self.assertEqual(len(final_frame), 512 * 384 * 3)
+            self.assertLessEqual(max(final_frame), 1,
+                                 "Final native RGB range: {}–{}; scaled RGB: {}".format(
+                                     min(final_frame), max(final_frame), list(frames[-3:])))
 
 
 if __name__ == "__main__":

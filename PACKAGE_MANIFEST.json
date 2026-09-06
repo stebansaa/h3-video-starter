@@ -1554,8 +1554,8 @@
     },
     {
       "path": "tests/test_episode.py",
-      "bytes": 8425,
-      "sha256": "3e5610060701a58a9a962469a875dde19092772295e34a7cd554ce726a207613"
+      "bytes": 9128,
+      "sha256": "bdace88a4c88a59737a5881368af0f9a056d7059cc99880a19e03ac2dc7dadbe"
     },
     {
       "path": "tests/test_first_session.py",
