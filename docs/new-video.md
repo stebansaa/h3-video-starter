@@ -7,11 +7,38 @@ immutable and creates an editable project with relative reference paths:
 python3 scripts/new_project.py my-video --title "My scene"
 ```
 
+If the user already followed the README and created this project, inspect it
+instead of running the scaffold again. Their working script may already differ
+from the example.
+
 `projects/my-video/script.txt` and `plan.json` initially contain the Bitcoin
 Contest example. The agent must adapt them to the requested story. This command
 does not call an LLM or create a new screenplay automatically.
 The scaffold initializes neutral production notes for the tested reference
 profile, replacing historical story-specific notes and old quality settings.
+
+## Start from the user's text file
+
+The original root `script.txt` supplies the editable default. The user can
+change or entirely replace `projects/my-video/script.txt` using a plain-text
+editor, or point the agent to a different file. Read the whole designated file,
+record the chosen path in `PROGRESS.md`, and discuss the intended scenes, exact
+dialogue, cast, duration, visual style, sound and any conflicting directions.
+If importing another file, preserve its bytes in the project and do not replace
+an existing working script unless the user requested replacement.
+
+Use the agreed project script as the source for the new plan. The renderer does
+not parse screenplay text: the agent must adapt `plan.json`, `references.json`
+and `mix.json`, and compare the planned dialogue with the approved script.
+Text changes after planning require rereading and updating those inputs before
+rendering. Do not silently render the old Bitcoin Contest dialogue for a new
+story. Missing creative details can be discussed while independent offline
+setup and checks continue.
+
+The original script's HappyHorse/720p/4:3 directions are historical. Explain
+that the tested H3 preview is 640×384/24 fps/20 steps, and discuss any requested
+departure. Its dense dialogue also needs more shots/time than its old duration
+labels suggest; preserve approved lines when splitting the shot plan.
 
 ## The project contract
 

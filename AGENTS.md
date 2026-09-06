@@ -18,13 +18,23 @@ not current permission to spend money or operate someone else's resources.
 - The final included example is `examples/bitcoin-contest/final.mp4`. Preserve
   `examples/`, the reference library, the baseline plans and `script.txt`.
   Make new work with `python3 scripts/new_project.py NAME`.
+- Read the user's designated script file in full; the README's editable default
+  is `projects/my-video/script.txt`. If that project already exists, preserve
+  its edits and inspect its state instead of recreating it. Discuss the intended
+  video and resolve conflicting directions before changing approved dialogue.
+  Adapt the project's plan, references and mix to the agreed text; compare the
+  planned dialogue with that file and update `source_sha256`. A text-file edit
+  alone never updates the renderer's JSON inputs. If the user supplies another
+  file, record its path and copy it into the project without overwriting an
+  existing working script unless that replacement was requested.
 - Run the offline quickstart in `README.md` before the first new production.
   Read `docs/production-record.md` and `docs/production-lessons.md` for what was
   actually measured and what remains uncertain.
 - `docs/live-handoff-trial.md` records a fresh-agent first-clip test and the
   resulting guide fixes. Its budget and cleanup records are historical evidence.
-- The historical HappyHorse instruction at the bottom of `script.txt` is not
-  part of this implementation. Preserve spoken dialogue; H3 is the renderer.
+- The original script's HappyHorse, 720p and 4:3 directions are historical.
+  The tested H3 preview is 640×384/24 fps/20 steps; discuss format changes and
+  realistic shot timing while preserving the user's approved spoken dialogue.
 
 ## Preparation and infrastructure
 

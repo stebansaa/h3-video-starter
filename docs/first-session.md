@@ -6,6 +6,13 @@ client. It does not transfer another person's plugins, logins or permissions.
 
 ## 1. Load the project instructions
 
+The [README](../README.md) gives the user the complete terminal sequence:
+clone, enter the repository, create an editable project, edit or replace its
+`script.txt`, then start `codex`. Root `script.txt` is the original example;
+`projects/my-video/script.txt` is the walkthrough's working copy. Do not
+recreate an existing project or replace the user's edited script with the
+example. Resolve missing Python before creating a project if necessary.
+
 Open the cloned folder in Codex, or enter it in a terminal before starting
 Codex. Ask it to read `AGENTS.md`, `START_HERE.md` and use `$h3-video`.
 The skill is shipped at `.agents/skills/h3-video/SKILL.md` and links to the
@@ -24,10 +31,12 @@ The prompt to give a fresh session is:
 
 > Read AGENTS.md and START_HERE.md. Use the repository's h3-video skill, or read
 > .agents/skills/h3-video/SKILL.md explicitly if it is not listed. Check this
-> environment and guide me through any missing setup. Prepare a new video about
-> [IDEA] using the included cast. Complete the offline checks first. Give me a
-> current estimate before paid work; my initial GPU budget is [AMOUNT] USD.
-> Generate only the first clip for my review, and stop the GPU while waiting.
+> environment and guide me through any missing setup. Read my existing
+> projects/my-video/script.txt in full and discuss the intended video with me.
+> Preserve my edits and use that file as the source for the project. Complete
+> the offline checks, then adapt the shot plan and references to our agreed
+> script. Guide me through RunPod setup and give me a current first-preview
+> estimate. Do not rent a GPU until I approve a budget and scope.
 
 ## 2. Inspect local prerequisites without a key
 
@@ -70,8 +79,8 @@ If FFmpeg/ffprobe are missing, follow the reported install step. The included
 
 Next run the README's test, reference-validation and replay commands. All should
 work without a RunPod key or MCP. The replay is an existing-media edit, not a new
-AI video. Create the new project and adapt its script/reference plan as described
-in `new-video.md` while account setup is pending.
+AI video. Create the project only if needed, then adapt its script/reference
+plan as described in `new-video.md` while account setup is pending.
 
 ## 3. Connect this user's account only when needed
 

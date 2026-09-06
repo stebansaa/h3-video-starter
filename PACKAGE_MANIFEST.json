@@ -34,18 +34,18 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 5832,
-      "sha256": "f20058124f9eed3395385eabb705844c750cbebfd1d8e16102de923300fad0bc"
+      "bytes": 6607,
+      "sha256": "f2207d337d726906ee31237ff94a31b5863d9d36196aed680add7b26a120680a"
     },
     {
       "path": "README.md",
-      "bytes": 5978,
-      "sha256": "81f5a870bec627bafbb66837990c58863d620177c9c5526d33698f306574d80d"
+      "bytes": 14077,
+      "sha256": "8a413050d43c4dbb36ed9476f6070a861e3ae81578180780f53d098f1f64ea27"
     },
     {
       "path": "START_HERE.md",
-      "bytes": 2765,
-      "sha256": "2aed6af38fb7f4ccbbd21896eb540026943917813ce624773260daef11b864e2"
+      "bytes": 3666,
+      "sha256": "a5f84f072d01d791a3991efa03b9df3d1c7d0fd8a193a12dc670b67538ca23d7"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -164,8 +164,8 @@
     },
     {
       "path": "docs/first-session.md",
-      "bytes": 6545,
-      "sha256": "88958681d48a2044ecbaa949b9a22fc33745b9f3ad61ef5639b820a36c24e203"
+      "bytes": 7139,
+      "sha256": "52772fb192e092a7e2436defa4013e827e247437fec45f69bc569f4a6c7feea8"
     },
     {
       "path": "docs/history/original-base-installed-requirements.txt",
@@ -194,8 +194,8 @@
     },
     {
       "path": "docs/new-video.md",
-      "bytes": 5293,
-      "sha256": "5328151d03b1f4738885cb2a1dbc6286ea98eb09653ec9b3adef4650e788a02d"
+      "bytes": 6843,
+      "sha256": "24c24a39a02ad5f5d28caf7a26e0d202913a9e5c5268a81f71559d57dcb185b7"
     },
     {
       "path": "docs/offline-tests.txt",
