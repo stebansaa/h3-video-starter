@@ -108,11 +108,11 @@
   "paid_requests": 0,
   "model_downloads": 0,
   "new_gpu_generation_performed": false,
-  "github_actions_run_performed": false,
+  "github_actions_run_performed": true,
   "limitations": [
     "Original packaging checks were offline; see live_handoff_trial for the subsequent fresh paid first-clip verification.",
     "Offline replay uses recorded footage.",
-    "Linux GitHub Actions workflow is prepared but awaits publishing and execution.",
+    "GitHub Actions verifies code and recorded footage; it does not allocate a GPU or establish creative quality for new generations.",
     "FFmpeg/Python media-tool packages were installed explicitly; no AI weights were downloaded."
   ],
   "first_session": {
@@ -179,7 +179,7 @@
       "seconds": 0.04
     }
   ],
-  "scope": "Original offline packaging checks; the subsequent paid first-clip trial and final release verification are summarized separately below.",
+  "scope": "Original offline packaging checks; subsequent paid first-clip, post-live release and public GitHub validation are summarized separately below.",
   "live_handoff_trial": {
     "report": "docs/live-handoff-trial.md",
     "evidence": "examples/standing-desk-preview",
@@ -285,5 +285,46 @@
     "server_bundle_secrets_media_models": false,
     "quote_guide_exact_live_snippets_passed": 2,
     "trial_agent_documentation_review": "passed after clarifying catalog VRAM versus allocated system RAM"
+  },
+  "github_publication_validation": {
+    "date": "2026-09-06",
+    "repository": "https://github.com/stebansaa/h3-video-starter",
+    "visibility": "public",
+    "platform": "ubuntu-24.04",
+    "python": "3.11",
+    "verified_commit": "623ede0c579065f2a91b428a69cdc4c4417b9d33",
+    "workflow_run": "https://github.com/stebansaa/h3-video-starter/actions/runs/34063474675",
+    "conclusion": "success",
+    "tests_passed": 85,
+    "package_integrity_passed": true,
+    "first_session_passed": true,
+    "baseline_inputs_passed": true,
+    "complete_recorded_replay_passed": true,
+    "public_unauthenticated_clone_verified": true,
+    "initial_ci_failure": {
+      "run": "https://github.com/stebansaa/h3-video-starter/actions/runs/34063047022",
+      "test": "test_ending_hold_extends_picture_and_audio_then_reaches_black",
+      "observed": "The 1x1 RGB rescale returned a maximum value of 2 against a limit of 1.",
+      "resolution": "Check every pixel of the final decoded image at native resolution, retaining the maximum RGB value of 1 and exact frame-count checks. The native-resolution check passes on both macOS and Linux; rendering code and included videos are unchanged."
+    },
+    "macos_followup": [
+      {
+        "name": "tests",
+        "exit_code": 0,
+        "seconds": 21.02
+      },
+      {
+        "name": "inputs",
+        "exit_code": 0,
+        "seconds": 0.55
+      },
+      {
+        "name": "replay",
+        "exit_code": 0,
+        "seconds": 9.78
+      }
+    ],
+    "paid_requests": 0,
+    "model_downloads": 0
   }
 }

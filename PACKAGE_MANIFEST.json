@@ -229,8 +229,8 @@
     },
     {
       "path": "docs/release-checks.json",
-      "bytes": 8557,
-      "sha256": "86310863f20d965342e9c109e79e60f0a7c530f6cb0b940ef2ee9431eb151782"
+      "bytes": 10160,
+      "sha256": "9e765d3d50d597dc7fe47b021c52cee2ac88b940c92954cb92aa54e870f3025c"
     },
     {
       "path": "docs/runpod-openapi-checked.json",
